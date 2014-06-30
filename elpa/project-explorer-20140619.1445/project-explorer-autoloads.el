@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (project-explorer-open) "project-explorer" "project-explorer.el"
-;;;;;;  (21418 12503 933089 283000))
+;;;;;;  (21419 53161 769465 690000))
 ;;; Generated autoloads from project-explorer.el
 
 (autoload 'project-explorer-open "project-explorer" "\
@@ -14,8 +14,8 @@ Show or create the project explorer for the current project.
 
 ;;;***
 
-;;;### (autoloads nil nil ("project-explorer-pkg.el") (21418 12504
-;;;;;;  26445 820000))
+;;;### (autoloads nil nil ("project-explorer-pkg.el") (21419 53161
+;;;;;;  893224 683000))
 
 ;;;***
 

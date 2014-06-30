@@ -1,1 +1,1 @@
-("~/temp/" "~/python/lib/" "~/ruby/programs/docmato/qna_base1/" "~/temp/devise/" "~/ruby/ruby-study/" "~/ruby/programs/code_campo/" "~/ruby/programs/sample_app/" "~/ruby/ruby-study/design-pattern/" "~/ruby/programs/docmato/dev01parttime/")
+("~/ruby/programs/docmato/qna_base1/" "~/.emacs.d/" "~/ruby/programs/sample_app/" "~/.rbenv/" "~/temp/" "~/c/lib/" "~/ruby/ruby-study/" "~/python/lib/" "~/temp/devise/" "~/ruby/programs/code_campo/" "~/ruby/ruby-study/design-pattern/" "~/ruby/programs/docmato/dev01parttime/")
