@@ -21,9 +21,10 @@
 ;; clipboard
 (setq x-select-enable-clipboard t)
 ;; theme
-;;(load-theme 'distinguished t)
+(load-theme 'distinguished t)
 ;; (load-theme 'zenburn t)
-(load-theme 'graham t)
+;; (load-theme 'graham t)
+;; (load-theme 'hickey t)
 ;;(add-to-list 'load-path "~/.emacs.d/vendor/niflheim-theme")
 ;;(require 'niflheim-theme)
 ;;(load-theme 'niflheim t)
@@ -33,7 +34,8 @@
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
 ;; Font
-(set-frame-font "Source Code Pro for Powerline Semi-Bold")
+;; (set-frame-font "Source Code Pro for Powerline Semi-Bold")
+(set-frame-font "Source Code Pro for Powerline Bold")
 ;; Autoclose
 (electric-pair-mode 1)
 ;; backup
@@ -56,6 +58,8 @@
 (global-auto-revert-mode t)
 ;; trim whitespace
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+;; lineno
+(global-nlinum-mode t)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -63,6 +67,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (global-company-mode t)
 (push 'company-robe company-backends)
+(delete 'company-ropemacs company-backends)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -225,8 +230,6 @@
 (elpy-enable)
 (elpy-use-ipython)
 
-;; pymacs
-(require 'pymacs)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
