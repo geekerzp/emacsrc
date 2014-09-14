@@ -1,0 +1,59 @@
+;; Object alarm/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "alarm/"
+  :tables (list 
+   (semanticdb-table "AlarmService.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.commons.alarm" package nil (reparse-symbol package_declaration) [1 33])
+            ("java.util.concurrent.ConcurrentHashMap" include nil (reparse-symbol import_declaration) [35 81])
+            ("com.egame.commons.alarm.receiver.ReceiverManager" include nil (reparse-symbol import_declaration) [83 139])
+            ("com.egame.commons.alarm.utils.Alarm" include nil (reparse-symbol import_declaration) [140 183])
+            ("com.egame.commons.alarm.utils.AlarmSendPolicy" include nil (reparse-symbol import_declaration) [184 237])
+            ("com.egame.commons.alarm.utils.AlarmSlab" include nil (reparse-symbol import_declaration) [238 285])
+            ("com.egame.commons.executor.GameExecutors" include nil (reparse-symbol import_declaration) [286 334])
+            ("AlarmService" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("slabMap" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "ConcurrentHashMap<AlarmSendPolicy,AlarmSlab>")
+                        (reparse-symbol field_declaration) [421 550])
+                    ("serverName" variable
+                       (:typemodifiers ("private" "static")
+                        :type "String")
+                        (reparse-symbol field_declaration) [556 589])
+                    ("block" block (:members 
+                      ( ("policy" variable (:type "AlarmSendPolicy") (reparse-symbol foreach_statement) [612 735]))                      ) (reparse-symbol block_statements) [612 735])
+                    ("submitAlarm" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("alarm" variable
+                               (:typemodifiers ("final")
+                                :type "Alarm")
+                                (reparse-symbol formal_parameter) [778 795]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [747 1338])
+                    ("getServerName" function
+                       (:typemodifiers ("public" "static")
+                        :type "String")
+                        (reparse-symbol method_declaration) [1344 1415])
+                    ("setServerName" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("serverName" variable (:type "String") (reparse-symbol formal_parameter) [1454 1471]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [1421 1526]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [388 1529]))          
+    :file "AlarmService.java"
+    :pointmax 1530
+    :fsize 1561
+    :lastmodtime '(21498 58104 0 0)
+    :unmatched-syntax '((PUBLIC 900 . 906))
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!game-commons!src!main!java!com!egame!commons!alarm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
