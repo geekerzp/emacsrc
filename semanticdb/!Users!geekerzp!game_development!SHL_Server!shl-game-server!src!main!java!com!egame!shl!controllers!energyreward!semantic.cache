@@ -1,0 +1,41 @@
+;; Object energyreward/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "energyreward/"
+  :tables (list 
+   (semanticdb-table "ReceiveEnergyRewardController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.energyreward" package nil (reparse-symbol package_declaration) [1 48])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [50 71])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [73 135])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [137 183])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [184 234])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [235 279])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [280 319])
+            ("com.egame.shl.domain.avatar.model.Avatar" include nil (reparse-symbol import_declaration) [320 368])
+            ("com.egame.shl.domain.avatar.service.AvatarService" include nil (reparse-symbol import_declaration) [369 426])
+            ("com.egame.shl.domain.energy.service.EnergyRewardService" include nil (reparse-symbol import_declaration) [427 490])
+            ("ReceiveEnergyRewardController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("energyRewardService" variable (:type "EnergyRewardService") (reparse-symbol field_declaration) [659 699])
+                    ("avatarService" variable (:type "AvatarService") (reparse-symbol field_declaration) [728 756])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [813 833]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [783 1135]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [558 1138]))          
+    :file "ReceiveEnergyRewardController.java"
+    :pointmax 1139
+    :fsize 1206
+    :lastmodtime '(21500 28132 0 0)
+    :unmatched-syntax '((PUBLIC 776 . 782) (PRIVATE 720 . 727) (PRIVATE 651 . 658) (RPAREN 556 . 557) (STRING_LITERAL 534 . 556) (EQ 532 . 533) (IDENTIFIER 526 . 531) (LPAREN 525 . 526) (IDENTIFIER 514 . 525))
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!controllers!energyreward!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

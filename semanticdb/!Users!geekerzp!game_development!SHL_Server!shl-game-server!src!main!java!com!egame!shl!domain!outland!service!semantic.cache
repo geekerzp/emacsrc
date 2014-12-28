@@ -1,0 +1,70 @@
+;; Object service/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "service/"
+  :tables (list 
+   (semanticdb-table "OutlandService.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.domain.outland.service" package nil (reparse-symbol package_declaration) [1 46])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [48 69])
+            ("com.egame.shl.domain.avatar.model.Avatar" include nil (reparse-symbol import_declaration) [71 119])
+            ("com.egame.shl.domain.base.service.AvatarLoadHandler" include nil (reparse-symbol import_declaration) [120 179])
+            ("OutlandService" type
+               (:typemodifiers ("public")
+                :interfaces ("AvatarLoadHandler")
+                :members 
+                  ( ("entry" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("avatarId" variable (:type "long") (reparse-symbol formal_parameter) [279 292]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol abstract_method_declaration) [246 294])
+                    ("refreshOutland" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("avatar" variable (:type "Avatar") (reparse-symbol formal_parameter) [327 340]))                          
+                        :type "void")
+                        (reparse-symbol abstract_method_declaration) [300 342]))                  
+                :type "interface")
+                (reparse-symbol interface_declaration) [181 345]))          
+    :file "OutlandService.java"
+    :pointmax 346
+    :fsize 359
+    :lastmodtime '(21437 14826 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "OutlandShopService.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.domain.outland.service" package nil (reparse-symbol package_declaration) [1 46])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [48 69])
+            ("com.egame.shl.domain.avatar.model.Avatar" include nil (reparse-symbol import_declaration) [71 119])
+            ("OutlandShopService" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("buyItem" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("avatarId" variable (:type "long") (reparse-symbol formal_parameter) [245 258])
+                            ("shopId" variable (:type "int") (reparse-symbol formal_parameter) [260 270]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol abstract_method_declaration) [210 272])
+                    ("deleteExpire" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("avatar" variable (:type "Avatar") (reparse-symbol formal_parameter) [303 316]))                          
+                        :type "void")
+                        (reparse-symbol abstract_method_declaration) [278 318]))                  
+                :type "interface")
+                (reparse-symbol interface_declaration) [167 321]))          
+    :file "OutlandShopService.java"
+    :pointmax 322
+    :fsize 354
+    :lastmodtime '(21436 41518 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!domain!outland!service!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

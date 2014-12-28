@@ -1,0 +1,18 @@
+;; Object foo/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "foo/"
+  :tables (list 
+    (semanticdb-table "foo.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "foo.py"
+    :pointmax 1
+    :fsize 11
+    :lastmodtime '(21546 44523 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!geekerzp!temp!foo!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

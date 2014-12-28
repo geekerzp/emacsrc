@@ -1,0 +1,26 @@
+;; Object temp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "temp/"
+  :tables (list 
+   (semanticdb-table "test.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("urllib2" include nil nil [1 15])
+            ("HackerNews" include nil nil [16 33])
+            ("pprint" include nil nil [34 59])
+            ("id" variable nil nil [61 77])
+            ("api_client" variable nil nil [79 172])
+            ("user_api" variable nil nil [173 214])
+            ("response" variable nil nil [215 242])
+            ("pprint" code nil nil [244 260]))          
+    :file "test.py"
+    :pointmax 261
+    :fsize 260
+    :lastmodtime '(21637 24141 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!geekerzp!temp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

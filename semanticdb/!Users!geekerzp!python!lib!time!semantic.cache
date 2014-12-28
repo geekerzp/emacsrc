@@ -1,0 +1,89 @@
+;; Object time/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "time/"
+  :tables (list 
+   (semanticdb-table "timewith.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("time" include nil nil [1 12])
+            ("timewith" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [74 90])
+                            ("self" variable nil (reparse-symbol indented_block_body) [99 123]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [50 54])
+                            ("name" variable nil (reparse-symbol function_parameters) [56 60]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [37 124])
+                    ("elapsed" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [155 159]))                          
+                        :decorators 
+                          ( ("property" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [129 202])
+                    ("checkpoint" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [222 226])
+                            ("name" variable nil (reparse-symbol function_parameters) [228 232]))                          )
+                        (reparse-symbol indented_block_body) [207 416])
+                    ("__enter__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [435 439]))                          )
+                        (reparse-symbol indented_block_body) [421 462])
+                    ("__exit__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [480 484])
+                            ("type" variable nil (reparse-symbol function_parameters) [486 490])
+                            ("value" variable nil (reparse-symbol function_parameters) [492 497])
+                            ("traceback" variable nil (reparse-symbol function_parameters) [499 508]))                          )
+                        (reparse-symbol indented_block_body) [467 560]))                  
+                :type "class")
+                nil [15 560])
+            ("if" code nil nil [562 984]))          
+    :file "timewith.py"
+    :pointmax 895
+    :fsize 983
+    :lastmodtime '(21644 30597 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "cprofile.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("cProfile" include nil nil [1 16])
+            ("do_cprofile" function (:arguments 
+              ( ("func" variable nil (reparse-symbol function_parameters) [35 39]))              ) nil [19 336])
+            ("if" code nil nil [338 603]))          
+    :file "cprofile.py"
+    :pointmax 545
+    :fsize 602
+    :lastmodtime '(21644 30987 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "cProfile.py"
+    :file "cProfile.py"
+    :fsize 602
+    :lastmodtime '(21644 30987 0 0)
+    )
+   (semanticdb-table "line_profile.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("try" code nil nil [1 844])
+            ("if" code nil nil [846 1143]))          
+    :file "line_profile.py"
+    :pointmax 1143
+    :fsize 1142
+    :lastmodtime '(21644 32655 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!geekerzp!python!lib!time!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

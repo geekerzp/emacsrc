@@ -1,0 +1,157 @@
+;; Object arena/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "arena/"
+  :tables (list 
+   (semanticdb-table "ArenaCombatBeginController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.arena" package nil (reparse-symbol package_declaration) [1 41])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [43 64])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [66 128])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [130 176])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [177 227])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [228 272])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [273 312])
+            ("com.egame.shl.domain.arena.service.ArenaCombatService" include nil (reparse-symbol import_declaration) [313 374])
+            ("ArenaCombatBeginController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("arenaCombatService" variable (:type "ArenaCombatService") (reparse-symbol field_declaration) [515 553])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [610 630]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [580 951]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [417 954]))          
+    :file "ArenaCombatBeginController.java"
+    :pointmax 955
+    :fsize 983
+    :lastmodtime '(21443 15574 0 0)
+    :unmatched-syntax '((PUBLIC 573 . 579) (PRIVATE 507 . 514) (RPAREN 415 . 416) (STRING_LITERAL 396 . 415) (EQ 394 . 395) (IDENTIFIER 388 . 393) (LPAREN 387 . 388) (IDENTIFIER 376 . 387))
+    )
+   (semanticdb-table "ArenaRefreshController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.arena" package nil (reparse-symbol package_declaration) [1 41])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [43 64])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [66 128])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [130 176])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [177 227])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [228 272])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [273 312])
+            ("com.egame.shl.domain.arena.service.ArenaService" include nil (reparse-symbol import_declaration) [313 368])
+            ("ArenaRefreshController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("arenaService" variable (:type "ArenaService") (reparse-symbol field_declaration) [501 527])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [584 604]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [554 833]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [407 836]))          
+    :file "ArenaRefreshController.java"
+    :pointmax 837
+    :fsize 864
+    :lastmodtime '(21446 21494 0 0)
+    :unmatched-syntax '((PUBLIC 547 . 553) (PRIVATE 493 . 500) (RPAREN 405 . 406) (STRING_LITERAL 390 . 405) (EQ 388 . 389) (IDENTIFIER 382 . 387) (LPAREN 381 . 382) (IDENTIFIER 370 . 381))
+    )
+   (semanticdb-table "ArenaShopController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.arena" package nil (reparse-symbol package_declaration) [1 41])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [43 64])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [66 128])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [130 176])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [177 227])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [228 272])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [273 312])
+            ("com.egame.shl.domain.arena.service.ArenaShopService" include nil (reparse-symbol import_declaration) [313 372])
+            ("ArenaShopController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("arenaShopService" variable (:type "ArenaShopService") (reparse-symbol field_declaration) [502 536])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [593 613]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [563 902]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [411 905]))          
+    :file "ArenaShopController.java"
+    :pointmax 906
+    :fsize 934
+    :lastmodtime '(21443 15574 0 0)
+    :unmatched-syntax '((PUBLIC 556 . 562) (PRIVATE 494 . 501) (RPAREN 409 . 410) (STRING_LITERAL 394 . 409) (EQ 392 . 393) (IDENTIFIER 386 . 391) (LPAREN 385 . 386) (IDENTIFIER 374 . 385))
+    )
+   (semanticdb-table "EntryArenaController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.arena" package nil (reparse-symbol package_declaration) [1 41])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [43 64])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [66 128])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [130 176])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [177 227])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [228 272])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [273 312])
+            ("com.egame.shl.domain.arena.service.ArenaService" include nil (reparse-symbol import_declaration) [313 368])
+            ("com.egame.shl.domain.avatar.model.Avatar" include nil (reparse-symbol import_declaration) [369 417])
+            ("com.egame.shl.domain.avatar.service.AvatarService" include nil (reparse-symbol import_declaration) [418 475])
+            ("EntryArenaController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("arenaService" variable (:type "ArenaService") (reparse-symbol field_declaration) [604 630])
+                    ("avatarService" variable (:type "AvatarService") (reparse-symbol field_declaration) [659 687])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [744 764]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [714 1045]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [512 1048]))          
+    :file "EntryArenaController.java"
+    :pointmax 1049
+    :fsize 1082
+    :lastmodtime '(21443 15574 0 0)
+    :unmatched-syntax '((PUBLIC 707 . 713) (PRIVATE 651 . 658) (PRIVATE 596 . 603) (RPAREN 510 . 511) (STRING_LITERAL 497 . 510) (EQ 495 . 496) (IDENTIFIER 489 . 494) (LPAREN 488 . 489) (IDENTIFIER 477 . 488))
+    )
+   (semanticdb-table "ReputationRewardController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.arena" package nil (reparse-symbol package_declaration) [1 41])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [43 64])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [66 128])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [130 176])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [177 227])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [228 272])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [273 312])
+            ("com.egame.shl.domain.arena.service.ReputationRewardService" include nil (reparse-symbol import_declaration) [313 379])
+            ("ReputationRewardController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("reputationRewardService" variable (:type "ReputationRewardService") (reparse-symbol field_declaration) [525 573])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [630 650]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [600 957]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [427 960]))          
+    :file "ReputationRewardController.java"
+    :pointmax 961
+    :fsize 989
+    :lastmodtime '(21443 15574 0 0)
+    :unmatched-syntax '((PUBLIC 593 . 599) (PRIVATE 517 . 524) (RPAREN 425 . 426) (STRING_LITERAL 401 . 425) (EQ 399 . 400) (IDENTIFIER 393 . 398) (LPAREN 392 . 393) (IDENTIFIER 381 . 392))
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!controllers!arena!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

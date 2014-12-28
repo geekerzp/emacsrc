@@ -1,0 +1,99 @@
+;; Object formation/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "formation/"
+  :tables (list 
+   (semanticdb-table "AddTeamHeroController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.formation" package nil (reparse-symbol package_declaration) [1 45])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [47 68])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [70 132])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [134 180])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [181 231])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [232 276])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [277 316])
+            ("com.egame.shl.domain.formation.model.FormationType" include nil (reparse-symbol import_declaration) [317 375])
+            ("com.egame.shl.domain.formation.service.FormationService" include nil (reparse-symbol import_declaration) [376 439])
+            ("AddTeamHeroController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("formationService" variable (:type "FormationService") (reparse-symbol field_declaration) [575 609])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [666 686]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [636 1172]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [482 1174]))          
+    :file "AddTeamHeroController.java"
+    :pointmax 1175
+    :fsize 1207
+    :lastmodtime '(21518 48152 0 0)
+    :unmatched-syntax '((PUBLIC 629 . 635) (PRIVATE 567 . 574) (RPAREN 480 . 481) (STRING_LITERAL 461 . 480) (EQ 459 . 460) (IDENTIFIER 453 . 458) (LPAREN 452 . 453) (IDENTIFIER 441 . 452))
+    )
+   (semanticdb-table "DelTeamHeroController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.formation" package nil (reparse-symbol package_declaration) [1 45])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [47 68])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [70 132])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [134 180])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [181 231])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [232 276])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [277 316])
+            ("com.egame.shl.domain.formation.model.FormationType" include nil (reparse-symbol import_declaration) [317 375])
+            ("com.egame.shl.domain.formation.service.FormationService" include nil (reparse-symbol import_declaration) [376 439])
+            ("DelTeamHeroController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("formationService" variable (:type "FormationService") (reparse-symbol field_declaration) [575 609])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [666 686]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [636 1174]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [482 1176]))          
+    :file "DelTeamHeroController.java"
+    :pointmax 1177
+    :fsize 1209
+    :lastmodtime '(21518 48152 0 0)
+    :unmatched-syntax '((PUBLIC 629 . 635) (PRIVATE 567 . 574) (RPAREN 480 . 481) (STRING_LITERAL 461 . 480) (EQ 459 . 460) (IDENTIFIER 453 . 458) (LPAREN 452 . 453) (IDENTIFIER 441 . 452))
+    )
+   (semanticdb-table "UpdateTeamController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.formation" package nil (reparse-symbol package_declaration) [1 45])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [47 68])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [70 132])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [134 180])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [181 231])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [232 276])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [277 316])
+            ("com.egame.shl.domain.formation.model.FormationType" include nil (reparse-symbol import_declaration) [317 375])
+            ("com.egame.shl.domain.formation.service.FormationService" include nil (reparse-symbol import_declaration) [376 439])
+            ("UpdateTeamController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("formationService" variable (:type "FormationService") (reparse-symbol field_declaration) [572 606])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [663 683]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [633 1175]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [480 1177]))          
+    :file "UpdateTeamController.java"
+    :pointmax 1178
+    :fsize 1210
+    :lastmodtime '(21518 48152 0 0)
+    :unmatched-syntax '((PUBLIC 626 . 632) (PRIVATE 564 . 571) (RPAREN 478 . 479) (STRING_LITERAL 461 . 478) (EQ 459 . 460) (IDENTIFIER 453 . 458) (LPAREN 452 . 453) (IDENTIFIER 441 . 452))
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!controllers!formation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

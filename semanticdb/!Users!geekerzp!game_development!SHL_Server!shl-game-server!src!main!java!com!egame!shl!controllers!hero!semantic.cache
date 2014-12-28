@@ -1,0 +1,130 @@
+;; Object hero/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "hero/"
+  :tables (list 
+   (semanticdb-table "HeroQualityUpController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.hero" package nil (reparse-symbol package_declaration) [1 40])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [42 63])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [65 127])
+            ("com.egame.commons.exception.BusinessException" include nil (reparse-symbol import_declaration) [129 182])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [183 229])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [230 280])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [281 325])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [326 365])
+            ("com.egame.shl.domain.avatar.model.Avatar" include nil (reparse-symbol import_declaration) [366 414])
+            ("com.egame.shl.domain.avatar.service.AvatarService" include nil (reparse-symbol import_declaration) [415 472])
+            ("com.egame.shl.domain.hero.service.HeroService" include nil (reparse-symbol import_declaration) [473 526])
+            ("HeroQualityUpController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("avatarService" variable (:type "AvatarService") (reparse-symbol field_declaration) [661 689])
+                    ("heroService" variable (:type "HeroService") (reparse-symbol field_declaration) [718 742])
+                    ("onMessage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [794 814]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [757 1336]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [566 1339]))          
+    :file "HeroQualityUpController.java"
+    :pointmax 1340
+    :fsize 1384
+    :lastmodtime '(21443 15574 0 0)
+    :unmatched-syntax '((PRIVATE 710 . 717) (PRIVATE 653 . 660) (RPAREN 564 . 565) (STRING_LITERAL 548 . 564) (EQ 546 . 547) (IDENTIFIER 540 . 545) (LPAREN 539 . 540) (IDENTIFIER 528 . 539))
+    )
+   (semanticdb-table "InstallEquip4HeroController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.hero" package nil (reparse-symbol package_declaration) [1 40])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [42 63])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [65 127])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [129 175])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [176 226])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [227 271])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [272 311])
+            ("com.egame.shl.domain.item.service.EquipService" include nil (reparse-symbol import_declaration) [312 366])
+            ("InstallEquip4HeroController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("equipService" variable (:type "EquipService") (reparse-symbol field_declaration) [513 539])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [596 616]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [566 1248]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [414 1251]))          
+    :file "InstallEquip4HeroController.java"
+    :pointmax 1252
+    :fsize 1286
+    :lastmodtime '(21443 15574 0 0)
+    :unmatched-syntax '((PUBLIC 559 . 565) (PRIVATE 505 . 512) (RPAREN 412 . 413) (STRING_LITERAL 388 . 412) (EQ 386 . 387) (IDENTIFIER 380 . 385) (LPAREN 379 . 380) (IDENTIFIER 368 . 379))
+    )
+   (semanticdb-table "InstallEquipController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.hero" package nil (reparse-symbol package_declaration) [1 40])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [42 63])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [65 127])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [129 175])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [176 226])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [227 271])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [272 311])
+            ("com.egame.shl.domain.item.service.EquipService" include nil (reparse-symbol import_declaration) [312 366])
+            ("InstallEquipController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("equipService" variable (:type "EquipService") (reparse-symbol field_declaration) [503 529])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [586 606]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [556 1034]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [409 1036]))          
+    :file "InstallEquipController.java"
+    :pointmax 1037
+    :fsize 1067
+    :lastmodtime '(21443 15574 0 0)
+    :unmatched-syntax '((PUBLIC 549 . 555) (PRIVATE 495 . 502) (RPAREN 407 . 408) (STRING_LITERAL 388 . 407) (EQ 386 . 387) (IDENTIFIER 380 . 385) (LPAREN 379 . 380) (IDENTIFIER 368 . 379))
+    )
+   (semanticdb-table "UninstallEquipController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.hero" package nil (reparse-symbol package_declaration) [1 40])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [42 63])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [65 127])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [129 175])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [176 226])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [227 271])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [272 311])
+            ("com.egame.shl.domain.item.service.EquipService" include nil (reparse-symbol import_declaration) [312 366])
+            ("UninstallEquipController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("equipService" variable (:type "EquipService") (reparse-symbol field_declaration) [507 533])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [590 610]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [560 1056]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [411 1059]))          
+    :file "UninstallEquipController.java"
+    :pointmax 1060
+    :fsize 1092
+    :lastmodtime '(21443 15574 0 0)
+    :unmatched-syntax '((PUBLIC 553 . 559) (PRIVATE 499 . 506) (RPAREN 409 . 410) (STRING_LITERAL 388 . 409) (EQ 386 . 387) (IDENTIFIER 380 . 385) (LPAREN 379 . 380) (IDENTIFIER 368 . 379))
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!controllers!hero!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

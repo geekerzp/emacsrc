@@ -113,91 +113,91 @@
                         :arguments 
                           ( ("openKey" variable (:type "String") (reparse-symbol formal_parameter) [1388 1402]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [1365 1460])
+                        (reparse-symbol method_declaration) [1365 1443])
                     ("getOpenKeyExpiredTime" function
                        (:typemodifiers ("public")
                         :type "Date")
-                        (reparse-symbol method_declaration) [1466 1544])
+                        (reparse-symbol method_declaration) [1449 1527])
                     ("setOpenKeyExpiredTime" function
                        (:typemodifiers ("public")
                         :arguments 
-                          ( ("openKeyExpiredTime" variable (:type "Date") (reparse-symbol formal_parameter) [1584 1607]))                          
+                          ( ("openKeyExpiredTime" variable (:type "Date") (reparse-symbol formal_parameter) [1567 1590]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [1550 1670])
+                        (reparse-symbol method_declaration) [1533 1653])
                     ("getNickname" function
                        (:typemodifiers ("public")
                         :type "String")
-                        (reparse-symbol method_declaration) [1676 1736])
+                        (reparse-symbol method_declaration) [1659 1719])
                     ("setNickname" function
                        (:typemodifiers ("public")
                         :arguments 
-                          ( ("nickname" variable (:type "String") (reparse-symbol formal_parameter) [1766 1781]))                          
+                          ( ("nickname" variable (:type "String") (reparse-symbol formal_parameter) [1749 1764]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [1742 1824])
+                        (reparse-symbol method_declaration) [1725 1807])
                     ("getGender" function
                        (:typemodifiers ("public")
                         :type "String")
-                        (reparse-symbol method_declaration) [1830 1886])
+                        (reparse-symbol method_declaration) [1813 1869])
                     ("setGender" function
                        (:typemodifiers ("public")
                         :arguments 
-                          ( ("gender" variable (:type "String") (reparse-symbol formal_parameter) [1914 1927]))                          
+                          ( ("gender" variable (:type "String") (reparse-symbol formal_parameter) [1897 1910]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [1892 1966])
+                        (reparse-symbol method_declaration) [1875 1949])
                     ("getCountry" function
                        (:typemodifiers ("public")
                         :type "String")
-                        (reparse-symbol method_declaration) [1972 2030])
+                        (reparse-symbol method_declaration) [1955 2013])
                     ("setCountry" function
                        (:typemodifiers ("public")
                         :arguments 
-                          ( ("country" variable (:type "String") (reparse-symbol formal_parameter) [2059 2073]))                          
+                          ( ("country" variable (:type "String") (reparse-symbol formal_parameter) [2042 2056]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [2036 2114])
+                        (reparse-symbol method_declaration) [2019 2097])
                     ("getState" function
                        (:typemodifiers ("public")
                         :type "String")
-                        (reparse-symbol method_declaration) [2120 2174])
+                        (reparse-symbol method_declaration) [2103 2157])
                     ("setState" function
                        (:typemodifiers ("public")
                         :arguments 
-                          ( ("state" variable (:type "String") (reparse-symbol formal_parameter) [2201 2213]))                          
+                          ( ("state" variable (:type "String") (reparse-symbol formal_parameter) [2184 2196]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [2180 2250])
+                        (reparse-symbol method_declaration) [2163 2233])
                     ("getCity" function
                        (:typemodifiers ("public")
                         :type "String")
-                        (reparse-symbol method_declaration) [2256 2308])
+                        (reparse-symbol method_declaration) [2239 2291])
                     ("setCity" function
                        (:typemodifiers ("public")
                         :arguments 
-                          ( ("city" variable (:type "String") (reparse-symbol formal_parameter) [2334 2345]))                          
+                          ( ("city" variable (:type "String") (reparse-symbol formal_parameter) [2317 2328]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [2314 2380])
+                        (reparse-symbol method_declaration) [2297 2363])
                     ("getPicurl" function
                        (:typemodifiers ("public")
                         :type "String")
-                        (reparse-symbol method_declaration) [2386 2442])
+                        (reparse-symbol method_declaration) [2369 2425])
                     ("setPicurl" function
                        (:typemodifiers ("public")
                         :arguments 
-                          ( ("picurl" variable (:type "String") (reparse-symbol formal_parameter) [2470 2483]))                          
+                          ( ("picurl" variable (:type "String") (reparse-symbol formal_parameter) [2453 2466]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [2448 2522])
+                        (reparse-symbol method_declaration) [2431 2505])
                     ("getCreateTime" function
                        (:typemodifiers ("public")
                         :type "Date")
-                        (reparse-symbol method_declaration) [2528 2590])
+                        (reparse-symbol method_declaration) [2511 2573])
                     ("setCreateTime" function
                        (:typemodifiers ("public")
                         :arguments 
-                          ( ("createTime" variable (:type "Date") (reparse-symbol formal_parameter) [2622 2637]))                          
+                          ( ("createTime" variable (:type "Date") (reparse-symbol formal_parameter) [2605 2620]))                          
                         :type "void")
-                        (reparse-symbol method_declaration) [2596 2684]))                  
+                        (reparse-symbol method_declaration) [2579 2667]))                  
                 :type "class")
-                (reparse-symbol class_declaration) [118 2687]))          
+                (reparse-symbol class_declaration) [118 2670]))          
     :file "User.java"
-    :pointmax 2673
+    :pointmax 2671
     :fsize 2688
     :lastmodtime '(21525 45129 0 0)
     :unmatched-syntax 'nil

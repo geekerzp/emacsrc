@@ -1,0 +1,21 @@
+;; Object lib/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lib/"
+  :tables (list 
+   (semanticdb-table "__init__.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"Add all of the modules in the current directory to __all__\"\"\"" code nil nil [1 1])
+            ("os" include nil nil [1 1])
+            ("__all__" variable nil nil [1 1]))          
+    :file "__init__.py"
+    :pointmax 260
+    :fsize 1595
+    :lastmodtime '(21556 364 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!geekerzp!work!qna_base1!lib!scripts!swagger-petstore-python!sample-app!lib!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,38 @@
+;; Object login/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "login/"
+  :tables (list 
+   (semanticdb-table "LoginController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.login" package nil (reparse-symbol package_declaration) [1 41])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [43 64])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [66 128])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [130 176])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [177 227])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [228 272])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [273 312])
+            ("com.egame.shl.domain.login.service.LoginService" include nil (reparse-symbol import_declaration) [313 368])
+            ("LoginController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("loginService" variable (:type "LoginService") (reparse-symbol field_declaration) [607 633])
+                    ("onMessage" function
+                       (:arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [690 710]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [660 1337]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [520 1339]))          
+    :file "LoginController.java"
+    :pointmax 1340
+    :fsize 1491
+    :lastmodtime '(21495 16082 0 0)
+    :unmatched-syntax '((PUBLIC 653 . 659) (PRIVATE 599 . 606) (RPAREN 518 . 519) (STRING_LITERAL 506 . 518) (EQ 504 . 505) (IDENTIFIER 498 . 503) (LPAREN 497 . 498) (IDENTIFIER 486 . 497))
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!controllers!login!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

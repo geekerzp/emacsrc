@@ -1,0 +1,29 @@
+;; Object mypython/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mypython/"
+  :tables (list 
+   (semanticdb-table "test.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "test.py"
+    :pointmax 1
+    :fsize 23
+    :lastmodtime '(21526 49701 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "setup.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("setuptools" include nil nil [1 29])
+            ("setup" code nil nil [31 355]))          
+    :file "setup.py"
+    :pointmax 356
+    :fsize 355
+    :lastmodtime '(21526 41482 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!geekerzp!temp!mypython!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,46 @@
+;; Object combat/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "combat/"
+  :tables (list 
+   (semanticdb-table "CombatEndController.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers.combat" package nil (reparse-symbol package_declaration) [1 42])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [44 65])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [67 129])
+            ("com.egame.commons.exception.BusinessException" include nil (reparse-symbol import_declaration) [131 184])
+            ("com.egame.shl.controllers.InputMessage" include nil (reparse-symbol import_declaration) [185 231])
+            ("com.egame.shl.controllers.RequestProcessor" include nil (reparse-symbol import_declaration) [232 282])
+            ("com.egame.shl.controllers.UrlMapping" include nil (reparse-symbol import_declaration) [283 327])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [328 367])
+            ("com.egame.shl.domain.avatar.model.Avatar" include nil (reparse-symbol import_declaration) [368 416])
+            ("com.egame.shl.domain.avatar.service.AvatarService" include nil (reparse-symbol import_declaration) [417 474])
+            ("com.egame.shl.domain.combat.model.Combat" include nil (reparse-symbol import_declaration) [475 523])
+            ("com.egame.shl.domain.combat.model.CombatType" include nil (reparse-symbol import_declaration) [524 576])
+            ("com.egame.shl.domain.combat.model.OutlandCombat" include nil (reparse-symbol import_declaration) [577 632])
+            ("com.egame.shl.domain.combat.service.CombatService" include nil (reparse-symbol import_declaration) [633 690])
+            ("CombatEndController" type
+               (:typemodifiers ("public")
+                :interfaces ("RequestProcessor")
+                :members 
+                  ( ("combatService" variable (:type "CombatService") (reparse-symbol field_declaration) [817 845])
+                    ("avatarService" variable (:type "AvatarService") (reparse-symbol field_declaration) [874 902])
+                    ("onMessage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "InputMessage") (reparse-symbol formal_parameter) [945 965]))                          
+                        :type "Map<String,Object>")
+                        (reparse-symbol method_declaration) [908 1976]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [726 1979]))          
+    :file "CombatEndController.java"
+    :pointmax 1980
+    :fsize 2050
+    :lastmodtime '(21457 65026 0 0)
+    :unmatched-syntax '((PRIVATE 866 . 873) (PRIVATE 809 . 816) (RPAREN 724 . 725) (STRING_LITERAL 712 . 724) (EQ 710 . 711) (IDENTIFIER 704 . 709) (LPAREN 703 . 704) (IDENTIFIER 692 . 703))
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!controllers!combat!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

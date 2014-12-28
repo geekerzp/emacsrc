@@ -1,0 +1,70 @@
+;; Object authentication/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "authentication/"
+  :tables (list 
+   (semanticdb-table "RequestValidateService.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.authentication" package nil (reparse-symbol package_declaration) [1 38])
+            ("java.io.IOException" include nil (reparse-symbol import_declaration) [40 67])
+            ("java.io.InputStream" include nil (reparse-symbol import_declaration) [68 95])
+            ("java.security.MessageDigest" include nil (reparse-symbol import_declaration) [96 131])
+            ("javax.servlet.http.HttpServletRequest" include nil (reparse-symbol import_declaration) [133 178])
+            ("com.egame.commons.exception.BusinessException" include nil (reparse-symbol import_declaration) [180 233])
+            ("com.egame.shl.domain.ReturnCode" include nil (reparse-symbol import_declaration) [234 273])
+            ("RequestValidateService" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("messageDigest" variable
+                       (:typemodifiers ("private")
+                        :type "MessageDigest")
+                        (reparse-symbol field_declaration) [318 354])
+                    ("RequestValidateService" function
+                       (:constructor-flag t
+                        :throws ("Exception")
+                        :typemodifiers ("public"))
+                        (reparse-symbol constructor_declaration) [360 515])
+                    ("validateRequestData" function
+                       (:throws ("IOException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameter) [622 648]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [590 896])
+                    ("validateString" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("input" variable (:type "String") (reparse-symbol formal_parameter) [962 974]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [935 1028])
+                    ("validateData" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("inputByteArray" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameter) [1094 1115]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [1068 1517])
+                    ("byteArrayToHex" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("byteArray" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameter) [1559 1575]))                          
+                        :type "String")
+                        (reparse-symbol method_declaration) [1523 2213]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [275 2215]))          
+    :file "RequestValidateService.java"
+    :pointmax 2216
+    :fsize 2679
+    :lastmodtime '(21492 19526 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!authentication!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

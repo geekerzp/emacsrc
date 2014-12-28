@@ -1,0 +1,239 @@
+;; Object controllers/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "controllers/"
+  :tables (list 
+   (semanticdb-table "InputMessage.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers" package nil (reparse-symbol package_declaration) [1 35])
+            ("java.util.List" include nil (reparse-symbol import_declaration) [37 59])
+            ("java.util.Map" include nil (reparse-symbol import_declaration) [60 81])
+            ("javax.servlet.http.HttpServletRequest" include nil (reparse-symbol import_declaration) [83 128])
+            ("org.apache.log4j.Logger" include nil (reparse-symbol import_declaration) [130 161])
+            ("com.egame.commons.exception.BusinessException" include nil (reparse-symbol import_declaration) [163 216])
+            ("com.egame.commons.util.StringUtils" include nil (reparse-symbol import_declaration) [217 259])
+            ("com.egame.commons.util.json.JSONUtils" include nil (reparse-symbol import_declaration) [260 305])
+            ("com.egame.shl.amf.AmfMessageUtil" include nil (reparse-symbol import_declaration) [306 346])
+            ("com.google.common.collect.Lists" include nil (reparse-symbol import_declaration) [347 386])
+            ("com.google.common.collect.Maps" include nil (reparse-symbol import_declaration) [387 425])
+            ("InputMessage" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("logger" variable
+                       (:typemodifiers ("private" "static")
+                        :type "Logger")
+                        (reparse-symbol field_declaration) [460 528])
+                    ("URL_SEPARATOR" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol field_declaration) [534 582])
+                    ("PROTOCOL_AMF" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol field_declaration) [588 637])
+                    ("request" variable
+                       (:typemodifiers ("private" "final")
+                        :type "HttpServletRequest")
+                        (reparse-symbol field_declaration) [643 684])
+                    ("requestURI" variable
+                       (:typemodifiers ("private" "final")
+                        :type "String")
+                        (reparse-symbol field_declaration) [690 722])
+                    ("queryString" variable
+                       (:typemodifiers ("private" "final")
+                        :type "String")
+                        (reparse-symbol field_declaration) [728 761])
+                    ("invocationUri" variable
+                       (:typemodifiers ("private" "final")
+                        :type "String")
+                        (reparse-symbol field_declaration) [767 802])
+                    ("amfMessage" variable
+                       (:typemodifiers ("private")
+                        :type "Map<String,Object>")
+                        (reparse-symbol field_declaration) [808 847])
+                    ("isAmf" variable
+                       (:typemodifiers ("private" "final")
+                        :type "boolean")
+                        (reparse-symbol field_declaration) [853 881])
+                    ("avatarId" variable
+                       (:typemodifiers ("private")
+                        :type "long")
+                        (reparse-symbol field_declaration) [887 909])
+                    ("InputMessage" function
+                       (:constructor-flag t
+                        :throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameter) [935 961]))                          )
+                        (reparse-symbol constructor_declaration) [915 2014])
+                    ("getParameter" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameter) [2047 2058]))                          
+                        :type "String")
+                        (reparse-symbol method_declaration) [2020 2318])
+                    ("getIntParameter" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameter) [2351 2362]))                          
+                        :type "int")
+                        (reparse-symbol method_declaration) [2324 2934])
+                    ("getLongParameter" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameter) [2969 2980]))                          
+                        :type "long")
+                        (reparse-symbol method_declaration) [2940 3277])
+                    ("getRequest" function
+                       (:typemodifiers ("public")
+                        :type "HttpServletRequest")
+                        (reparse-symbol method_declaration) [3283 3353])
+                    ("getListParameter" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameter) [3409 3420]))                          
+                        :type "List<Map<String,Object>>")
+                        (reparse-symbol method_declaration) [3359 4181])
+                    ("setAmfMessage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("amfMessage" variable (:type "Map<String,Object>") (reparse-symbol formal_parameter) [4213 4243]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [4187 4290])
+                    ("getRequestURI" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol method_declaration) [4296 4360])
+                    ("getInvocationUri" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol method_declaration) [4366 4436])
+                    ("isAmf" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol method_declaration) [4442 4494])
+                    ("getAvatarId" function
+                       (:typemodifiers ("public")
+                        :type "long")
+                        (reparse-symbol method_declaration) [4500 4558])
+                    ("setAvatarId" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("avatarId" variable (:type "long") (reparse-symbol formal_parameter) [4588 4601]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [4564 4644])
+                    ("toString" function (:type "String") (reparse-symbol method_declaration) [4671 4894]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [427 4897]))          
+    :file "InputMessage.java"
+    :pointmax 4898
+    :fsize 5115
+    :lastmodtime '(21467 14428 0 0)
+    :unmatched-syntax '((PUBLIC 4664 . 4670))
+    )
+   (semanticdb-table "RequestProcessor.java"
+    :file "RequestProcessor.java"
+    :fsize 172
+    :lastmodtime '(21435 22784 0 0)
+    )
+   (semanticdb-table "UrlMapping.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers" package nil (reparse-symbol package_declaration) [1 35])
+            ("java.lang.annotation.ElementType" include nil (reparse-symbol import_declaration) [37 77])
+            ("java.lang.annotation.Retention" include nil (reparse-symbol import_declaration) [78 116])
+            ("java.lang.annotation.RetentionPolicy" include nil (reparse-symbol import_declaration) [117 161])
+            ("java.lang.annotation.Target" include nil (reparse-symbol import_declaration) [162 197])
+            ("org.springframework.stereotype.Component" include nil (reparse-symbol import_declaration) [199 247]))          
+    :file "UrlMapping.java"
+    :pointmax 392
+    :fsize 408
+    :lastmodtime '(21534 61839 0 0)
+    :unmatched-syntax '((RBRACE 390 . 391) (STRING_LITERAL 385 . 387) (DEFAULT 377 . 384) (RPAREN 375 . 376) (LPAREN 374 . 375) (IDENTIFIER 369 . 374) (IDENTIFIER 362 . 368) (LBRACE 355 . 356) (IDENTIFIER 344 . 354) (IDENTIFIER 333 . 343) (IDENTIFIER 315 . 325) (RPAREN 313 . 314) (IDENTIFIER 306 . 313) (DOT 305 . 306) (IDENTIFIER 290 . 305) (LPAREN 289 . 290) (IDENTIFIER 279 . 289) (RPAREN 277 . 278) (RBRACE 276 . 277) (IDENTIFIER 271 . 275) (DOT 270 . 271) (IDENTIFIER 259 . 270) (LBRACE 257 . 258) (LPAREN 256 . 257) (IDENTIFIER 249 . 256) (RBRACE 403 . 404) (IDENTIFIER 398 . 401) (DOT 397 . 398) (THIS 393 . 397) (STRING_LITERAL 385 . 387) (DEFAULT 377 . 384) (RPAREN 375 . 376) (LPAREN 374 . 375) (IDENTIFIER 369 . 374) (IDENTIFIER 362 . 368) (LBRACE 355 . 356) (IDENTIFIER 344 . 354) (IDENTIFIER 333 . 343) (IDENTIFIER 315 . 325) (RPAREN 313 . 314) (IDENTIFIER 306 . 313) (DOT 305 . 306) (IDENTIFIER 290 . 305) (LPAREN 289 . 290) (IDENTIFIER 279 . 289) (RPAREN 277 . 278) (RBRACE 276 . 277) (IDENTIFIER 271 . 275) (DOT 270 . 271) (IDENTIFIER 259 . 270) (LBRACE 257 . 258) (LPAREN 256 . 257) (IDENTIFIER 249 . 256) (RBRACE 400 . 401) (DOT 397 . 398) (THIS 393 . 397) (STRING_LITERAL 385 . 387) (DEFAULT 377 . 384) (RPAREN 375 . 376) (LPAREN 374 . 375) (IDENTIFIER 369 . 374) (IDENTIFIER 362 . 368) (LBRACE 355 . 356) (IDENTIFIER 344 . 354) (IDENTIFIER 333 . 343) (IDENTIFIER 315 . 325) (RPAREN 313 . 314) (IDENTIFIER 306 . 313) (DOT 305 . 306) (IDENTIFIER 290 . 305) (LPAREN 289 . 290) (IDENTIFIER 279 . 289) (RPAREN 277 . 278) (RBRACE 276 . 277) (IDENTIFIER 271 . 275) (DOT 270 . 271) (IDENTIFIER 259 . 270) (LBRACE 257 . 258) (LPAREN 256 . 257) (IDENTIFIER 249 . 256) (RBRACE 401 . 402) (IDENTIFIER 398 . 399) (DOT 397 . 398) (THIS 393 . 397) (STRING_LITERAL 385 . 387) (DEFAULT 377 . 384) (RPAREN 375 . 376) (LPAREN 374 . 375) (IDENTIFIER 369 . 374) (IDENTIFIER 362 . 368) (LBRACE 355 . 356) (IDENTIFIER 344 . 354) (IDENTIFIER 333 . 343) (IDENTIFIER 315 . 325) (RPAREN 313 . 314) (IDENTIFIER 306 . 313) (DOT 305 . 306) (IDENTIFIER 290 . 305) (LPAREN 289 . 290) (IDENTIFIER 279 . 289) (RPAREN 277 . 278) (RBRACE 276 . 277) (IDENTIFIER 271 . 275) (DOT 270 . 271) (IDENTIFIER 259 . 270) (LBRACE 257 . 258) (LPAREN 256 . 257) (IDENTIFIER 249 . 256) (RBRACE 401 . 402) (IDENTIFIER 398 . 399) (DOT 397 . 398) (THIS 393 . 397) (STRING_LITERAL 385 . 387) (DEFAULT 377 . 384) (RPAREN 375 . 376) (LPAREN 374 . 375) (IDENTIFIER 369 . 374) (IDENTIFIER 362 . 368) (LBRACE 355 . 356) (IDENTIFIER 344 . 354) (IDENTIFIER 333 . 343) (IDENTIFIER 315 . 325) (RPAREN 313 . 314) (IDENTIFIER 306 . 313) (DOT 305 . 306) (IDENTIFIER 290 . 305) (LPAREN 289 . 290) (IDENTIFIER 279 . 289) (RPAREN 277 . 278) (RBRACE 276 . 277) (IDENTIFIER 271 . 275) (DOT 270 . 271) (IDENTIFIER 259 . 270) (LBRACE 257 . 258) (LPAREN 256 . 257) (IDENTIFIER 249 . 256) (RBRACE 400 . 401) (DOT 397 . 398) (THIS 393 . 397) (STRING_LITERAL 385 . 387) (DEFAULT 377 . 384) (RPAREN 375 . 376) (LPAREN 374 . 375) (IDENTIFIER 369 . 374) (IDENTIFIER 362 . 368) (LBRACE 355 . 356) (IDENTIFIER 344 . 354) (IDENTIFIER 333 . 343) (IDENTIFIER 315 . 325) (RPAREN 313 . 314) (IDENTIFIER 306 . 313) (DOT 305 . 306) (IDENTIFIER 290 . 305) (LPAREN 289 . 290) (IDENTIFIER 279 . 289) (RPAREN 277 . 278) (RBRACE 276 . 277) (IDENTIFIER 271 . 275) (DOT 270 . 271) (IDENTIFIER 259 . 270) (LBRACE 257 . 258) (LPAREN 256 . 257) (IDENTIFIER 249 . 256))
+    )
+   (semanticdb-table "JspProcessor.java"
+    :major-mode 'malabar-mode
+    :tags 
+        '( ("com.egame.shl.controllers" package nil (reparse-symbol package_declaration) [1 35])
+            ("javax.servlet.http.HttpServletRequest" include nil (reparse-symbol import_declaration) [37 82])
+            ("javax.servlet.http.HttpServletResponse" include nil (reparse-symbol import_declaration) [83 129])
+            ("org.apache.log4j.Logger" include nil (reparse-symbol import_declaration) [131 162])
+            ("org.springframework.beans.MutablePropertyValues" include nil (reparse-symbol import_declaration) [163 218])
+            ("org.springframework.beans.PropertyValue" include nil (reparse-symbol import_declaration) [219 266])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil (reparse-symbol import_declaration) [267 329])
+            ("org.springframework.beans.factory.support.BeanDefinitionRegistry" include nil (reparse-symbol import_declaration) [330 402])
+            ("org.springframework.beans.factory.support.GenericBeanDefinition" include nil (reparse-symbol import_declaration) [403 474])
+            ("org.springframework.stereotype.Service" include nil (reparse-symbol import_declaration) [475 521])
+            ("org.springframework.web.context.ConfigurableWebApplicationContext" include nil (reparse-symbol import_declaration) [522 595])
+            ("org.springframework.web.servlet.ViewResolver" include nil (reparse-symbol import_declaration) [596 648])
+            ("org.springframework.web.servlet.view.InternalResourceViewResolver" include nil (reparse-symbol import_declaration) [649 722])
+            ("org.springframework.web.servlet.view.JstlView" include nil (reparse-symbol import_declaration) [723 776])
+            ("com.egame.shl.config.GameConfig" include nil (reparse-symbol import_declaration) [778 817])
+            ("com.egame.shl.domain.avatar.model.Avatar" include nil (reparse-symbol import_declaration) [818 866])
+            ("com.egame.shl.domain.avatar.service.AvatarService" include nil (reparse-symbol import_declaration) [867 924])
+            ("com.egame.shl.utils.ShlAlarmUtils" include nil (reparse-symbol import_declaration) [925 966])
+            ("JspProcessor" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("logger" variable
+                       (:typemodifiers ("private" "static")
+                        :type "Logger")
+                        (reparse-symbol field_declaration) [1010 1078])
+                    ("httpResourceHandler" variable
+                       (:typemodifiers ("private")
+                        :type "HttpResourceHandler")
+                        (reparse-symbol field_declaration) [1084 1160])
+                    ("gameConfig" variable (:type "GameConfig") (reparse-symbol field_declaration) [1189 1211])
+                    ("avatarService" variable (:type "AvatarService") (reparse-symbol field_declaration) [1240 1268])
+                    ("doService" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("inputMessage" variable (:type "InputMessage") (reparse-symbol formal_parameter) [1296 1321])
+                            ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameter) [1323 1351]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [1274 2231])
+                    ("toOtherJsp" function
+                       (:throws ("Exception")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameter) [2261 2287])
+                            ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameter) [2289 2317])
+                            ("jspName" variable (:type "String") (reparse-symbol formal_parameter) [2319 2333]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [2237 2546])
+                    ("toConsole" function
+                       (:throws ("Exception")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameter) [2575 2601])
+                            ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameter) [2603 2631]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [2552 3265])
+                    ("doRender" function
+                       (:throws ("Exception")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameter) [3293 3319])
+                            ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameter) [3321 3349])
+                            ("viewPath" variable (:type "String") (reparse-symbol formal_parameter) [3351 3366]))                          
+                        :type "void")
+                        (reparse-symbol method_declaration) [3271 3631])
+                    ("getJspViewResolver" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("webApplicationContext" variable (:type "ConfigurableWebApplicationContext") (reparse-symbol formal_parameter) [3677 3732]))                          
+                        :type "ViewResolver")
+                        (reparse-symbol method_declaration) [3637 4428]))                  
+                :type "class")
+                (reparse-symbol class_declaration) [977 4431]))          
+    :file "JspProcessor.java"
+    :pointmax 4432
+    :fsize 4550
+    :lastmodtime '(21485 50640 0 0)
+    :unmatched-syntax '((PRIVATE 1232 . 1239) (PRIVATE 1181 . 1188) (IDENTIFIER 968 . 976))
+    )
+   )
+  :file "!Users!geekerzp!game_development!SHL_Server!shl-game-server!src!main!java!com!egame!shl!controllers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
