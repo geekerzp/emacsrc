@@ -6,7 +6,8 @@
 (tool-bar-mode -1)
 
 ;; font
-(set-frame-font "-apple-Source_Code_Pro-medium-normal-normal-*-*-*-*-*-m-0-iso10646-")
+(set-face-attribute 'default nil
+                    :family "Envy Code R" :height 112 :weight 'normal)
 
 ;; theme
 (load-theme 'distinguished t)
