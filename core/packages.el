@@ -62,16 +62,19 @@
     operate-on-number
     rainbow-mode
     robe
+    rbenv
     rspec-mode
     smartparens
     smartrep
     slime
+    sly
     paren
     undo-tree
     volatile-highlights
     web-mode
     web-beautify
-    yasnippet)
+    yasnippet
+    distinguished-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun super-packages-installed-p ()

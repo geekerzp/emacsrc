@@ -15,6 +15,7 @@
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'ample-flat t)
 ;;(enable-theme 'ample-flat)
+;;(load-theme 'flatui t)
 
 
 (provide 'ui)

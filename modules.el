@@ -28,3 +28,5 @@
 (require 'super-sass)
 (require 'super-web-beautify)
 (require 'super-smartparens)
+(require 'super-sly)
+(require 'super-rbenv)            ;; must at last load
