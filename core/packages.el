@@ -35,7 +35,6 @@
     elpy
     evil
     emmet-mode
-    enh-ruby-mode
     expand-region
     flycheck
     flymake-ruby
@@ -64,7 +63,6 @@
     robe
     rbenv
     rspec-mode
-    smartparens
     smartrep
     slime
     sly
@@ -154,7 +152,7 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
     ("\\.php\\'" php-mode php-mode)
     ("PKGBUILD\\'" pkgbuild-mode pkgbuild-mode)
     ("\\.rs\\'" rust-mode rust-mode)
-    ("\\.rb\\'" enh-ruby-mode enh-ruby-mode)
+    ("\\.rb\\'" ruby-mode ruby-mode)
     ("\\.sass\\'" sass-mode sass-mode)
     ("\\.scala\\'" scala-mode2 scala-mode)
     ("\\.scss\\'" scss-mode scss-mode)

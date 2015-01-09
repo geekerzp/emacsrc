@@ -3,7 +3,6 @@
 (require 'super-company)
 (require 'super-company-c-headers)
 (require 'super-company-irony)
-(require 'super-enh-ruby-mode)
 (require 'super-robe)
 (require 'super-inf-ruby)
 (require 'super-flymake-ruby)
@@ -27,6 +26,5 @@
 (require 'super-slime)
 (require 'super-sass)
 (require 'super-web-beautify)
-(require 'super-smartparens)
 (require 'super-sly)
 (require 'super-rbenv)            ;; must at last load
