@@ -57,7 +57,6 @@
 (require 'custom)
 (require 'ui)
 (require 'core)
-(require 'mode)
 (require 'editor)
 (require 'global-keybindings)
 

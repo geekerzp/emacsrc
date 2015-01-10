@@ -1,15 +1,16 @@
 ;; Code:
 
+(require 'super-anzu)
 (require 'super-company)
 (require 'super-company-c-headers)
 (require 'super-company-irony)
+(require 'super-flycheck)
 (require 'super-robe)
 (require 'super-inf-ruby)
-(require 'super-flymake-ruby)
 (require 'super-rspec-mode)
 (require 'super-powerline)
 (require 'super-indent-guide)
-(require 'super-evil)
+;;(require 'super-evil)
 (require 'super-ido)
 (require 'super-js3-mode)
 (require 'super-yasnippet)
@@ -25,6 +26,7 @@
 (require 'super-haskell-mode)
 (require 'super-slime)
 (require 'super-sass)
+(require 'super-undo-tree)
 (require 'super-web-beautify)
 (require 'super-sly)
 (require 'super-rbenv)            ;; must at last load

@@ -20,4 +20,13 @@
 ;; for ubuntu
 ;;(setq x-select-enable-clipboard t)
 
+;; turn on automatic bracket insertion by pairs. New in emacs 24
+(electric-pair-mode 1)
+
+;; make electric-pair-mode work on more brackets
+(setq electric-pair-pairs '(
+                            (?\" . ?\")
+                            (?\{ . ?\})
+                            ) )
+
 (provide 'editor)

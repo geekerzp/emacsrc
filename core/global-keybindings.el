@@ -18,5 +18,9 @@
 (global-set-key (kbd "M-l") 'evilnc-comment-or-uncomment-lines)
 (global-set-key (kbd "M-p") 'evilnc-comment-or-uncomment-paragraphs)
 
+;; easy-kill && easy-mark
+(global-set-key [remap kill-ring-save] 'easy-kill)
+(global-set-key [remap mark-sexp] 'easy-mark)
+
 
 (provide 'global-keybindings)
