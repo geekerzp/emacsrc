@@ -22,6 +22,8 @@
     ace-window
     ack-and-a-half
     anzu
+    anaconda-mode
+    company-anaconda
     browse-kill-ring
     company-c-headers
     company-irony
@@ -32,12 +34,9 @@
     easy-kill
     elisp-slime-nav
     epl
-    elpy
-    evil
     emmet-mode
     expand-region
     flycheck
-    flymake-ruby
     fic-mode
     gist
     git-timemachine
@@ -65,7 +64,9 @@
     rspec-mode
     smartrep
     slime
+    slime-company
     sly
+    sly-company
     paren
     undo-tree
     volatile-highlights

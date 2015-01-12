@@ -12,5 +12,6 @@
 (require 'slime)
 (setq slime-net-coding-system 'utf-8-unix)
 (slime-setup '(slime-fancy))
+(slime-setup '(slime-company))
 
 (provide 'super-slime)

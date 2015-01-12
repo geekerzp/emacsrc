@@ -45,10 +45,10 @@
 
 ;; reduce the frequency of garbage collection by making it happen on
 ;; each 10MB of allocated data (the default is on every 0.76MB)
-(setq gc-cons-threshold 10000000)
+;;(setq gc-cons-threshold 10000000)
 
 ;; warn when opening files bigger than 100MB
-(setq large-file-warning-threshold 100000000)
+;;(setq large-file-warning-threshold 100000000)
 
 (message "Loading core...")
 
