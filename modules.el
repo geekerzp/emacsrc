@@ -21,6 +21,7 @@
 (require 'super-emmet)
 (require 'super-irony)
 (require 'super-haskell-mode)
+(require 'super-helm)
 (require 'super-slime)
 (require 'super-sass)
 (require 'super-undo-tree)

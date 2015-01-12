@@ -5,20 +5,21 @@
 (global-set-key (kbd "<S-f11>") 'xah-previous-emacs-buffer)
 (global-set-key (kbd "<S-f12>") 'xah-next-emacs-buffer)
 
-;; Press Command-p for fuzzy find in project
-(global-set-key (kbd "s-f") 'projectile-find-file)
-
-;; Press Command-b for fuzzy switch buffer
-(global-set-key (kbd "s-b") 'projectile-switch-to-buffer)
-
+;; ack-and-a-half
 (global-set-key (kbd "C-c a") 'ack)
+
+;; project-explorer
 (global-set-key (kbd "s-s") 'project-explorer-open)
+(global-set-key (kbd "s-f") 'project-explorer-helm)
+
 (global-set-key (kbd "M-l") 'evilnc-comment-or-uncomment-lines)
 (global-set-key (kbd "M-p") 'evilnc-comment-or-uncomment-paragraphs)
 
 ;; easy-kill && easy-mark
 (global-set-key [remap kill-ring-save] 'easy-kill)
 (global-set-key [remap mark-sexp] 'easy-mark)
+
+(global-set-key (kbd "M-x") 'helm-M-x)
 
 (defun python-mode-custom-key ()
   "python mode custom key bindings."
