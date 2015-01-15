@@ -45,6 +45,8 @@
     god-mode
     grizzl
     guru-mode
+    helm
+    helm-projectile
     inf-ruby
     ido
     irony
