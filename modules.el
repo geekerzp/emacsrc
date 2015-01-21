@@ -1,7 +1,6 @@
 ;; Code:
 
 (require 'super-anzu)
-(require 'super-anaconda-mode)
 (require 'super-company)
 (require 'super-flycheck)
 (require 'super-robe)
@@ -28,4 +27,5 @@
 (require 'super-web-beautify)
 (require 'super-sly)
 (require 'super-sly-company)
+(require 'super-anaconda-mode)
 (require 'super-rbenv)            ;; must at last load

@@ -33,4 +33,9 @@
          (define-key ruby-mode-map (kbd "M-c r r") 'inf-ruby)))
 (add-hook 'ruby-mode-hook 'ruby-mode-custom-key)
 
+(defun slime-repl-mode-custom-key ()
+  (progn (define-key slime-repl-mode-map (kbd "<down>") 'slime-repl-forward-input)
+         (define-key slime-repl-mode-map (kbd "<up>") 'slime-repl-backward-input)))
+(add-hook 'slime-repl-mode-hook 'slime-repl-mode-custom-key)
+
 (provide 'global-keybindings)

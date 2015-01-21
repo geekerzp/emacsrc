@@ -71,3 +71,4 @@
   (load modules-file))
 
 (message "SuperEmacs is ready to do any bidding, Master %s!" current-user)
+(put 'set-goal-column 'disabled nil)

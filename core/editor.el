@@ -29,4 +29,7 @@
                             (?\{ . ?\})
                             ) )
 
+;; makes C-n insert newlines if the point is at the end of the buffer
+(setq next-line-add-newlines t)
+
 (provide 'editor)

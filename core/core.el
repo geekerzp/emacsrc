@@ -17,4 +17,8 @@
 ;; trim whitespace
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+;; Semantic is a package that provides language-aware editing commands based on 'source code parsers'.
+;; When enabled, each file you visit is automatically parsed. Semantic provides execellent supports for C/C++.
+(semantic-mode t)
+
 (provide 'core)
