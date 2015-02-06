@@ -26,7 +26,6 @@
     company-anaconda
     browse-kill-ring
     company-c-headers
-    company-irony
     dash
     discover-my-major
     diff-hl

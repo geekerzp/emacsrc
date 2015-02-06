@@ -21,4 +21,8 @@
 ;; When enabled, each file you visit is automatically parsed. Semantic provides execellent supports for C/C++.
 (semantic-mode t)
 
+;; setting cursor
+(setq-default cursor-type 'bar)
+(set-cursor-color "#eaa433")
+
 (provide 'core)
