@@ -22,7 +22,7 @@
 (semantic-mode t)
 
 ;; setting cursor
-(setq-default cursor-type 'bar)
+(setq-default cursor-type 'hbar)
 (set-cursor-color "#eaa433")
 
 (provide 'core)
