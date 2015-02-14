@@ -72,3 +72,23 @@
 
 (message "SuperEmacs is ready to do any bidding, Master %s!" current-user)
 (put 'set-goal-column 'disabled nil)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(anzu-deactivate-region t)
+ '(anzu-mode-lighter "")
+ '(anzu-replace-to-string-separator " => ")
+ '(anzu-search-threshold 1000)
+ '(custom-safe-themes
+   (quote
+    ("024b0033a950d6a40bbbf2b1604075e6c457d40de0b52debe3ae994f88c09a4a" "c87cc60d01cf755375759d165c1d60d9586c6a31f0b5437a0378c2a93cfc8407" "58c6711a3b568437bab07a30385d34aacf64156cc5137ea20e799984f4227265" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:background nil))))
+ '(mode-line ((t (:foreground "#000000" :background "#ef5209" :box nil))))
+ '(mode-line-inactive ((t (:foreground "#d66119" :background "#666666" :box nil)))))

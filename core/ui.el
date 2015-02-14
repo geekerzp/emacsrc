@@ -6,10 +6,13 @@
 (tool-bar-mode -1)
 
 ;; font
+;; (set-face-attribute 'default nil
+                    ;; :family "Envy Code R" :height 112 :weight 'normal)
 (set-face-attribute 'default nil
-                    :family "Envy Code R" :height 112 :weight 'normal)
+                    :family "Vollkorn" :height 115 :weight 'semibold)
 
 ;; theme
+;;(load-theme 'jazz t)
 (load-theme 'distinguished t)
 ;;(load-theme 'light-soap t)
 ;;(load-theme 'zenburn t)

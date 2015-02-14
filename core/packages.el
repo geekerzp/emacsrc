@@ -74,7 +74,8 @@
     web-mode
     web-beautify
     yasnippet
-    distinguished-theme)
+    distinguished-theme
+    jazz-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun super-packages-installed-p ()
