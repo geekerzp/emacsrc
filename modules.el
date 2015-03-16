@@ -6,7 +6,6 @@
 (require 'super-robe)
 (require 'super-inf-ruby)
 (require 'super-rspec-mode)
-(require 'super-powerline)
 (require 'super-indent-guide)
 (require 'super-ido)
 (require 'super-js3-mode)
