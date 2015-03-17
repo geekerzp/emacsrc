@@ -25,6 +25,7 @@
     browse-kill-ring
     company-c-headers
     dash
+    dash-functional
     discover-my-major
     diff-hl
     diminish
@@ -63,6 +64,7 @@
     rbenv
     rspec-mode
     smartrep
+    smart-mode-line
     slime
     slime-company
     sly

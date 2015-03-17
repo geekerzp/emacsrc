@@ -22,6 +22,7 @@
 (require 'super-helm)
 (require 'super-slime)
 (require 'super-sass)
+(require 'super-smart-mode-line)
 (require 'super-undo-tree)
 (require 'super-web-beautify)
 (require 'super-sly)
