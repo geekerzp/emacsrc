@@ -22,8 +22,6 @@
     ace-window
     ack-and-a-half
     anzu
-    anaconda-mode
-    company-anaconda
     browse-kill-ring
     company-c-headers
     dash
@@ -33,6 +31,7 @@
     easy-kill
     elisp-slime-nav
     epl
+    elpy
     emmet-mode
     expand-region
     flycheck
