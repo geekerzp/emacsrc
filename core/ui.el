@@ -7,7 +7,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Envy Code R" :height 113 :weight 'bold)
+                    :family "M+ 1p" :height 113 :weight 'bold)
 
 ;; theme
 (load-theme 'planet t)
