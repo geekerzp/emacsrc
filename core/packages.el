@@ -37,6 +37,7 @@
     expand-region
     flycheck
     fic-mode
+    findr
     gist
     git-timemachine
     gitconfig-mode
@@ -75,8 +76,7 @@
     web-mode
     web-beautify
     yasnippet
-    distinguished-theme
-    jazz-theme)
+    planet-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun super-packages-installed-p ()

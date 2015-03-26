@@ -10,14 +10,7 @@
                     :family "Envy Code R" :height 113 :weight 'bold)
 
 ;; theme
-;;(load-theme 'jazz t)
-(load-theme 'distinguished t)
-;;(load-theme 'light-soap t)
-;; (load-theme 'zenburn t)
-;; (load-theme 'ample-flat t)
-;;(enable-theme 'ample-flat)
-;;(load-theme 'flatui t)
-;; (load-theme 'cyberpunk t)
+(load-theme 'planet t)
 
 (setq redisplay-dont-pause t
       scroll-margin 1
