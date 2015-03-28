@@ -6,11 +6,15 @@
 (tool-bar-mode -1)
 
 ;; font
+;; (set-face-attribute 'default nil
+;; :family "Envy Code R" :height 105 :weight 'light)
+
 (set-face-attribute 'default nil
-                    :family "M+ 1p" :height 113 :weight 'bold)
+                    :family "M+ 1mn" :height 102 :weight 'light)
 
 ;; theme
-(load-theme 'planet t)
+;;(load-theme 'planet t)
+(load-theme 'ujelly t)
 
 (setq redisplay-dont-pause t
       scroll-margin 1
@@ -18,5 +22,6 @@
       scroll-conservatively 10000
       scroll-preserve-screen-position 1)
 
+(setq-default cursor-type 'hbar)
 
 (provide 'ui)
