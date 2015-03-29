@@ -6,11 +6,9 @@
 (tool-bar-mode -1)
 
 ;; font
-;; (set-face-attribute 'default nil
-;; :family "Envy Code R" :height 105 :weight 'light)
-
 (set-face-attribute 'default nil
-                    :family "M+ 1mn" :height 102 :weight 'light)
+:family "Envy Code R" :height 102 :weight 'light)
+
 
 ;; theme
 ;;(load-theme 'planet t)
