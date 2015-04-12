@@ -28,4 +28,5 @@
 (require 'super-sly)
 (require 'super-sly-company)
 (require 'super-elpy)
+(require 'super-racer)
 (require 'super-rbenv)            ;; must at last load
