@@ -1,13 +1,13 @@
 ;;; Code:
 
 ;; disable menubar, toolbar, scrollbar
-(menu-bar-mode -1)
+;; (menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
 
 ;; font
 (set-face-attribute 'default nil
-:family "Envy Code R" :height 102 :weight 'light)
+:family "Envy Code R" :height 105 :weight 'light)
 
 
 ;; theme
@@ -19,7 +19,5 @@
       scroll-step 1
       scroll-conservatively 10000
       scroll-preserve-screen-position 1)
-
-(setq-default cursor-type 'hbar)
 
 (provide 'ui)

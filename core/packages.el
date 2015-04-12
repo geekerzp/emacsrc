@@ -64,6 +64,7 @@
     robe
     rbenv
     rspec-mode
+    rust-mode
     smartrep
     smart-mode-line
     slime
