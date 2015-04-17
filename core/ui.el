@@ -12,7 +12,8 @@
 
 ;; theme
 ;;(load-theme 'planet t)
-(load-theme 'ujelly t)
+;; (load-theme 'ujelly t)
+(load-theme 'ample-zen t)
 
 (setq redisplay-dont-pause t
       scroll-margin 1
@@ -21,3 +22,5 @@
       scroll-preserve-screen-position 1)
 
 (provide 'ui)
+
+
