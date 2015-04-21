@@ -13,7 +13,9 @@
 ;; theme
 ;;(load-theme 'planet t)
 ;; (load-theme 'ujelly t)
-(load-theme 'ample-zen t)
+;; (load-theme 'ample-zen t)
+;; (load-theme 'mccarthy t)
+(load-theme 'hickey t)
 
 (setq redisplay-dont-pause t
       scroll-margin 1
