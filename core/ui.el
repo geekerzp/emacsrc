@@ -7,15 +7,11 @@
 
 ;; font
 (set-face-attribute 'default nil
-:family "Envy Code R" :height 105 :weight 'light)
+:family "M+ 2m" :height 100 :weight 'light)
 
 
 ;; theme
-;;(load-theme 'planet t)
-;; (load-theme 'ujelly t)
-;; (load-theme 'ample-zen t)
-;; (load-theme 'mccarthy t)
-(load-theme 'hickey t)
+(load-theme 'distinguished t)
 
 (setq redisplay-dont-pause t
       scroll-margin 1
