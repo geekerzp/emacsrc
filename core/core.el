@@ -25,4 +25,6 @@
 (setq-default cursor-type 'hbar)
 (set-cursor-color "#eaa433")
 
+(global-prettify-symbols-mode t)
+
 (provide 'core)
