@@ -21,12 +21,6 @@
 
 (global-set-key (kbd "M-x") 'helm-M-x)
 
-(defun python-mode-custom-key ()
-  "python mode custom key bindings."
-  (progn (define-key python-mode-map (kbd "M-.") 'anaconda-mode-goto-definitions)
-         (define-key python-mode-map (kbd "M-*") 'anaconda-nav-pop-marker)))
-(add-hook 'python-mode-hook 'python-mode-custom-key)
-
 (defun slime-repl-mode-custom-key ()
   (progn (define-key slime-repl-mode-map (kbd "<down>") 'slime-repl-forward-input)
          (define-key slime-repl-mode-map (kbd "<up>") 'slime-repl-backward-input)))
