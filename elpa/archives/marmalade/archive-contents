@@ -1566,7 +1566,7 @@
 	      (1 6 8)))
 	    "Blog from Org mode to wordpress" tar])
  (org-trello .
-	     [(0 6 9 3)
+	     [(0 6 9 4)
 	      ((request-deferred
 		(0 2 0))
 	       (deferred
@@ -1621,7 +1621,7 @@
 	       (6 1)))
 	     "basic support for magit links" single])
  (org-journal .
-	      [(1 8 0)
+	      [(1 8 1)
 	       nil "a simple org-mode based journaling mode" single])
  (org-gnome .
 	    [(0 1)

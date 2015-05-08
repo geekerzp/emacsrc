@@ -21,6 +21,7 @@
     ace-jump-buffer
     ace-window
     ack-and-a-half
+    avy
     anzu
     browse-kill-ring
     company-c-headers
