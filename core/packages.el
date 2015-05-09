@@ -21,6 +21,8 @@
     ace-jump-buffer
     ace-window
     ack-and-a-half
+    anaconda-mode
+    company-anaconda
     avy
     anzu
     browse-kill-ring
@@ -33,7 +35,6 @@
     easy-kill
     elisp-slime-nav
     epl
-    elpy
     emmet-mode
     expand-region
     flycheck

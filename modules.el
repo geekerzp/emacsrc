@@ -1,6 +1,9 @@
-;; Code:
+;;; modules --- loaded modules
+;;; Commentary:
 
+;;; Code:
 (require 'super-anzu)
+(require 'super-anaconda)
 (require 'super-company)
 (require 'super-flycheck)
 (require 'super-robe)
@@ -27,6 +30,6 @@
 (require 'super-web-beautify)
 (require 'super-sly)
 (require 'super-sly-company)
-(require 'super-elpy)
 (require 'super-racer)
 (require 'super-rbenv)            ;; must at last load
+;;; modules.el ends here

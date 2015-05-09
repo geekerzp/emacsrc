@@ -1,12 +1,15 @@
 ;;; gloabl-keybindings --- gloabl keybindings
-
 ;;; Commentary:
 
 ;;; Code:
+
 (global-set-key (kbd "<f11>") 'xah-previous-user-buffer)
 (global-set-key (kbd "<f12>") 'xah-next-user-buffer)
 (global-set-key (kbd "<S-f11>") 'xah-previous-emacs-buffer)
 (global-set-key (kbd "<S-f12>") 'xah-next-emacs-buffer)
+
+(global-set-key (kbd "M-.") 'find-tag)
+(global-set-key (kbd "M-*") 'pop-tag-mark)
 
 ;; avy
 (global-set-key (kbd "?") 'avy-goto-char)
@@ -34,9 +37,14 @@
 
 ;; slime keybindings
 (defun slime-repl-mode-custom-key ()
-  (progn (define-key slime-repl-mode-map (kbd "<down>") 'slime-repl-forward-input)
-         (define-key slime-repl-mode-map (kbd "<up>") 'slime-repl-backward-input)))
+  "Modify slime's keymap."
+  (progn
+    (require 'slime-repl)
+    (define-key slime-repl-mode-map (kbd "<down>") 'slime-repl-forward-input)
+    (define-key slime-repl-mode-map (kbd "<up>") 'slime-repl-backward-input)))
+
 (add-hook 'slime-repl-mode-hook 'slime-repl-mode-custom-key)
 
 (provide 'global-keybindings)
+
 ;;; global-keybindings.el ends here
