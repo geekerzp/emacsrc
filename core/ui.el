@@ -7,7 +7,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-:family "Envy Code R" :height 105 :weight 'light)
+:family "Envy Code R" :height 104 :weight 'light)
 
 
 ;; theme

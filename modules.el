@@ -5,6 +5,7 @@
 (require 'super-anzu)
 (require 'super-anaconda)
 (require 'super-company)
+(require 'super-cider)
 (require 'super-flycheck)
 (require 'super-robe)
 (require 'super-inf-ruby)

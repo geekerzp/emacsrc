@@ -23,6 +23,7 @@
     ack-and-a-half
     anaconda-mode
     company-anaconda
+    cider
     avy
     anzu
     browse-kill-ring
