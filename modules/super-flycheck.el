@@ -12,5 +12,10 @@
           #'(lambda ()
               (flycheck-select-checker 'python-flake8)))
 
+;; checker for ruby code
+(add-hook 'ruby-mode-hook
+          #'(lambda ()
+              (flycheck-select-checker 'rubocop)))
+
 (provide 'super-flycheck)
 ;;; super-flycheck ends here
