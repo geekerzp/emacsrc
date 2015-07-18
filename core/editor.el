@@ -1,6 +1,9 @@
 ;;; Code:
 
-(setq-default indent-tabs-mode nil)    ;; don't use tabs to indent
+;; make indentation commands use space only (never tab character)
+(setq-default indent-tabs-mode nil)
+
+;; set default tab char's display width to 2 spaces
 (setq-default tab-width 2)
 
 ;; Newline at end of file

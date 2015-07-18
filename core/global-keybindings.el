@@ -3,13 +3,11 @@
 
 ;;; Code:
 
-(global-set-key (kbd "<f11>") 'xah-previous-user-buffer)
-(global-set-key (kbd "<f12>") 'xah-next-user-buffer)
-(global-set-key (kbd "<S-f11>") 'xah-previous-emacs-buffer)
-(global-set-key (kbd "<S-f12>") 'xah-next-emacs-buffer)
-
 (global-set-key (kbd "M-.") 'find-tag)
 (global-set-key (kbd "M-*") 'pop-tag-mark)
+
+;; make ibuffer as default
+(defalias 'list-buffers 'ibuffer)
 
 ;; avy
 (global-set-key (kbd "C-\"") 'avy-goto-char)
@@ -21,9 +19,8 @@
 ;; ack-and-a-half
 (global-set-key (kbd "C-c a") 'ack)
 
-;; project-explorer
-(global-set-key (kbd "s-s") 'project-explorer-open)
-(global-set-key (kbd "s-f") 'project-explorer-helm)
+;; speedbar
+(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
 
 (global-set-key (kbd "M-l") 'evilnc-comment-or-uncomment-lines)
 (global-set-key (kbd "M-p") 'evilnc-comment-or-uncomment-paragraphs)
@@ -34,6 +31,9 @@
 
 ;; heml keybindings
 (global-set-key (kbd "M-x") 'helm-M-x)
+
+;; for hhkb
+(define-key key-translation-map (kbd "M-¥") (kbd "\\"))
 
 ;; slime keybindings
 (defun slime-repl-mode-custom-key ()

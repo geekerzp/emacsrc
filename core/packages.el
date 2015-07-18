@@ -56,7 +56,6 @@
     js3-mode
     ov
     project
-    project-explorer
     projectile
     projectile-rails
     magit
@@ -64,6 +63,7 @@
     malabar-mode
     operate-on-number
     rainbow-mode
+    rainbow-delimiters
     robe
     rbenv
     rspec-mode
@@ -74,13 +74,14 @@
     slime-company
     sly
     sly-company
+    sr-speedbar
     paren
     undo-tree
     volatile-highlights
     web-mode
     web-beautify
     yasnippet
-    planet-theme)
+    color-theme-solarized)
   "A list of packages to ensure are installed at launch.")
 
 (defun super-packages-installed-p ()

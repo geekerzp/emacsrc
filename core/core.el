@@ -27,4 +27,12 @@
 
 (global-prettify-symbols-mode t)
 
+;; make buffer switch command auto suggestions, also for find-file command
+(ido-mode 1)
+;; make ido display choices vertically
+(setq ido-separator " » ")
+;; display any item that contains the chars you typed
+(setq ido-enable-flex-matching t)
+(setq ido-ignore-buffers '("^ " "*Completions*" "*Shell Command Output*" "Async Shell Command"))
+
 (provide 'core)
