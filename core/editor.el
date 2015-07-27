@@ -14,6 +14,8 @@
 
 ;; switch windows using shift{up, down, left, right}
 (windmove-default-keybindings)
+
+;; when cursor is on edge, move to the other side, as in toroidal space
 (setq windmove-wrap-around t)
 
 ;; trim the "\n" in the end of a line

@@ -10,7 +10,7 @@
                     :family "Envy Code R" :height 110 :weight 'light)
 
 ;; theme
-(load-theme 'distinguished t)
+(load-theme 'material t)
 
 (setq redisplay-dont-pause t
       scroll-margin 1
@@ -19,5 +19,3 @@
       scroll-preserve-screen-position 1)
 
 (provide 'ui)
-
-
