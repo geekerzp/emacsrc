@@ -48,10 +48,4 @@
 
 (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file) ; was dired-advertised-find-file
 
-;; stop asking whether to save newly added abbrev when quitting emacs
-(setq save-abbrevs nil)
-
-;; turn on abbrev mode globally
-(setq default-abbrev-mode t)
-
 (provide 'core)

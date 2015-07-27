@@ -55,7 +55,6 @@
 
 ;; the core stuff
 (require 'packages)
-(require 'custom)
 (require 'ui)
 (require 'core)
 (require 'editor)
@@ -74,3 +73,4 @@
 (message "SuperEmacs is ready to do any bidding, Master %s!" current-user)
 (provide 'init)
 ;;; init.el ends here
+(put 'dired-find-alternate-file 'disabled nil)
