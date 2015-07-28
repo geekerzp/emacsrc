@@ -45,7 +45,7 @@
 ;; no-byte-compile: t
 ;; End:
 
-;;;### (autoloads nil nil ("sly-pkg.el" "sly.el") (21940 46915 427218
+;;;### (autoloads nil nil ("sly-pkg.el" "sly.el") (21943 16249 37160
 ;;;;;;  0))
 
 ;;;***

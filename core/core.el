@@ -48,4 +48,7 @@
 
 (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file) ; was dired-advertised-find-file
 
+;; global abbrev mode
+(setq default-abbrev-mode t)
+
 (provide 'core)

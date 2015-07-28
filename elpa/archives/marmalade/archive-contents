@@ -1,4 +1,14 @@
 (1
+ (flycheck-gdc .
+	       [(0 1)
+		((d-mode
+		  (20150317 117))
+		 (flycheck
+		  (20150317 2246)))
+		"Provides support for use of GDC as a Flycheck checker for Dlang." tar])
+ (flymake-gdc .
+	      [(0 1)
+	       nil "A flymake handler for d-mode files using the GDC compiler" tar])
  (meta-presenter .
 		 [(20150501 410)
 		  nil "A simple multi-file presentation tool for Emacs" single])

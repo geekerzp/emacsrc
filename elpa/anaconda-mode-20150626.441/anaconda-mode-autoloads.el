@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "anaconda-mode" "anaconda-mode.el" (21906 49084
+;;;### (autoloads nil "anaconda-mode" "anaconda-mode.el" (21943 15631
 ;;;;;;  0 0))
 ;;; Generated autoloads from anaconda-mode.el
 
@@ -26,7 +26,7 @@ Code navigation, documentation lookup and completion for Python.
 
 ;;;***
 
-;;;### (autoloads nil nil ("anaconda-mode-pkg.el") (21906 49084 969187
+;;;### (autoloads nil nil ("anaconda-mode-pkg.el") (21943 15631 428442
 ;;;;;;  0))
 
 ;;;***

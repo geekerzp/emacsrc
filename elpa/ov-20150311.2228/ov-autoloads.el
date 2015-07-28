@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "ov" "ov.el" (21766 34753 0 0))
+;;;### (autoloads nil "ov" "ov.el" (21943 15986 0 0))
 ;;; Generated autoloads from ov.el
 
 (autoload 'ov-clear "ov" "\
@@ -21,7 +21,7 @@ property and value between these points.
 
 With no arguments, clear all overlays in the buffer.
 
-\(fn &optional PROP-OR-BEG (VAL-OR-END 'any) BEG END)" t nil)
+\(fn &optional PROP-OR-BEG (val-or-end (quote any)) BEG END)" t nil)
 
 ;;;***
 

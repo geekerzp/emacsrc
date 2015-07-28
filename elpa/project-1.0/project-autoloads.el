@@ -1,18 +1,15 @@
 ;;; project-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("project-pkg.el" "project.el") (21413
-;;;;;;  8846 144205 339000))
+;;;### (autoloads nil nil ("project.el") (21943 15995 104429 0))
 
 ;;;***
 
-(provide 'project-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; project-autoloads.el ends here

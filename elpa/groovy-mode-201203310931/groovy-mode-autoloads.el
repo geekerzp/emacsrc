@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "groovy-mode" "groovy-mode.el" (21940 47117
+;;;### (autoloads nil "groovy-mode" "groovy-mode.el" (21943 16059
 ;;;;;;  0 0))
 ;;; Generated autoloads from groovy-mode.el
 

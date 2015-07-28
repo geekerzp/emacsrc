@@ -1,10 +1,9 @@
 ;;; rbenv-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (global-rbenv-mode rbenv-use rbenv-use-corresponding
-;;;;;;  rbenv-use-global) "rbenv" "rbenv.el" (21617 63395 0 0))
+;;;### (autoloads nil "rbenv" "rbenv.el" (21943 16089 0 0))
 ;;; Generated autoloads from rbenv.el
 
 (autoload 'rbenv-use-global "rbenv" "\
@@ -38,15 +37,9 @@ use rbenv to configure the ruby version used by your Emacs.
 
 ;;;***
 
-;;;### (autoloads nil nil ("rbenv-pkg.el") (21617 63395 998017 0))
-
-;;;***
-
-(provide 'rbenv-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; rbenv-autoloads.el ends here

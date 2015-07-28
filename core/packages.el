@@ -5,7 +5,7 @@
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
-             '("melpa"     . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/"))
 (add-to-list 'package-archives
              '("elpy"      . "http://jorgenschaefer.github.io/packages/"))
 (add-to-list 'package-archives
@@ -28,6 +28,7 @@
     anzu
     browse-kill-ring
     company-c-headers
+    darktooth
     dash
     dash-functional
     discover-my-major
@@ -80,8 +81,7 @@
     volatile-highlights
     web-mode
     web-beautify
-    yasnippet
-    color-theme-solarized)
+    yasnippet)
   "A list of packages to ensure are installed at launch.")
 
 (defun super-packages-installed-p ()

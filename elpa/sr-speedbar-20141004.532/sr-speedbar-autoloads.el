@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "sr-speedbar" "sr-speedbar.el" (21919 15991
+;;;### (autoloads nil "sr-speedbar" "sr-speedbar.el" (21943 16270
 ;;;;;;  0 0))
 ;;; Generated autoloads from sr-speedbar.el
 

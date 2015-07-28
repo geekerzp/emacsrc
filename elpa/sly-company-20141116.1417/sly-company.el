@@ -4,8 +4,8 @@
 ;;
 ;; Author: Ole Arndt <anwyn@sugarshark.com>
 ;; Keywords: convenience, lisp, abbrev
-;; Version: 20141116.1417
-;; X-Original-Version: 0.8
+;; Package-Version: 20141116.1417
+;; Version: 0.8
 ;; Package-Requires: ((sly "1.0.0-alpha") (company "0.7") (emacs "24.3"))
 ;;
 ;; This file is free software; you can redistribute it and/or modify

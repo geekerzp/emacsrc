@@ -1,18 +1,15 @@
 ;;; logito-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("logito-pkg.el" "logito.el") (21652 26718
-;;;;;;  860077 0))
+;;;### (autoloads nil nil ("logito.el") (21943 15736 815460 0))
 
 ;;;***
 
-(provide 'logito-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; logito-autoloads.el ends here

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "scala-mode2" "scala-mode2.el" (21897 23617
+;;;### (autoloads nil "scala-mode2" "scala-mode2.el" (21943 17261
 ;;;;;;  0 0))
 ;;; Generated autoloads from scala-mode2.el
 
@@ -35,7 +35,7 @@ When started, runs `scala-mode-hook'.
 ;;;### (autoloads nil nil ("scala-mode2-fontlock.el" "scala-mode2-imenu.el"
 ;;;;;;  "scala-mode2-indent.el" "scala-mode2-lib.el" "scala-mode2-map.el"
 ;;;;;;  "scala-mode2-paragraph.el" "scala-mode2-pkg.el" "scala-mode2-sbt.el"
-;;;;;;  "scala-mode2-syntax.el") (21897 23617 873627 0))
+;;;;;;  "scala-mode2-syntax.el") (21943 17261 753788 0))
 
 ;;;***
 

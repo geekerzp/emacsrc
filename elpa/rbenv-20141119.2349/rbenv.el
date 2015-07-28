@@ -3,9 +3,9 @@
 ;; Copyright (C) 2013 Yves Senn
 
 ;; URL: https://github.com/senny/rbenv.el
+;; Package-Version: 20141119.2349
 ;; Author: Yves Senn <yves.senn@gmail.com>
-;; Version: 20141119.2349
-;; X-Original-Version: 0.0.3
+;; Version: 0.0.3
 ;; Created: 10 February 2013
 ;; Keywords: ruby rbenv
 

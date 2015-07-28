@@ -1,10 +1,10 @@
 ;;; company-c-headers.el --- Company mode backend for C/C++ header files  -*- lexical-binding: t -*-
-;; Version: 20140930.1102
 
 ;; Copyright (C) 2014 Alastair Rankine
 
 ;; Author: Alastair Rankine <alastair@girtby.net>
 ;; Keywords: development company
+;; Package-Version: 20140930.1102
 ;; Package-Requires: ((emacs "24.1") (company "0.8"))
 
 ;; This file is not part of GNU Emacs.

@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads nil "malabar-ede-gradle" "malabar-ede-gradle.el"
-;;;;;;  (21940 49142 0 0))
+;;;;;;  (21943 16070 0 0))
 ;;; Generated autoloads from malabar-ede-gradle.el
 
 (eieio-defclass-autoload 'ede-malabar-gradle-project '(ede-maven2-project) "malabar-ede-gradle" "Project Type for Gradle based Java projects.")
@@ -12,7 +12,7 @@
 ;;;***
 
 ;;;### (autoloads nil "malabar-ede-maven" "malabar-ede-maven.el"
-;;;;;;  (21940 49142 0 0))
+;;;;;;  (21943 16070 0 0))
 ;;; Generated autoloads from malabar-ede-maven.el
 
 (eieio-defclass-autoload 'malabar-ede-maven2-project '(ede-maven2-project) "malabar-ede-maven" "Project Type for Maven2 based Java projects.")
@@ -27,7 +27,7 @@ Return a Maven Project object if there is a match.
 
 ;;;***
 
-;;;### (autoloads nil "malabar-mode" "malabar-mode.el" (21940 49142
+;;;### (autoloads nil "malabar-mode" "malabar-mode.el" (21943 16070
 ;;;;;;  0 0))
 ;;; Generated autoloads from malabar-mode.el
 
@@ -88,8 +88,8 @@ Add hooks to the java and groovy modes to activate malabar mode.  Good for calli
 
 ;;;***
 
-;;;### (autoloads nil "malabar-project" "malabar-project.el" (21940
-;;;;;;  49142 0 0))
+;;;### (autoloads nil "malabar-project" "malabar-project.el" (21943
+;;;;;;  16070 0 0))
 ;;; Generated autoloads from malabar-project.el
 
 (autoload 'malabar-project-resources "malabar-project" "\
@@ -125,7 +125,7 @@ skipping tests.
 
 ;;;***
 
-;;;### (autoloads nil "malabar-http" "malabar-http.el" (21940 49142
+;;;### (autoloads nil "malabar-http" "malabar-http.el" (21943 16069
 ;;;;;;  0 0))
 ;;; Generated autoloads from malabar-http.el
 
@@ -148,7 +148,7 @@ SERVICE is a known service to the malabat server
 
 ;;;### (autoloads nil nil ("malabar-abbrevs.el" "malabar-import.el"
 ;;;;;;  "malabar-mode-pkg.el" "malabar-reflection.el" "malabar-semanticdb.el"
-;;;;;;  "malabar-util.el" "malabar-variables.el") (21940 49142 648051
+;;;;;;  "malabar-util.el" "malabar-variables.el") (21943 16070 462407
 ;;;;;;  0))
 
 ;;;***

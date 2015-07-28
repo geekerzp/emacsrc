@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "distinguished-theme" "distinguished-theme.el"
-;;;;;;  (21830 8794 0 0))
+;;;;;;  (21943 16640 0 0))
 ;;; Generated autoloads from distinguished-theme.el
 
 (and load-file-name (boundp 'custom-theme-load-path) (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))

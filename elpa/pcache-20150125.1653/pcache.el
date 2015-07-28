@@ -4,8 +4,8 @@
 
 ;; Author: Yann Hodique <yann.hodique@gmail.com>
 ;; Keywords:
-;; Version: 20150125.1653
-;; X-Original-Version: 0.3.1
+;; Package-Version: 20150125.1653
+;; Version: 0.3.1
 ;; Package-Requires: ((eieio "1.3"))
 
 ;; This file is free software; you can redistribute it and/or modify

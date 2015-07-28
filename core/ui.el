@@ -10,7 +10,7 @@
                     :family "Envy Code R" :height 110 :weight 'light)
 
 ;; theme
-(load-theme 'material t)
+(load-theme 'darktooth t)
 
 (setq redisplay-dont-pause t
       scroll-margin 1
