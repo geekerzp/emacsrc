@@ -28,7 +28,7 @@
     anzu
     browse-kill-ring
     company-c-headers
-    darktooth
+    darktooth-theme
     dash
     dash-functional
     discover-my-major
