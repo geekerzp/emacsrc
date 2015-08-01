@@ -92,7 +92,7 @@
  '(anzu-search-threshold 1000)
  '(custom-safe-themes
    (quote
-    ("2a5e4278492206c389ef79f5382d710a193b97f8ea78bfab89480d907befe3ce" default))))
+    ("14225e826195202fbc17dcf333b94d91deb6e6f5ca3f5a75357009754666822a" "2a5e4278492206c389ef79f5382d710a193b97f8ea78bfab89480d907befe3ce" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

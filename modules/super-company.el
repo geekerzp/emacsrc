@@ -10,6 +10,7 @@
 (push 'company-robe company-backends)
 (add-to-list 'company-backends 'company-c-headers)
 (add-to-list 'company-backends 'company-anaconda)
+(add-to-list 'company-backends 'company-tern)
 
 (delete 'company-ropemacs company-backends)
 

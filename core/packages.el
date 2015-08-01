@@ -23,13 +23,14 @@
     ack-and-a-half
     anaconda-mode
     company-anaconda
+    company-tern
     cider
     avy
     anzu
     browse-kill-ring
     company-c-headers
     darktooth-theme
-    dash
+    dired+
     dash-functional
     discover-my-major
     diff-hl
@@ -62,6 +63,7 @@
     magit
     move-text
     malabar-mode
+    neotree
     operate-on-number
     rainbow-mode
     rainbow-delimiters
@@ -75,7 +77,6 @@
     slime-company
     sly
     sly-company
-    sr-speedbar
     paren
     undo-tree
     volatile-highlights

@@ -7,10 +7,10 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Envy Code R" :height 110 :weight 'light)
+                    :family "Envy Code R" :height 113 :weight 'light)
 
 ;; theme
-(load-theme 'darktooth t)
+(load-theme 'distinguished t)
 
 (setq redisplay-dont-pause t
       scroll-margin 1

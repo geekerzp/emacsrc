@@ -19,8 +19,8 @@
 ;; ack-and-a-half
 (global-set-key (kbd "C-c a") 'ack)
 
-;; speedbar
-(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
+;; neotree
+(global-set-key (kbd "s-s") 'neotree-toggle)
 
 (global-set-key (kbd "M-l") 'evilnc-comment-or-uncomment-lines)
 (global-set-key (kbd "M-p") 'evilnc-comment-or-uncomment-paragraphs)
@@ -44,6 +44,9 @@
     (define-key slime-repl-mode-map (kbd "<up>") 'slime-repl-backward-input)))
 
 (add-hook 'slime-repl-mode-hook 'slime-repl-mode-custom-key)
+
+;; kill whole line
+(global-set-key (kbd "M-9") 'kill-whole-line)
 
 (provide 'global-keybindings)
 
