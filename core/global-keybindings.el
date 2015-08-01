@@ -19,8 +19,8 @@
 ;; ack-and-a-half
 (global-set-key (kbd "C-c a") 'ack)
 
-;; neotree
-(global-set-key (kbd "s-s") 'neotree-toggle)
+;; speedbar
+(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
 
 (global-set-key (kbd "M-l") 'evilnc-comment-or-uncomment-lines)
 (global-set-key (kbd "M-p") 'evilnc-comment-or-uncomment-paragraphs)

@@ -63,7 +63,6 @@
     magit
     move-text
     malabar-mode
-    neotree
     operate-on-number
     rainbow-mode
     rainbow-delimiters
@@ -77,6 +76,7 @@
     slime-company
     sly
     sly-company
+    sr-speedbar
     paren
     undo-tree
     volatile-highlights
