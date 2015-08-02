@@ -17,6 +17,7 @@
 (speedbar-add-supported-extension ".clj")
 (speedbar-add-supported-extension ".coffee")
 (speedbar-add-supported-extension ".css")
+(speedbar-add-supported-extension ".stg")
 (sr-speedbar-refresh-turn-off)
 
 (provide 'patch)

@@ -2,6 +2,7 @@
 ;;; Commentary:
 
 ;;; Code:
+(require 'super-avy)
 (require 'super-anzu)
 (require 'super-anaconda)
 (require 'super-company)
@@ -33,5 +34,6 @@
 (require 'super-sly-company)
 (require 'super-racer)
 (require 'super-rbenv)            ;; must at last load
+
 ;;; modules.el ends here
 

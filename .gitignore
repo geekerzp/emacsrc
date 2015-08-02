@@ -5,3 +5,4 @@ projectile.cache
 ac-comphist.dat
 projectile-bookmarks.eld
 srecode-map.el
+**/*.elc
