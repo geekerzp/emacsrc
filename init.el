@@ -3,12 +3,6 @@
 
 ;;; Code:
 
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
-(package-initialize)
-
 (defvar current-user
   (getenv
    (if (equal system-type 'windows-nt) "USERNAME" "USER")))
@@ -75,6 +69,13 @@
 (message "Loading SuperEmacs's modules...")
 
 ;; the modules
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (when (file-exists-p modules-file)
   (load modules-file))
 
@@ -92,7 +93,7 @@
  '(anzu-search-threshold 1000)
  '(custom-safe-themes
    (quote
-    ("14225e826195202fbc17dcf333b94d91deb6e6f5ca3f5a75357009754666822a" "2a5e4278492206c389ef79f5382d710a193b97f8ea78bfab89480d907befe3ce" default))))
+    ("b5cb6ef3ffdf323f16b5f76fdfef9bf42672a1dc28187b761e4867d6f06e175a" "14225e826195202fbc17dcf333b94d91deb6e6f5ca3f5a75357009754666822a" "2a5e4278492206c389ef79f5382d710a193b97f8ea78bfab89480d907befe3ce" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

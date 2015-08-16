@@ -2,11 +2,13 @@
 ;;; Commentary:
 
 ;;; Code:
+(require 'super-speedbar)
 (require 'super-avy)
 (require 'super-anzu)
 (require 'super-anaconda)
 (require 'super-company)
 (require 'super-cider)
+(require 'super-malabar)
 (require 'super-flycheck)
 (require 'super-ruby)
 (require 'super-robe)

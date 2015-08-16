@@ -8,10 +8,10 @@
 
 ;; avy-goto-char
 ;; Input one char, jump to it with a tree.
-(global-set-key (kbd "C-:") 'avy-goto-char)
+(global-set-key (kbd "C-'") 'avy-goto-char)
 ;; avy-goto-char-2
 ;; Input two consecutive chars, jump to the first one with a tree.
-(global-set-key (kbd "C-'") 'avy-goto-char-2)
+(global-set-key (kbd "C-\"") 'avy-goto-char-2)
 ;; avy-goto-line
 ;; Input zero chars, jump to a line start with a tree.
 (global-set-key (kbd "M-g f") 'avy-goto-line)
