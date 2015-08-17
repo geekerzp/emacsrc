@@ -6,3 +6,4 @@
 (add-hook 'malabar-groovy-mode-hook 'flycheck-mode)
 
 (provide 'super-malabar)
+;;; super-malabar.el ends here

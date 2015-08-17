@@ -1,3 +1,6 @@
+;;; core --- emacs core configruations
+;;; Commentary:
+
 ;;; Code:
 (set-language-environment "utf-8")
 
@@ -42,3 +45,4 @@
 (setq default-abbrev-mode t)
 
 (provide 'core)
+;;; core.el ends here

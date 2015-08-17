@@ -1,10 +1,17 @@
-;; Code:
+;;; super-projectile --- Projectile configurations
+;;; Commentary:
 
+;;; Code:
+
+(require 'projectile)
+
+;; Enable Projectile globally
 (projectile-global-mode)
+
 (setq projectile-enable-caching t)
 (setq projectile-completion-system 'helm)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
-;; (helm-projectile-on)
+(helm-projectile-on)
 
 ;; anaconda integration
 (when (projectile-project-p)
@@ -12,3 +19,4 @@
 
 
 (provide 'super-project)
+;;; super-project.el ends here
