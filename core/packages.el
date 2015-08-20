@@ -62,7 +62,6 @@
     projectile-rails
     magit
     move-text
-    malabar-mode
     operate-on-number
     rainbow-mode
     rainbow-delimiters
