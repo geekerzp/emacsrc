@@ -16,6 +16,7 @@
 (require 'super-rspec-mode)
 (require 'super-indent-guide)
 (require 'super-js3-mode)
+(require 'super-tern)
 (require 'super-yasnippet)
 (require 'super-project)
 (require 'super-rainbow-delimiters)
@@ -38,4 +39,3 @@
 (require 'super-rbenv)            ;; must at last load
 
 ;;; modules.el ends here
-

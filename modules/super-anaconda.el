@@ -4,10 +4,9 @@
 ;;; Code:
 (require 'python)
 
-(add-hook 'python-mode-hook 'anaconda-mode)
+(pyenv-mode)
 
-(when (executable-find "ipython")
-  (setq python-shell-interpreter "ipython"))
+(add-hook 'python-mode-hook 'anaconda-mode)
 
 (provide 'super-anaconda)
 ;;; super-anaconda.el ends here

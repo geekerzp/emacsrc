@@ -44,5 +44,8 @@
 ;; global abbrev mode
 (setq default-abbrev-mode t)
 
+;; trailing-whitespace
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 (provide 'core)
 ;;; core.el ends here

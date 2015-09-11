@@ -7,8 +7,10 @@
 (speedbar-add-supported-extension ".clj")
 (speedbar-add-supported-extension ".coffee")
 (speedbar-add-supported-extension ".css")
+(speedbar-add-supported-extension ".scss")
 (speedbar-add-supported-extension ".stg")
 (speedbar-add-supported-extension ".mustache")
+(speedbar-add-supported-extension ".erb")
 (sr-speedbar-refresh-turn-off)
 
 (provide 'super-speedbar)

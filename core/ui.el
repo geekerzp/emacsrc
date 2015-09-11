@@ -9,7 +9,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Envy Code R" :height 113 :weight 'semi-bold)
+                    :family "Hack" :height 110 :weight 'light)
 
 ;; theme
 (load-theme 'distinguished t)
