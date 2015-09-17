@@ -3,8 +3,6 @@
 
 ;;; Code:
 
-(load-file "~/cedet/cedet-devel-load.el")
-
 (defun open-in-desktop ()
   "Show current file in desktop (OS's file manager)."
   (interactive)

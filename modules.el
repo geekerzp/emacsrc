@@ -2,7 +2,6 @@
 ;;; Commentary:
 
 ;;; Code:
-(require 'super-speedbar)
 (require 'super-avy)
 (require 'super-anzu)
 (require 'super-anaconda)

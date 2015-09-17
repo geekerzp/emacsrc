@@ -3,6 +3,7 @@
 
 ;;; Code:
 
+(require 'project-explorer)
 (require 'projectile)
 
 ;; Enable Projectile globally
@@ -17,6 +18,8 @@
 (when (projectile-project-p)
   (setenv "PYTHONPATH" (projectile-project-root)))
 
+;; project-explorer
+(setq pe/width 20)
 
 (provide 'super-project)
 ;;; super-project.el ends here

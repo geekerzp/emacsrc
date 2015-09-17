@@ -24,6 +24,7 @@
     anaconda-mode
     company-anaconda
     company-tern
+    company-web
     cider
     avy
     anzu
@@ -53,6 +54,7 @@
     helm
     helm-projectile
     inf-ruby
+    indent-guide
     ido
     irony
     js3-mode
@@ -77,6 +79,8 @@
     sly-company
     sr-speedbar
     paren
+    tern
+    company-tern
     undo-tree
     volatile-highlights
     web-mode
@@ -161,7 +165,7 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
     ("\\.php\\'" php-mode php-mode)
     ("PKGBUILD\\'" pkgbuild-mode pkgbuild-mode)
     ("\\.rs\\'" rust-mode rust-mode)
-    ("\\.rb\\'" ruby-mode ruby-mode)
+    ("\\.rb\\'" enh-ruby-mode enh-ruby-mode)
     ("\\.sass\\'" sass-mode sass-mode)
     ("\\.scala\\'" scala-mode2 scala-mode)
     ("\\.scss\\'" scss-mode scss-mode)
@@ -178,6 +182,9 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
 (when (package-installed-p 'markdown-mode)
   (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
   (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode)))
+
+(when (package-installed-p 'enh-ruby-mode)
+  (add-to-list 'auto-mode-alist '("\\.rb\\'" . enh-ruby-mode)))
 
 (when (package-installed-p 'pkgbuild-mode)
   (add-to-list 'auto-mode-alist '("PKGBUILD\\'" . pkgbuild-mode)))

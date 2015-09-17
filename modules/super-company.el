@@ -4,6 +4,17 @@
 ;;; Code:
 (require 'company)
 (require 'company-emacs-eclim)
+(require 'company-web-html)
+(require 'company-web-jade)
+(require 'company-web-slim)
+
+;; basic
+;; bigger popup window
+(setq company-tooltip-limit 20)
+;; align annotations to the right tooltip border
+(setq company-tooltip-align-annotations 't)
+;; decrease delay before autocompletion popup shows
+(setq company-idle-delay .3)
 
 ;; company backends
 (push 'company-robe company-backends)
@@ -17,6 +28,8 @@
 (company-emacs-eclim-setup)
 
 (global-company-mode t)
+
+;; web-mode
 
 (provide 'super-company)
 ;;; super-company ends here
