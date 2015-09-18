@@ -1,6 +1,7 @@
 semanticdb/
 auto-save-list/
 project-explorer-cache/
+var/
 projectile.cache
 ac-comphist.dat
 projectile-bookmarks.eld
