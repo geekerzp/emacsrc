@@ -21,6 +21,7 @@
     ace-jump-buffer
     ace-window
     ack-and-a-half
+    auto-compile
     anaconda-mode
     company-anaconda
     company-tern

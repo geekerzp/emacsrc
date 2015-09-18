@@ -2,9 +2,16 @@
 ;;; Commentary:
 
 (require 'ruby-end)
+(require 'rbenv)
 
-(add-hook 'ruby-mode-hook (lambda () (ruby-end-mode t)))
-(add-hook 'ruby-mode-hook (lambda () (rspec-mode t)))
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (ruby-end-mode)
+            (rspec-mode)))
+
+(add-hook 'enh-ruby-mode-hook
+          (lambda ()
+            (global-rbenv-mode)))
 
 ;;; Code:
 (provide 'super-ruby)

@@ -35,6 +35,5 @@
 (require 'super-sly)
 (require 'super-sly-company)
 (require 'super-racer)
-(require 'super-rbenv)            ;; must at last load
 
 ;;; modules.el ends here
