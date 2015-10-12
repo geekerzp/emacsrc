@@ -1,4 +1,11 @@
+;;; osx --- configurations for osx
+
+;;; Commentary:
+
 ;;; Code:
+(kitten/require-packages '(exec-path-from-shell))
+
+(require 'exec-path-from-shell)
 
 ;; shell path (for os x)
 (when (memq window-system '(mac ns))
@@ -19,3 +26,4 @@
 
 
 (provide 'osx)
+;;; osx.el ends here
