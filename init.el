@@ -46,15 +46,11 @@
 
 ;; Load frameworks
 (message "Loading Frameworks...")
-(dolist (f (directory-files frameworks-dir))
-  (if (not (file-directory-p f))
-      (load f)))
+(kitten/load-all-in-directory frameworks-dir)
 
 ;; Load langs
 (message "Loading Langs...")
-(dolist (f (directory-files langs-dir))
-  (if (not (file-directory-p f))
-      (load f)))
+(kitten/load-all-in-directory langs-dir)
 
 (message "Kitten Emacs is ready to do any bidding, Master %s!" current-user)
 (provide 'init)
