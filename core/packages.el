@@ -58,7 +58,8 @@
     smart-mode-line
     paren
     undo-tree
-    volatile-highlights)
+    volatile-highlights
+    distinguished-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun kitten/packages-installed-p ()
