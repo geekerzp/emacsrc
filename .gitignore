@@ -9,3 +9,4 @@ srecode-map.el
 **/*.elc
 anaconda-mode/
 elpa/
+savefile/
