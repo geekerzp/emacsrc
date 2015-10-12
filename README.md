@@ -1,3 +1,3 @@
-#Super Emacs for Super Hacker
+#Kitten Emacs
 
-![SuperEmacs logo](http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/rounded-glossy-black-icons-business/086333-rounded-glossy-black-icon-business-logo-superman-sc37.png)
+![KittenEmacs logo](http://theheightsanimalhospital.com/clients/15389/images/playful-kitten-6683.jpg)
