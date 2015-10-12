@@ -1,61 +1,39 @@
-;;; SuperEmacs --- ;;;  SUPER EMACS FOR SUPER HACKER ;;;
+;;; init.el --- Kitten's configurations entry point.
+
 ;;; Commentary:
 
 ;;; Code:
-
 (defvar current-user
   (getenv
    (if (equal system-type 'windows-nt) "USERNAME" "USER")))
 
-(message "SuperEmacs is powering up... Be patient, Master %s!" current-user)
+(message "Kitten Emacs is powering up... Be patient, Master %s!" current-user)
 
 (when (version< emacs-version "24.1")
-  (error "SuperEmacs requires at least GNU Emacs 24.1, but you're running %s" emacs-version))
+  (error "Kitten Emacs requires at least GNU Emacs 24.1, but you're running %s" emacs-version))
 
 ;; Always load newest byte code
 (setq load-prefer-newer t)
 
-(defvar root-dir (file-name-directory load-file-name)
-  "The root dir of the SuperEmacs.")
+(defvar root-dir (file-name-directory load-file-name))
 
-(defvar core-dir (expand-file-name "core" root-dir)
-  "The home of SuperEmacs's core functionality.")
+(defvar savefile-dir (expand-file-name "savefile" root-dir))
+(unless (file-exists-p savefile-dir)
+  (make-directory savefile-dir))
 
-(defvar modules-dir (expand-file-name "modules" root-dir)
-  "This directory houses all of the built-in modules.")
-
-(defvar vendor-dir (expand-file-name "vendor" root-dir)
-  "This directory houses packages that are not yet avaiable in ELPA.")
-
-(defvar modules-file (expand-file-name "modules.el" root-dir)
-  "This files contains a list of modules that will be loaded by SuperEmacs.")
-
-(defun add-subfolders-to-load-path (parent-dir)
-  "Add all level PARENT-DIR subdirs to the `load-path`."
-  (dolist (f (directory-files parent-dir))
-    (let ((name (expand-file-name f parent-dir)))
-      (when (and (file-directory-p name)
-                 (not (string-prefix-p "." f)))
-        (add-to-list 'load-path name)
-        (add-subfolders-to-load-path name)))))
-
-;; add SuperEmacs's directories to `load-path`
+(defvar core-dir (expand-file-name "core" root-dir))
 (add-to-list 'load-path core-dir)
-(add-to-list 'load-path modules-dir)
-(add-to-list 'load-path vendor-dir)
-(add-subfolders-to-load-path vendor-dir)
 
-;; reduce the frequency of garbage collection by making it happen on
-;; each 10MB of allocated data (the default is on every 0.76MB)
-;;(setq gc-cons-threshold 10000000)
+(defvar frameworks-dir (expand-file-name "frameworks" root-dir))
+(add-to-list 'load-path frameworks-dir)
 
-;; warn when opening files bigger than 100MB
-;;(setq large-file-warning-threshold 100000000)
+(defvar langs-dir (expand-file-name "langs" root-dir))
+(add-to-list 'load-path langs-dir)
 
+;; Load core
 (message "Loading core...")
-
 ;; the core stuff
-(require 'patch)
+(require 'lib)
 (require 'packages)
 (require 'ui)
 (require 'core)
@@ -66,43 +44,18 @@
 (when (eq system-type 'darwin)
   (require 'osx))
 
-(message "Loading SuperEmacs's modules...")
+;; Load frameworks
+(message "Loading Frameworks...")
+(dolist (f (directory-files frameworks-dir))
+  (if (not (file-directory-p f))
+      (load f)))
 
-;; the modules
+;; Load langs
+(message "Loading Langs...")
+(dolist (f (directory-files langs-dir))
+  (if (not (file-directory-p f))
+      (load f)))
 
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
-(package-initialize)
-
-(when (file-exists-p modules-file)
-  (load modules-file))
-
-(message "SuperEmacs is ready to do any bidding, Master %s!" current-user)
+(message "Kitten Emacs is ready to do any bidding, Master %s!" current-user)
 (provide 'init)
 ;;; init.el ends here
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(anzu-deactivate-region t)
- '(anzu-mode-lighter "")
- '(anzu-replace-to-string-separator " => ")
- '(anzu-search-threshold 1000)
- '(custom-safe-themes
-   (quote
-    ("603a9c7f3ca3253cb68584cb26c408afcf4e674d7db86badcfe649dd3c538656" "40bc0ac47a9bd5b8db7304f8ef628d71e2798135935eb450483db0dbbfff8b11" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "b5cb6ef3ffdf323f16b5f76fdfef9bf42672a1dc28187b761e4867d6f06e175a" "14225e826195202fbc17dcf333b94d91deb6e6f5ca3f5a75357009754666822a" "2a5e4278492206c389ef79f5382d710a193b97f8ea78bfab89480d907befe3ce" default)))
- '(eclim-eclipse-dirs
-   (quote
-    ("/opt/homebrew-cask/Caskroom/eclipse-java/4.5/Eclipse.app/Contents/Eclipse")))
- '(eclim-executable
-   "/opt/homebrew-cask/Caskroom/eclipse-java/4.5/Eclipse.app/Contents/Eclipse/eclim"))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-(put 'dired-find-alternate-file 'disabled nil)

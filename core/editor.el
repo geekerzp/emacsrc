@@ -1,3 +1,7 @@
+;;; Editor.el --- Kitten Emacs: enhanced core editing experience.
+
+;;; Commentary:
+
 ;;; Code:
 
 ;; make indentation commands use space only (never tab character)
@@ -37,4 +41,30 @@
 ;; makes C-n insert newlines if the point is at the end of the buffer
 (setq next-line-add-newlines t)
 
+;; undo-tree
+(require 'undo-tree)
+(global-undo-tree-mode 1)
+
+;; anzu
+(require 'anzu)
+
+(set-face-attribute 'anzu-mode-line nil
+                    :foreground "yellow" :weight 'bold)
+
+(custom-set-variables
+ '(anzu-mode-lighter "")
+ '(anzu-deactivate-region t)
+ '(anzu-search-threshold 1000)
+ '(anzu-replace-to-string-separator " => "))
+
+(global-anzu-mode 1)
+
+;; paren
+(show-paren-mode 1)
+
+;; diminish keeps the modeline tidy
+(require 'diminish)
+
+
 (provide 'editor)
+;;; editor.el ends here

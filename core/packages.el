@@ -1,5 +1,8 @@
-;;; Code:
+;;; packages.el --- Kitten Emacs: default package selection.
 
+;;; Commentary:
+
+;;; Code:
 (require 'cl)
 (require 'package)
 (add-to-list 'package-archives
@@ -16,22 +19,14 @@
 (setq package-user-dir (expand-file-name "elpa" root-dir))
 (package-initialize)
 
-(defvar super-packages
+(defvar kitten/packages
   '(ace-jump-mode
     ace-jump-buffer
     ace-window
-    ack-and-a-half
     auto-compile
-    anaconda-mode
-    company-anaconda
-    company-tern
-    company-web
-    cider
     avy
     anzu
     browse-kill-ring
-    company-c-headers
-    darktooth-theme
     dired+
     dash-functional
     discover-my-major
@@ -40,9 +35,7 @@
     easy-kill
     elisp-slime-nav
     epl
-    emmet-mode
     expand-region
-    flycheck
     fic-mode
     findr
     gist
@@ -52,85 +45,63 @@
     god-mode
     grizzl
     guru-mode
-    helm
-    helm-projectile
-    inf-ruby
     indent-guide
     ido
     irony
-    js3-mode
     ov
-    project
-    projectile
-    projectile-rails
     magit
     move-text
     operate-on-number
     rainbow-mode
     rainbow-delimiters
-    robe
-    rbenv
-    rspec-mode
-    rust-mode
     smartrep
     smart-mode-line
-    slime
-    slime-company
-    sly
-    sly-company
-    sr-speedbar
     paren
-    tern
-    company-tern
     undo-tree
-    volatile-highlights
-    web-mode
-    web-beautify
-    yasnippet)
+    volatile-highlights)
   "A list of packages to ensure are installed at launch.")
 
-(defun super-packages-installed-p ()
-  "Check if all packages in `super-packages' are installed."
-  (every #'package-installed-p super-packages))
+(defun kitten/packages-installed-p ()
+  "Check if all packages in `kitten/packages' are installed."
+  (every #'package-installed-p kitten/packages))
 
-(defun super-require-package (package)
+(defun kitten/require-package (package)
   "Install PACKAGE unless already installed."
-  (unless (memq package super-packages)
-    (add-to-list 'super-packages package))
+  (unless (memq package kitten/packages)
+    (add-to-list 'kitten/packages package))
   (unless (package-installed-p package)
     (package-install package)))
+(define-obsolete-function-alias 'kitten/ensure-module-deps 'kitten/require-packages)
 
-(defun super-require-packages (packages)
-  "Ensure PACKAGES are installed.
-Missing packages are installed automaticly."
-  (mapc #'super-require-package packages))
-
-(define-obsolete-function-alias 'super-ensure-module-deps 'super-require-packages)
-
-(defun super-install-packages ()
-  "Install all packages listed in `super-packages'."
-  (unless (super-packages-installed-p)
+(defun kitten/install-packages ()
+  "Install all packages listed in `kitten/packages'."
+  (unless (kitten/packages-installed-p)
     ;; check for new packages (package versions)
-    (message "%s" "SuperEmacs is now refreshing its package database...")
+    (message "%s" "Kitten Emacs is now refreshing its package database...")
     (package-refresh-contents)
     (message "%s" " done.")
     ;; install the missing packages.
-    (super-require-packages super-packages)))
+    (kitten/require-packages kitten/packages)))
+
+(defun kitten/require-packages (packages)
+  "Ensure PACKAGES are installed.
+Missing packages are installed automatically."
+  (mapc #'kitten/require-package packages))
 
 ;; run package installation.
-(super-install-packages)
+(kitten/install-packages)
 
-(defun super-list-foregin-packages ()
+(defun kitten/list-foregin-packages ()
   "Browse third-party packages not bundled with SuperEmacs.
 
-Behaves similarly to `package-list-packages', but shows only the packages that
-are installed and not in `super-packages'.
+Behaves similarly to `list-packages', but shows only the packages that
+are installed and not in `kitten/packages'.
 Useful for removing unwanted packages."
   (interactive)
   (package-show-package-list
-   (set-difference package-activated-list super-packages)))
+   (set-difference package-activated-list kitten/packages)))
 
-(defmacro super-auto-install (extension package mode)
+(defmacro kitten/auto-install (extension package mode)
   "When file with EXTENSION is opened triggers auto-install of PACKAGE.
 PACKAGE is installed only if not already present. The file is opened in MODE."
   `(add-to-list 'auto-mode-alist
@@ -139,7 +110,7 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
                                    (package-install ',package))
                                  (,mode)))))
 
-(defvar super-auto-install-alist
+(defvar kitten/auto-install-alist
   '(("\\.clj\\'" clojure-mode clojure-mode)
     ("\\.coffee\\'" coffee-mode coffee-mode)
     ("\\.css\\'" css-mode css-mode)
@@ -166,7 +137,7 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
     ("\\.php\\'" php-mode php-mode)
     ("PKGBUILD\\'" pkgbuild-mode pkgbuild-mode)
     ("\\.rs\\'" rust-mode rust-mode)
-    ("\\.rb\\'" enh-ruby-mode enh-ruby-mode)
+    ("\\.rb\\'" ruby-mode ruby-mode)
     ("\\.sass\\'" sass-mode sass-mode)
     ("\\.scala\\'" scala-mode2 scala-mode)
     ("\\.scss\\'" scss-mode scss-mode)
@@ -178,18 +149,6 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
     ("\\.yaml\\'" yaml-mode yaml-mode)
     ("Dockerfile\\'" dockerfile-mode dockerfile-mode)))
 
-;; markdown-mode doesn't have autoloads for the auto-mode-alist
-;; so we add them manually if it's already installed
-(when (package-installed-p 'markdown-mode)
-  (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
-  (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode)))
-
-(when (package-installed-p 'enh-ruby-mode)
-  (add-to-list 'auto-mode-alist '("\\.rb\\'" . enh-ruby-mode)))
-
-(when (package-installed-p 'pkgbuild-mode)
-  (add-to-list 'auto-mode-alist '("PKGBUILD\\'" . pkgbuild-mode)))
-
 ;; build auto-install mappings
 (mapc
  (lambda (entry)
@@ -197,7 +156,8 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
          (package (cadr entry))
          (mode (cadr (cdr entry))))
      (unless (package-installed-p package)
-       (super-auto-install extension package mode))))
- super-auto-install-alist)
+       (kitten/auto-install extension package mode))))
+ kitten/auto-install-alist)
 
 (provide 'packages)
+;;; packages.el ends here

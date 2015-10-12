@@ -1,0 +1,16 @@
+
+;; ----- smex-history -----
+(
+ project-explorer-toggle
+ cd
+ 5x5
+ ack
+ arp
+ dbx
+ dig
+)
+
+;; ----- smex-data -----
+(
+ (project-explorer-toggle . 1)
+)

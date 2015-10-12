@@ -3,6 +3,7 @@
 
 ;;; Code:
 (require 'auto-compile)
+
 (auto-compile-on-load-mode 1)
 (auto-compile-on-save-mode 1)
 
@@ -50,6 +51,12 @@
 
 ;; trailing-whitespace
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;; saveplace remembers your location in a file when saving files
+(require 'saveplace)
+(setq save-place-file (expand-file-name "saveplace" savefile-dir))
+;; activate it for all buffers
+(setq-default save-place t)
 
 (provide 'core)
 ;;; core.el ends here
