@@ -12,7 +12,8 @@
 (defun kitten/sly-mode-hook ()
   "Hooks for sly mode."
   (sly-company-mode 1)
-  (rainbow-delimiters-mode 1))
+  (rainbow-delimiters-mode 1)
+  (enable-paredit-mode))
 
 (add-hook 'sly-mode-hook 'kitten/sly-mode-hook)
 

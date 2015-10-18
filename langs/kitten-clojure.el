@@ -49,7 +49,8 @@
 (defun kitten/clojure-mode-hook ()
   "Hooks for clojure mode."
   (turn-on-fic-mode)
-  (rainbow-delimiters-mode 1))
+  (rainbow-delimiters-mode 1)
+  (enable-paredit-mode 1))
 
 (add-hook 'clojure-mode-hook 'kitten/clojure-mode-hook)
 
@@ -61,7 +62,8 @@
 
 (defun kitten/cider-repl-mode-hook ()
   "Hooks for cider repl mode."
-  (rainbow-delimiters-mode 1))
+  (rainbow-delimiters-mode 1)
+  (enable-paredit-mode))
 
 (add-hook 'cider-repl-mode-hook 'kitten/cider-repl-mode-hook)
 

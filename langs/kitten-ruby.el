@@ -41,7 +41,8 @@
   (subword-mode 1)
   (robe-mode 1)
   (turn-on-fic-mode)
-  (rainbow-delimiters-mode 1))
+  (rainbow-delimiters-mode 1)
+  (enable-paredit-mode))
 
 (add-hook 'ruby-mode-hook 'kitten/ruby-mode-hook)
 

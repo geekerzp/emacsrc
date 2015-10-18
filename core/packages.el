@@ -48,10 +48,11 @@
     indent-guide
     ido
     irony
-    ov
     magit
     move-text
+    ov
     operate-on-number
+    paredit
     rainbow-mode
     rainbow-delimiters
     smartrep
