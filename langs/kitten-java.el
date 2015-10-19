@@ -26,5 +26,11 @@
 
 (global-eclim-mode)
 
+(defun kitten/java-mode-hook ()
+  "Hooks for java mode."
+  (rainbow-delimiters-mode 1))
+
+(add-hook 'java-mode-hook 'kitten/java-mode-hook)
+
 (provide 'kitten-java)
 ;;; kitten-java.el ends here
