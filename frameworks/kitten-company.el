@@ -32,9 +32,6 @@
 
 (delete 'company-ropemacs company-backends)
 
-;; company quickhelp
-(company-quickhelp-mode 1)
-
 ;; eclim
 (company-emacs-eclim-setup)
 
