@@ -65,6 +65,5 @@
 ;; diminish keeps the modeline tidy
 (require 'diminish)
 
-
 (provide 'editor)
 ;;; editor.el ends here
