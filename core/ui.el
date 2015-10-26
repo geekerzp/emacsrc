@@ -9,7 +9,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Envy Code R" :height 110 :weight 'light)
+                    :family "Inconsolata" :height 115 :weight 'light)
 
 ;; theme
 (load-theme 'distinguished t)
