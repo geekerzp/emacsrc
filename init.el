@@ -30,6 +30,14 @@
 (defvar langs-dir (expand-file-name "langs" root-dir))
 (add-to-list 'load-path langs-dir)
 
+;; GC
+;; reduce the frequency of garbage collection by making it happen on
+;; each 50MB of allocated data (the default is on every 0.76MB)
+(setq gc-cons-threshold 50000000)
+
+;; warn when opening files bigger than 100MB
+(setq large-file-warning-threshold 100000000)
+
 ;; Load core
 (message "Loading core...")
 ;; the core stuff
@@ -66,7 +74,7 @@
  '(anzu-search-threshold 1000)
  '(custom-safe-themes
    (quote
-    ("97f9438943105a17eeca9f1a1c4c946765e364957749e83047d6ee337b5c0a73" "8fe17db3ffa7b3d18cbe0989eb3b08a0f24326256dc4472a5f443d7565c7d7cb" "11636897679ca534f0dec6f5e3cb12f28bf217a527755f6b9e744bd240ed47e1" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
+    ("f5eb916f6bd4e743206913e6f28051249de8ccfd070eae47b5bde31ee813d55f" "3b24f986084001ae46aa29ca791d2bc7f005c5c939646d2b800143526ab4d323" "97f9438943105a17eeca9f1a1c4c946765e364957749e83047d6ee337b5c0a73" "8fe17db3ffa7b3d18cbe0989eb3b08a0f24326256dc4472a5f443d7565c7d7cb" "11636897679ca534f0dec6f5e3cb12f28bf217a527755f6b9e744bd240ed47e1" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
  '(eclim-eclipse-dirs kitten/eclim-eclipse-dirs)
  '(eclim-executable kitten/eclim-executable))
 (custom-set-faces
