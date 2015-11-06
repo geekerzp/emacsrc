@@ -24,6 +24,9 @@
 (setq interprogram-cut-function 'paste-to-osx)
 (setq interprogram-paste-function 'copy-from-osx)
 
+;; mac switch meta key
+(setq mac-option-modifier 'meta)
+(setq mac-command-modifier 'super)
 
 (provide 'osx)
 ;;; osx.el ends here
