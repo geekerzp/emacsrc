@@ -9,10 +9,10 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Envy Code R" :height 110 :weight 'light)
+                    :family "Hack" :height 110 :weight 'light)
 
 ;; theme
-(load-theme 'leuven t)
+(load-theme 'material-light t)
 
 ;; mode line
 (line-number-mode t)
@@ -22,7 +22,7 @@
 ;; smart mode line
 (require 'smart-mode-line)
 (setq sml/no-confirm-load-theme t)
-(setq sml/theme 'light)
+(setq sml/theme 'respectful)
 (add-hook 'after-init-hook #'sml/setup)
 
 ;; nice scrolling
