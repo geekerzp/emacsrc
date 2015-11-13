@@ -9,7 +9,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Hack" :height 110 :weight 'light)
+                    :family "Hack" :height 98 :weight 'light)
 
 ;; theme
 (load-theme 'distinguished t)
