@@ -12,9 +12,7 @@
                     :family "Hack" :height 98 :weight 'light)
 
 ;; theme
-;; (load-theme 'distinguished t)
-;; (load-theme 'apropospriate-light t)
-(load-theme 'tao-yang t)
+(load-theme 'distinguished t)
 
 ;; mode line
 (line-number-mode t)
