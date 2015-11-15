@@ -3,6 +3,13 @@
 ;;; Commentary:
 
 ;;; Code:
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (defvar current-user
   (getenv
    (if (equal system-type 'windows-nt) "USERNAME" "USER")))
@@ -63,3 +70,23 @@
 (message "Kitten Emacs is ready to do any bidding, Master %s!" current-user)
 (provide 'init)
 ;;; init.el ends here
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(anzu-deactivate-region t)
+ '(anzu-mode-lighter "")
+ '(anzu-replace-to-string-separator " => ")
+ '(anzu-search-threshold 1000)
+ '(eclim-eclipse-dirs kitten/eclim-eclipse-dirs)
+ '(eclim-executable kitten/eclim-executable)
+ '(package-selected-packages
+   (quote
+    (emmet-mode web-beautify web-mode rspec-mode yari ruby-tools rbenv pyenv-mode json-mode js2-mode coffee-mode cider yasnippet projectile-rails project-explorer key-chord helm-ag helm-descbinds helm-projectile helm flycheck volatile-highlights undo-tree smartrep smart-mode-line sly-company robe rainbow-mode rainbow-delimiters paredit ov operate-on-number move-text magit irony indent-guide guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell epl emacs-eclim elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda browse-kill-ring auto-compile anzu ack-and-a-half ace-window ace-jump-buffer))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
