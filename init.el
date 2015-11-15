@@ -63,23 +63,3 @@
 (message "Kitten Emacs is ready to do any bidding, Master %s!" current-user)
 (provide 'init)
 ;;; init.el ends here
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(anzu-deactivate-region t)
- '(anzu-mode-lighter "")
- '(anzu-replace-to-string-separator " => ")
- '(anzu-search-threshold 1000)
- '(custom-safe-themes
-   (quote
-    ("c3e6b52caa77cb09c049d3c973798bc64b5c43cc437d449eacf35b3e776bf85c" "cb978b7187ea7ac2a3e6bb614d24988301cb5c2c9d1f930dce117792b21ea135" "3b0a350918ee819dca209cec62d867678d7dac74f6195f5e3799aa206358a983" "f5eb916f6bd4e743206913e6f28051249de8ccfd070eae47b5bde31ee813d55f" "3b24f986084001ae46aa29ca791d2bc7f005c5c939646d2b800143526ab4d323" "97f9438943105a17eeca9f1a1c4c946765e364957749e83047d6ee337b5c0a73" "8fe17db3ffa7b3d18cbe0989eb3b08a0f24326256dc4472a5f443d7565c7d7cb" "11636897679ca534f0dec6f5e3cb12f28bf217a527755f6b9e744bd240ed47e1" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
- '(eclim-eclipse-dirs kitten/eclim-eclipse-dirs)
- '(eclim-executable kitten/eclim-executable))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
