@@ -79,11 +79,14 @@
  '(anzu-mode-lighter "")
  '(anzu-replace-to-string-separator " => ")
  '(anzu-search-threshold 1000)
+ '(custom-safe-themes
+   (quote
+    ("c3e6b52caa77cb09c049d3c973798bc64b5c43cc437d449eacf35b3e776bf85c" "603a9c7f3ca3253cb68584cb26c408afcf4e674d7db86badcfe649dd3c538656" default)))
  '(eclim-eclipse-dirs kitten/eclim-eclipse-dirs)
  '(eclim-executable kitten/eclim-executable)
  '(package-selected-packages
    (quote
-    (tao-theme apropospriate-theme emmet-mode web-beautify web-mode rspec-mode yari ruby-tools rbenv pyenv-mode json-mode js2-mode coffee-mode cider yasnippet projectile-rails project-explorer key-chord helm-ag helm-descbinds helm-projectile helm flycheck volatile-highlights undo-tree smartrep smart-mode-line sly-company robe rainbow-mode rainbow-delimiters paredit ov operate-on-number move-text magit irony indent-guide guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell epl emacs-eclim elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda browse-kill-ring auto-compile anzu ack-and-a-half ace-window ace-jump-buffer))))
+    (yaml-mode tao-theme apropospriate-theme emmet-mode web-beautify web-mode rspec-mode yari ruby-tools rbenv pyenv-mode json-mode js2-mode coffee-mode cider yasnippet projectile-rails project-explorer key-chord helm-ag helm-descbinds helm-projectile helm flycheck volatile-highlights undo-tree smartrep smart-mode-line sly-company robe rainbow-mode rainbow-delimiters paredit ov operate-on-number move-text magit irony indent-guide guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell epl emacs-eclim elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda browse-kill-ring auto-compile anzu ack-and-a-half ace-window ace-jump-buffer))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
