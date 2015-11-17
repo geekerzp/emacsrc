@@ -83,13 +83,13 @@
  '(anzu-search-threshold 1000)
  '(custom-safe-themes
    (quote
-    ("54159ea82516378faa7c4d25fb549b843effb1eb932f0925dce1348de7a659ba" "40bc0ac47a9bd5b8db7304f8ef628d71e2798135935eb450483db0dbbfff8b11" "8fe17db3ffa7b3d18cbe0989eb3b08a0f24326256dc4472a5f443d7565c7d7cb" "c3e6b52caa77cb09c049d3c973798bc64b5c43cc437d449eacf35b3e776bf85c" "603a9c7f3ca3253cb68584cb26c408afcf4e674d7db86badcfe649dd3c538656" default)))
+    ("3b24f986084001ae46aa29ca791d2bc7f005c5c939646d2b800143526ab4d323" "d3df47c843c22d8f0177fe3385ae95583dc8811bd6968240f7da42fd9aa51b0b" "54159ea82516378faa7c4d25fb549b843effb1eb932f0925dce1348de7a659ba" "40bc0ac47a9bd5b8db7304f8ef628d71e2798135935eb450483db0dbbfff8b11" "8fe17db3ffa7b3d18cbe0989eb3b08a0f24326256dc4472a5f443d7565c7d7cb" "c3e6b52caa77cb09c049d3c973798bc64b5c43cc437d449eacf35b3e776bf85c" "603a9c7f3ca3253cb68584cb26c408afcf4e674d7db86badcfe649dd3c538656" default)))
  '(eclim-eclipse-dirs kitten/eclim-eclipse-dirs)
  '(eclim-executable kitten/eclim-executable)
  '(fci-rule-color "#F0F0F0")
  '(package-selected-packages
    (quote
-    (material-theme ruby-end tao-theme yaml-mode emmet-mode web-beautify web-mode rspec-mode yari ruby-tools rbenv pyenv-mode json-mode js2-mode coffee-mode cider yasnippet projectile-rails project-explorer key-chord helm-ag helm-descbinds helm-projectile helm flycheck volatile-highlights undo-tree smartrep smart-mode-line sly-company robe rainbow-mode rainbow-delimiters paredit ov operate-on-number move-text magit irony indent-guide guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell epl emacs-eclim elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda browse-kill-ring auto-compile anzu ack-and-a-half ace-window ace-jump-buffer)))
+    (flatui-theme material-theme ruby-end tao-theme yaml-mode emmet-mode web-beautify web-mode rspec-mode yari ruby-tools rbenv pyenv-mode json-mode js2-mode coffee-mode cider yasnippet projectile-rails project-explorer key-chord helm-ag helm-descbinds helm-projectile helm flycheck volatile-highlights undo-tree smartrep smart-mode-line sly-company robe rainbow-mode rainbow-delimiters paredit ov operate-on-number move-text magit irony indent-guide guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell epl emacs-eclim elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda browse-kill-ring auto-compile anzu ack-and-a-half ace-window ace-jump-buffer)))
  '(vc-annotate-background "#D9D9D9")
  '(vc-annotate-color-map
    (quote

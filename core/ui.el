@@ -13,8 +13,7 @@
 
 ;; theme
 ;; (load-theme 'distinguished t)
-;; (load-theme 'tao-yang t)
-(load-theme 'material-light t)
+(load-theme 'tao-yang t)
 
 ;; mode line
 (line-number-mode t)
