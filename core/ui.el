@@ -2,6 +2,8 @@
 ;;; Commentary:
 
 ;;; Code:
+(require 'use-package)
+
 ;; disable menubar, toolbar, scrollbar
 ;; (menu-bar-mode -1)
 (toggle-scroll-bar -1)
@@ -23,13 +25,9 @@
 ;; smart mode line
 (require 'smart-mode-line)
 (setq sml/no-confirm-load-theme t)
-(setq sml/theme 'respectful)
+;; (setq sml/theme 'respectful)
+(setq sml/theme 'dark)
 (add-hook 'after-init-hook #'sml/setup)
-
-;; nice scrolling
-(setq scroll-margin 0
-      scroll-conservatively 100000
-      scroll-preserve-screen-position 1)
 
 ;; the blinking cursor is nothing, but an annoyance
 (blink-cursor-mode -1)
