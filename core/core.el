@@ -58,5 +58,8 @@
 ;; activate it for all buffers
 (setq-default save-place t)
 
+;; warning
+(setq warning-minimum-level :emergency)
+
 (provide 'core)
 ;;; core.el ends here
