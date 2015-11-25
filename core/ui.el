@@ -2,7 +2,6 @@
 ;;; Commentary:
 
 ;;; Code:
-(require 'use-package)
 
 ;; disable menubar, toolbar, scrollbar
 ;; (menu-bar-mode -1)
