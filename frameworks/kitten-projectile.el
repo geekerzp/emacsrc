@@ -3,14 +3,12 @@
 ;;; Commentary:
 
 ;;; Code:
-(kitten/require-packages '(projectile project-explorer projectile-rails))
+(kitten/require-packages '(projectile projectile-rails))
 
 (require 'projectile)
 (require 'project-explorer)
 
 ;; keybindings
-(global-set-key (kbd "s-s") 'project-explorer-toggle)
-
 (setq projectile-enable-caching t)
 (setq projectile-indexing-method 'native)
 (setq projectile-completion-system 'helm)
@@ -25,11 +23,6 @@
 
 ;; Enable Projectile globally
 (projectile-global-mode)
-
-;; project-explorer
-(setq pe/width 20)
-(setq pe/cache-enabled t)
-(setq pe/directory-tree-function 'pe/get-directory-tree-async)
 
 (provide 'kitten-projectile)
 ;;; kitten-projectile.el ends here
