@@ -12,6 +12,7 @@
 (global-set-key (kbd "s-s") 'project-explorer-toggle)
 
 (setq projectile-enable-caching t)
+(setq projectile-indexing-method 'native)
 (setq projectile-completion-system 'helm)
 
 ;; anaconda integration
@@ -27,6 +28,8 @@
 
 ;; project-explorer
 (setq pe/width 20)
+(setq pe/cache-enabled t)
+(setq pe/directory-tree-function 'pe/get-directory-tree-async)
 
 (provide 'kitten-projectile)
 ;;; kitten-projectile.el ends here
