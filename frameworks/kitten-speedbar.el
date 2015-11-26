@@ -16,5 +16,8 @@
 (setq sr-speedbar-auto-refresh nil)
 (setq sr-speedbar-width 30)
 (setq sr-speedbar-right-side nil)
+(speedbar-add-supported-extension ".rb")
+(speedbar-add-supported-extension ".js")
+(speedbar-add-supported-extension ".clj")
 
 (provide 'kitten-speedbar)
