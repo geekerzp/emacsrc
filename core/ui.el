@@ -25,8 +25,8 @@
 ;; smart mode line
 (require 'smart-mode-line)
 (setq sml/no-confirm-load-theme t)
-;; (setq sml/theme 'respectful)
-(setq sml/theme 'dark)
+(setq sml/theme 'respectful)
+;; (setq sml/theme 'dark)
 (add-hook 'after-init-hook #'sml/setup)
 
 ;; the blinking cursor is nothing, but an annoyance
