@@ -19,5 +19,6 @@
 (speedbar-add-supported-extension ".rb")
 (speedbar-add-supported-extension ".js")
 (speedbar-add-supported-extension ".clj")
+(speedbar-add-supported-extension ".html")
 
 (provide 'kitten-speedbar)
