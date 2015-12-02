@@ -29,9 +29,6 @@
 ;; (setq sml/theme 'dark)
 (add-hook 'after-init-hook #'sml/setup)
 
-;; the blinking cursor is nothing, but an annoyance
-(blink-cursor-mode -1)
-
 ;; indent guide line
 (require 'indent-guide)
 
