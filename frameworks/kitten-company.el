@@ -9,7 +9,6 @@
 (require 'company-robe)
 (require 'sly-company)
 (require 'company-anaconda)
-(require 'company-emacs-eclim)
 
 ;; basic
 ;; bigger popup window
@@ -26,14 +25,10 @@
 
 ;; company backends
 (push 'company-robe company-backends)
-(add-to-list 'company-backends 'company-c-headers)
 (add-to-list 'company-backends 'company-anaconda)
 (add-to-list 'company-backends 'company-tern)
 
 (delete 'company-ropemacs company-backends)
-
-;; eclim
-(company-emacs-eclim-setup)
 
 (global-company-mode t)
 
