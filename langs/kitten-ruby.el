@@ -3,7 +3,7 @@
 ;;; Commentary:
 
 ;;; Code:
-(kitten/require-packages '(rbenv ruby-tools inf-ruby yari rspec-mode))
+(kitten/require-packages '(rbenv ruby-tools inf-ruby yari rspec-mode ruby-end))
 
 (require 'rbenv)
 (require 'rspec-mode)
