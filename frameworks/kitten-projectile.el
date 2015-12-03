@@ -6,7 +6,6 @@
 (kitten/require-packages '(projectile projectile-rails))
 
 (require 'projectile)
-(require 'project-explorer)
 
 ;; keybindings
 (setq projectile-enable-caching t)
