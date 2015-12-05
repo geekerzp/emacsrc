@@ -36,5 +36,8 @@
 
 (indent-guide-global-mode)
 
+;; nyan mode
+(add-hook 'after-init-hook 'nyan-mode)
+
 (provide 'ui)
 ;;; ui.el ends here

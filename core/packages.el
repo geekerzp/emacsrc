@@ -50,6 +50,7 @@
     irony
     magit
     move-text
+    nyan-mode
     ov
     operate-on-number
     paredit
