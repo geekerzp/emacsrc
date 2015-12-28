@@ -81,12 +81,38 @@
  '(anzu-search-threshold 1000)
  '(custom-safe-themes
    (quote
-    ("b9183de9666c3a16a7ffa7faaa8e9941b8d0ab50f9aaba1ca49f2f3aec7e3be9" "40bc0ac47a9bd5b8db7304f8ef628d71e2798135935eb450483db0dbbfff8b11" default)))
+    ("98a619757483dc6614c266107ab6b19d315f93267e535ec89b7af3d62fb83cad" "8577da1641ed4bdf255341ca92e3d0e49c9f4d574458f09ce78159690442cade" "0aa12caf6127772c1a38f7966de8258e7a0651fb6f7220d0bbb3a0232fba967f" "f5eb916f6bd4e743206913e6f28051249de8ccfd070eae47b5bde31ee813d55f" "3fb6b6363aaf145680fff9afcf530713d6ab170faf988cf0860ba2455d37d5dd" "cc0dbb53a10215b696d391a90de635ba1699072745bf653b53774706999208e3" "b9183de9666c3a16a7ffa7faaa8e9941b8d0ab50f9aaba1ca49f2f3aec7e3be9" "40bc0ac47a9bd5b8db7304f8ef628d71e2798135935eb450483db0dbbfff8b11" default)))
  '(eclim-eclipse-dirs kitten/eclim-eclipse-dirs)
  '(eclim-executable kitten/eclim-executable)
+ '(fci-rule-color "#383838" t)
+ '(nrepl-message-colors
+   (quote
+    ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (nyan-mode ag yaml-mode minimal-theme tao-theme yasnippet yari web-mode web-beautify volatile-highlights undo-tree sr-speedbar smartrep smart-mode-line sly-company ruby-tools ruby-end rspec-mode robe rbenv rainbow-mode rainbow-delimiters pyenv-mode projectile-rails project-explorer paredit ov operate-on-number move-text magit key-chord json-mode js2-mode irony indent-guide helm-projectile helm-descbinds helm-ag guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck findr fic-mode expand-region exec-path-from-shell emmet-mode emacs-eclim elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda coffee-mode cider browse-kill-ring auto-compile anzu ack-and-a-half ace-window ace-jump-buffer))))
+    (highlight-symbol darktooth-theme dracula-theme material-theme moe-theme zenburn-theme nyan-mode ag yaml-mode minimal-theme tao-theme yasnippet yari web-mode web-beautify volatile-highlights undo-tree sr-speedbar smartrep smart-mode-line sly-company ruby-tools ruby-end rspec-mode robe rbenv rainbow-mode rainbow-delimiters pyenv-mode projectile-rails project-explorer paredit ov operate-on-number move-text magit key-chord json-mode js2-mode irony indent-guide helm-projectile helm-descbinds helm-ag guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda coffee-mode cider browse-kill-ring auto-compile anzu ack-and-a-half ace-window ace-jump-buffer)))
+ '(vc-annotate-background "#2B2B2B")
+ '(vc-annotate-color-map
+   (quote
+    ((20 . "#BC8383")
+     (40 . "#CC9393")
+     (60 . "#DFAF8F")
+     (80 . "#D0BF8F")
+     (100 . "#E0CF9F")
+     (120 . "#F0DFAF")
+     (140 . "#5F7F5F")
+     (160 . "#7F9F7F")
+     (180 . "#8FB28F")
+     (200 . "#9FC59F")
+     (220 . "#AFD8AF")
+     (240 . "#BFEBBF")
+     (260 . "#93E0E3")
+     (280 . "#6CA0A3")
+     (300 . "#7CB8BB")
+     (320 . "#8CD0D3")
+     (340 . "#94BFF3")
+     (360 . "#DC8CC3"))))
+ '(vc-annotate-very-old-color "#DC8CC3"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
