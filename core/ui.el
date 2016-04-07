@@ -10,15 +10,14 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Hack" :height 98 :weight 'light)
+                    :family "Envy Code R" :height 120 :weight 'light)
 
 ;; theme
 (load-theme 'distinguished t)
 ;; (load-theme 'tao-yang t)
 ;; (load-theme 'minimal-light t)
 ;; (load-theme 'zenburn t)
-;; (load-theme 'material t)
-
+;; (load-theme 'material-light t)
 
 ;; mode line
 (line-number-mode t)
