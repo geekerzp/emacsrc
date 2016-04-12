@@ -10,7 +10,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Envy Code R" :height 120 :weight 'light)
+                    :family "Iosevka" :height 115 :weight 'Regular)
 
 ;; theme
 (load-theme 'distinguished t)
