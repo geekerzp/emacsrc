@@ -28,5 +28,6 @@
 (speedbar-add-supported-extension ".sh")
 (speedbar-add-supported-extension ".css")
 (speedbar-add-supported-extension ".scss")
+(speedbar-add-supported-extension ".yml")
 
 (provide 'kitten-speedbar)
