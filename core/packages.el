@@ -20,10 +20,7 @@
 (package-initialize)
 
 (defvar kitten/packages
-  '(ace-jump-mode
-    ace-jump-buffer
-    ace-window
-    auto-compile
+  '(auto-compile
     avy
     anzu
     browse-kill-ring
@@ -44,7 +41,6 @@
     gitignore-mode
     god-mode
     grizzl
-    guru-mode
     indent-guide
     ido
     irony
