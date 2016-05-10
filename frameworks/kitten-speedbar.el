@@ -29,5 +29,6 @@
 (speedbar-add-supported-extension ".css")
 (speedbar-add-supported-extension ".scss")
 (speedbar-add-supported-extension ".yml")
+(speedbar-add-supported-extension ".coffee")
 
 (provide 'kitten-speedbar)
