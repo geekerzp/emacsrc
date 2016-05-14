@@ -48,7 +48,6 @@
 
 (defun kitten/clojure-mode-hook ()
   "Hooks for clojure mode."
-  (turn-on-fic-mode)
   (rainbow-delimiters-mode 1)
   (enable-paredit-mode 1))
 

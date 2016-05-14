@@ -12,7 +12,6 @@
   "Hooks for Python mode."
   (pyenv-mode 1)
   (anaconda-mode 1)
-  (turn-on-fic-mode)
   (rainbow-delimiters-mode 1))
 
 (add-hook 'python-mode-hook 'kitten/python-mode-hook)
