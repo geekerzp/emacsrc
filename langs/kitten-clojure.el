@@ -49,13 +49,14 @@
 (defun kitten/clojure-mode-hook ()
   "Hooks for clojure mode."
   (rainbow-delimiters-mode 1)
-  (enable-paredit-mode 1))
+  (enable-paredit-mode))
 
 (add-hook 'clojure-mode-hook 'kitten/clojure-mode-hook)
 
 (defun kitten/cider-mode-hook ()
   "Hooks for cider mode."
-  (rainbow-delimiters-mode 1))
+  (rainbow-delimiters-mode 1)
+  (enable-paredit-mode))
 
 (add-hook 'cider-mode-hook 'kitten/cider-mode-hook)
 
