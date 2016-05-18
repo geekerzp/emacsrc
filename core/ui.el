@@ -13,11 +13,11 @@
                     :family "Iosevka" :height 115 :weight 'Regular)
 
 ;; theme
-(load-theme 'distinguished t)
-;; (load-theme 'tao-yang t)
+;; (load-theme 'distinguished t)
 ;; (load-theme 'minimal-light t)
 ;; (load-theme 'zenburn t)
 ;; (load-theme 'material-light t)
+(load-theme 'eink t)
 
 ;; mode line
 (line-number-mode t)
