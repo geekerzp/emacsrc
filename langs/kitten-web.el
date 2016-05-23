@@ -7,6 +7,7 @@
 
 (require 'web-mode)
 (require 'emmet-mode)
+(require 'tern)
 
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
@@ -25,7 +26,8 @@
 
 (defun kitten/web-mode-hook ()
   "Hooks for web mode."
-  (emmet-mode 1))
+  (emmet-mode 1)
+  (tern-mode 1))
 
 (add-hook 'web-mode-hook 'kitten/web-mode-hook)
 
