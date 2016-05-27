@@ -3,6 +3,7 @@
 ;;; Commentary:
 
 ;;; Code:
+(require 'smooth-scrolling)
 
 ;; make indentation commands use space only (never tab character)
 (setq-default indent-tabs-mode nil)
@@ -71,6 +72,9 @@
 (global-set-key [f3] 'highlight-symbol-next)
 (global-set-key [(shift f3)] 'highlight-symbol-prev)
 (global-set-key [(meta f3)] 'highlight-symbol-query-replace)
+
+;; smooth-scrolling
+(smooth-scrolling-mode 1)
 
 (provide 'editor)
 ;;; editor.el ends here
