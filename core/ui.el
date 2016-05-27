@@ -10,10 +10,12 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Iosevka" :height 115 :weight 'Regular)
+                    :family "Iosevka" :height 130 :weight 'Regular)
 
 ;; theme
 (load-theme 'distinguished t)
+;; (load-theme 'zenburn t)
+;; (load-theme 'material-light t)
 
 ;; mode line
 (line-number-mode t)
@@ -21,10 +23,9 @@
 (size-indication-mode t)
 
 ;; smart mode line
-(require 'smart-mode-line)
 (setq sml/no-confirm-load-theme t)
 (setq sml/theme 'respectful)
-;; (setq sml/theme 'dark)
+;; (setq sml/theme 'light)
 (add-hook 'after-init-hook #'sml/setup)
 
 ;; indent guide line
