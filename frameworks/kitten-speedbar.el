@@ -12,7 +12,7 @@
 
 (setq sr-speedbar-right-side nil)
 (setq speedbar-smart-directory-expand-flag t)
-(setq speedbar-use-images nil)
+(setq speedbar-use-images t)
 (setq sr-speedbar-auto-refresh nil)
 (setq sr-speedbar-width 30)
 (setq sr-speedbar-right-side nil)

@@ -6,15 +6,12 @@
 (require 'cl)
 (require 'package)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
-(add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/"))
 (add-to-list 'package-archives
              '("elpy"      . "http://jorgenschaefer.github.io/packages/"))
 (add-to-list 'package-archives
              '("SC"        . "http://joseito.republika.pl/sunrise-commander/"))
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
+
 ;; set package-user-dir to be relative to root path
 (setq package-user-dir (expand-file-name "elpa" root-dir))
 (package-initialize)
