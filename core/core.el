@@ -30,7 +30,7 @@
 (semantic-mode t)
 
 ;; setting cursor
-(setq-default cursor-type 'hbar)
+(setq-default cursor-type 'box)
 (set-cursor-color "#eaa433")
 
 (global-prettify-symbols-mode t)
