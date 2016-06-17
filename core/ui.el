@@ -14,8 +14,6 @@
 
 ;; theme
 (load-theme 'distinguished t)
-;; (load-theme 'zenburn t)
-;; (load-theme 'material-light t)
 
 ;; mode line
 (line-number-mode t)
