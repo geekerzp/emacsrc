@@ -30,5 +30,7 @@
 (speedbar-add-supported-extension ".scss")
 (speedbar-add-supported-extension ".yml")
 (speedbar-add-supported-extension ".coffee")
+(speedbar-add-supported-extension ".ts")
+(speedbar-add-supported-extension ".json")
 
 (provide 'kitten-speedbar)
