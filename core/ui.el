@@ -12,6 +12,9 @@
 (set-face-attribute 'default nil
                     :family "Iosevka" :height 130 :weight 'Regular)
 
+;; line spacing
+(setq line-spacing 1.3)
+
 ;; theme
 (load-theme 'distinguished t)
 

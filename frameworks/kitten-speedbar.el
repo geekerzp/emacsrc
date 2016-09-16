@@ -32,5 +32,7 @@
 (speedbar-add-supported-extension ".coffee")
 (speedbar-add-supported-extension ".ts")
 (speedbar-add-supported-extension ".json")
+(speedbar-add-supported-extension ".jbuilder")
+(speedbar-add-supported-extension ".slim")
 
 (provide 'kitten-speedbar)
