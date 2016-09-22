@@ -35,4 +35,6 @@
 (speedbar-add-supported-extension ".jbuilder")
 (speedbar-add-supported-extension ".slim")
 
+(add-hook 'speedbar-mode-hook '(lambda () (linum-mode -1)))
+
 (provide 'kitten-speedbar)

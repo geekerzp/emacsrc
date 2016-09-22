@@ -13,7 +13,10 @@
                     :family "Iosevka" :height 130 :weight 'Regular)
 
 ;; line spacing
-(setq line-spacing 1.3)
+(setq line-spacing 1.5)
+
+;; line number
+(global-linum-mode 1)
 
 ;; theme
 (load-theme 'distinguished t)

@@ -81,7 +81,7 @@
  '(anzu-search-threshold 1000)
  '(custom-safe-themes
    (quote
-    ("40bc0ac47a9bd5b8db7304f8ef628d71e2798135935eb450483db0dbbfff8b11" "b0ab5c9172ea02fba36b974bbd93bc26e9d26f379c9a29b84903c666a5fde837" default)))
+    ("0f92b9f1d391caf540ac746bc251ea00a55f29e20a411460eb6d8e49892ddef9" "40bc0ac47a9bd5b8db7304f8ef628d71e2798135935eb450483db0dbbfff8b11" "b0ab5c9172ea02fba36b974bbd93bc26e9d26f379c9a29b84903c666a5fde837" default)))
  '(package-selected-packages
    (quote
     (leuven-theme help-fns+ zenburn-theme yari yaml-mode web-mode web-beautify volatile-highlights undo-tree twilight-bright-theme tide tao-theme sr-speedbar smooth-scrolling smartrep smart-mode-line sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe react-snippets rbenv rainbow-mode rainbow-delimiters pyenv-mode projectile-rails project-explorer plan9-theme paredit paper-theme ov operate-on-number nyan-mode neotree nav move-text mode-icons material-theme markdown-mode magit key-chord json-mode js2-mode jazz-theme irony indent-guide highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist floobits findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill dracula-theme distinguished-theme discover-my-major dired+ diminish diff-hl darktooth-theme company-tern company-anaconda coffee-mode cider browse-kill-ring auto-compile anzu ag ace-window ace-jump-buffer))))
