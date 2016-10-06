@@ -15,9 +15,6 @@
 ;; line spacing
 (setq line-spacing 1.5)
 
-;; line number
-(global-linum-mode 1)
-
 ;; theme
 (load-theme 'distinguished t)
 

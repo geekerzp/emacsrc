@@ -9,7 +9,7 @@
 
 ;; keybindings
 (setq projectile-enable-caching t)
-(setq projectile-indexing-method 'native)
+(setq projectile-indexing-method 'alien)
 (setq projectile-completion-system 'helm)
 
 ;; anaconda integration

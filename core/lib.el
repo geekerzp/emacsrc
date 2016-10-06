@@ -26,5 +26,14 @@ Repeated invocations toggle between the two most recently open buffers."
           (load library nil t)
           (push library libraries-loaded))))))
 
+(defun kitten/add-subfolders-to-load-path (parent-dir)
+  "Add all level PARENT-DIR subdirs to the `load-path'."
+  (dolist (f (directory-files parent-dir))
+    (let ((name (expand-file-name f parent-dir)))
+      (when (and (file-directory-p name)
+                 (not (string-prefix-p "." f)))
+        (add-to-list 'load-path name)
+        (kitten/add-subfolders-to-load-path name)))))
+
 (provide 'lib)
 ;;; lib.el ends here
