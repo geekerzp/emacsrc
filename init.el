@@ -51,11 +51,17 @@
 (message "Loading core...")
 ;; the core stuff
 (require 'lib)
+(message "lib done.")
 (require 'packages)
+(message "packages done.")
 (require 'ui)
+(message "ui done.")
 (require 'core)
+(message "core done.")
 (require 'editor)
+(message "editor done.")
 (require 'global-keybindings)
+(message "global-keybindings done.")
 
 ;; OSX specific settings
 (when (eq system-type 'darwin)
@@ -76,3 +82,25 @@
 (message "Kitten Emacs is ready to do any bidding, Master %s!" current-user)
 (provide 'init)
 ;;; init.el ends here
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(anzu-deactivate-region t)
+ '(anzu-mode-lighter "")
+ '(anzu-replace-to-string-separator " => ")
+ '(anzu-search-threshold 1000)
+ '(livedown-autostart nil)
+ '(livedown-browser nil)
+ '(livedown-open t)
+ '(livedown-port 1337)
+ '(package-selected-packages
+   (quote
+    (zenburn-theme yari yaml-mode web-mode web-beautify volatile-highlights undo-tree twilight-bright-theme tide tao-theme sr-speedbar smooth-scrolling smartrep smart-mode-line sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe react-snippets rbenv rainbow-mode rainbow-delimiters pyenv-mode projectile-rails project-explorer plan9-theme paredit paper-theme ov operate-on-number nyan-mode neotree nav move-text mode-icons material-theme markdown-mode magit leuven-theme key-chord json-mode js2-mode jazz-theme irony indent-guide highlight-symbol help-fns+ helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist floobits findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill dracula-theme distinguished-theme discover-my-major dired+ diminish diff-hl darktooth-theme company-tern company-anaconda coffee-mode cider browse-kill-ring auto-compile anzu ag ace-window ace-jump-buffer))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

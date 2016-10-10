@@ -6,19 +6,17 @@
 (kitten/require-packages '(projectile projectile-rails))
 
 (require 'projectile)
+(require 'projectile-rails)
 
-;; keybindings
 (setq projectile-enable-caching t)
-(setq projectile-indexing-method 'alien)
 (setq projectile-completion-system 'helm)
 
-;; anaconda integration
-(when (projectile-project-p)
-  (setenv "PYTHONPATH" (projectile-project-root)))
+(defun kitten/projectile-mode-hook ()
+  "Hooks for Projectile."
+  (projectile-rails-on)
+  (helm-projectile-on))
 
-(add-hook 'projectile-mode-hook 'projectile-rails-on)
-
-(helm-projectile-on)
+(add-hook 'projectile-mode-hook #'kitten/projectile-mode-hook)
 
 ;; Enable Projectile globally
 (projectile-global-mode)

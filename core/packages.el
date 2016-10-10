@@ -38,6 +38,7 @@
     gitignore-mode
     god-mode
     grizzl
+    highlight-symbol
     indent-guide
     ido
     irony
@@ -51,6 +52,7 @@
     rainbow-delimiters
     smartrep
     smart-mode-line
+    smooth-scrolling
     paren
     undo-tree
     volatile-highlights
