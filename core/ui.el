@@ -10,7 +10,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Iosevka" :height 130 :weight 'Regular)
+                    :family "Envy Code R" :height 130 :weight 'Regular)
 
 ;; line spacing
 (setq line-spacing 1.5)
