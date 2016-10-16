@@ -5,6 +5,8 @@
 ;;; Code:
 (kitten/require-packages '(tide))
 
+(setq typescript-indent-level 2)
+
 (defun setup-tide-mode ()
   (interactive)
   (tide-setup)
