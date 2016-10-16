@@ -91,6 +91,9 @@
  '(anzu-mode-lighter "")
  '(anzu-replace-to-string-separator " => ")
  '(anzu-search-threshold 1000)
+ '(custom-safe-themes
+   (quote
+    ("aae95fc700f9f7ff70efbc294fc7367376aa9456356ae36ec234751040ed9168" default)))
  '(livedown-autostart nil)
  '(livedown-browser nil)
  '(livedown-open t)
