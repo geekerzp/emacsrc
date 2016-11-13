@@ -91,16 +91,13 @@
  '(anzu-mode-lighter "")
  '(anzu-replace-to-string-separator " => ")
  '(anzu-search-threshold 1000)
- '(custom-safe-themes
-   (quote
-    ("aae95fc700f9f7ff70efbc294fc7367376aa9456356ae36ec234751040ed9168" default)))
  '(livedown-autostart nil)
  '(livedown-browser nil)
  '(livedown-open t)
  '(livedown-port 1337)
  '(package-selected-packages
    (quote
-    (tide yasnippet yari web-mode web-beautify volatile-highlights undo-tree sr-speedbar smooth-scrolling smartrep smart-mode-line sly-company ruby-tools ruby-end rspec-mode robe rbenv rainbow-mode rainbow-delimiters pyenv-mode paredit ov operate-on-number nyan-mode move-text magit key-chord json-mode js2-mode irony indent-guide highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu ag))))
+    (emmet-mode web-beautify yasnippet yari web-mode volatile-highlights undo-tree tide sr-speedbar smooth-scrolling smartrep smart-mode-line sly-company ruby-tools ruby-end rspec-mode robe rbenv rainbow-mode rainbow-delimiters pyenv-mode paredit ov operate-on-number nyan-mode move-text magit key-chord json-mode js2-mode irony indent-guide highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu ag))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
