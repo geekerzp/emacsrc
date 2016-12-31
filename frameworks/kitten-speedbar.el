@@ -34,6 +34,9 @@
 (speedbar-add-supported-extension ".json")
 (speedbar-add-supported-extension ".jbuilder")
 (speedbar-add-supported-extension ".slim")
+(speedbar-add-supported-extension ".exs")
+(speedbar-add-supported-extension ".ex")
+(speedbar-add-supported-extension ".eex")
 
 (add-hook 'speedbar-mode-hook '(lambda () (linum-mode -1)))
 
