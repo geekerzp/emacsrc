@@ -8,7 +8,7 @@
 (require 'ag)
 
 ;; ;; keybindings
-(global-set-key (kbd "C-c a") 'ag)
+(global-set-key (kbd "C-c s") 'ag)
 
 (provide 'kitten-ag)
 ;;; kitten-ag.el ends here
