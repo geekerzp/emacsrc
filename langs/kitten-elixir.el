@@ -14,7 +14,11 @@
 (defun auto-activate-alchemist-mode-for-elixir-mode ()
   (alchemist-mode +1))
 
+(defun auto-activate-rainbow-delimiters-mode ()
+  (rainbow-delimiters-mode 1))
+
 (add-hook 'elixir-mode-hook 'auto-activate-ruby-end-mode-for-elixir-mode)
 (add-hook 'elixir-mode-hook 'auto-activate-alchemist-mode-for-elixir-mode)
+(add-hook 'elixir-mode-hook 'auto-activate-rainbow-delimiters-mode)
 
 (provide 'kitten-elixir)
