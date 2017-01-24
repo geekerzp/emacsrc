@@ -6,6 +6,37 @@
 (kitten/require-packages '(sr-speedbar))
 
 (require 'sr-speedbar)
+(require 'speedbar)
+
+(defezimage ezimage-directory-plus-new
+    ((:type png :file "~/.emacs.d/appbar.folder.png" :ascent center))
+    "Image used for empty directories.")
+
+(setq speedbar-expand-image-button-alist
+  '(("<+>" . ezimage-box-plus) ;; previously ezimage-directory-plus
+    ("<->" . ezimage-box-minus) ;; previously ezimage-directory-minus
+    ("< >" . ezimage-directory)
+    ("[+]" . ezimage-page-plus)
+    ("[-]" . ezimage-page-minus)
+    ("[?]" . ezimage-page)
+    ("[ ]" . ezimage-page)
+    ("{+}" . ezimage-directory-plus) ;; previously ezimage-box-plus
+    ("{-}" . ezimage-directory-minus) ;; previously ezimage-box-minus
+    ("<M>" . ezimage-mail)
+    ("<d>" . ezimage-document-tag)
+    ("<i>" . ezimage-info-tag)
+    (" =>" . ezimage-tag)
+    (" +>" . ezimage-tag-gt)
+    (" ->" . ezimage-tag-v)
+    (">"   . ezimage-tag)
+    ("@"   . ezimage-tag-type)
+    ("  @" . ezimage-tag-type)
+    ("*"   . ezimage-checkout)
+    ("#"   . ezimage-object)
+    ("!"   . ezimage-object-out-of-date)
+    ("//"  . ezimage-label)
+    ("%"   . ezimage-lock)
+    ))
 
 ;; keybindings
 (global-set-key (kbd "s-s") 'sr-speedbar-toggle)

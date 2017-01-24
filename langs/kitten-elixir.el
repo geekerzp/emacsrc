@@ -5,6 +5,8 @@
 ;;; Code:
 (kitten/require-packages '(elixir-mode alchemist))
 
+(setq alchemist-hooks-compile-on-save t)
+
 (defun auto-activate-ruby-end-mode-for-elixir-mode ()
   (set (make-variable-buffer-local 'ruby-end-expand-keywords-before-re)
        "\\(?:^\\|\\s-+\\)\\(?:do\\)")
