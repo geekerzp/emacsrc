@@ -9,12 +9,16 @@
 (require 'speedbar)
 
 (defezimage ezimage-directory-plus-new
-    ((:type png :file "~/.emacs.d/appbar.folder.png" :ascent center))
+    ((:type png :file "~/.emacs.d/icons/folder.png" :ascent center))
+    "Image used for empty directories.")
+
+(defezimage ezimage-directory-minus-new
+    ((:type png :file "~/.emacs.d/icons/folder_open.png" :ascent center))
     "Image used for empty directories.")
 
 (setq speedbar-expand-image-button-alist
-  '(("<+>" . ezimage-box-plus) ;; previously ezimage-directory-plus
-    ("<->" . ezimage-box-minus) ;; previously ezimage-directory-minus
+  '(("<+>" . ezimage-directory-plus-new) ;; previously ezimage-directory-plus
+    ("<->" . ezimage-directory-minus-new) ;; previously ezimage-directory-minus
     ("< >" . ezimage-directory)
     ("[+]" . ezimage-page-plus)
     ("[-]" . ezimage-page-minus)
