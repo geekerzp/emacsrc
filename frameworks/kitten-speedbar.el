@@ -10,22 +10,34 @@
 
 (defezimage ezimage-directory-plus-new
     ((:type png :file "~/.emacs.d/icons/folder.png" :ascent center))
-    "speedbar-directory-plus")
+    "For '<+>'")
 
 (defezimage ezimage-directory-minus-new
     ((:type png :file "~/.emacs.d/icons/folder_open.png" :ascent center))
-    "speedbar-directory-minus")
+    "For '<->'")
+
+(defezimage ezimage-checkout-new
+    ((:type png :file "~/.emacs.d/icons/file_type_git.png" :ascent center))
+    "For '*'")
+
+(defezimage ezimage-object-out-of-date-new
+    ((:type png :file "~/.emacs.d/icons/file_type_default.png" :ascent center))
+    "For '!'")
+
+(defezimage ezimage-object-new
+    ((:type png :file "~/.emacs.d/icons/file_type_source.png" :ascent center))
+    "For '#'")
 
 (setq speedbar-expand-image-button-alist
-  '(("<+>" . ezimage-directory-plus-new) ;; previously ezimage-directory-plus
-    ("<->" . ezimage-directory-minus-new) ;; previously ezimage-directory-minus
+  '(("<+>" . ezimage-directory-plus-new)
+    ("<->" . ezimage-directory-minus-new)
     ("< >" . ezimage-directory)
     ("[+]" . ezimage-page-plus)
     ("[-]" . ezimage-page-minus)
     ("[?]" . ezimage-page)
     ("[ ]" . ezimage-page)
-    ("{+}" . ezimage-directory-plus) ;; previously ezimage-box-plus
-    ("{-}" . ezimage-directory-minus) ;; previously ezimage-box-minus
+    ("{+}" . ezimage-directory-plus)
+    ("{-}" . ezimage-directory-minus)
     ("<M>" . ezimage-mail)
     ("<d>" . ezimage-document-tag)
     ("<i>" . ezimage-info-tag)
@@ -35,9 +47,9 @@
     (">"   . ezimage-tag)
     ("@"   . ezimage-tag-type)
     ("  @" . ezimage-tag-type)
-    ("*"   . ezimage-checkout)
-    ("#"   . ezimage-object)
-    ("!"   . ezimage-object-out-of-date)
+    ("*"   . ezimage-checkout-new)
+    ("#"   . ezimage-object-new)
+    ("!"   . ezimage-object-out-of-date-new)
     ("//"  . ezimage-label)
     ("%"   . ezimage-lock)
     ))
