@@ -25,15 +25,23 @@
     "For '!'")
 
 (defezimage ezimage-object-new
-    ((:type png :file "~/.emacs.d/icons/file_type_source.png" :ascent center))
+    ((:type png :file "~/.emacs.d/icons/file_type_binary.png" :ascent center))
     "For '#'")
+
+(defezimage ezimage-page-plus-new
+    ((:type png :file "~/.emacs.d/icons/file_type_source.png" :ascent center))
+    "For '[+]'")
+
+(defezimage ezimage-page-minus-new
+    ((:type png :file "~/.emacs.d/icons/file_type_jade.png" :ascent center))
+    "For '[-]'")
 
 (setq speedbar-expand-image-button-alist
   '(("<+>" . ezimage-directory-plus-new)
     ("<->" . ezimage-directory-minus-new)
     ("< >" . ezimage-directory)
-    ("[+]" . ezimage-page-plus)
-    ("[-]" . ezimage-page-minus)
+    ("[+]" . ezimage-page-plus-new)
+    ("[-]" . ezimage-page-minus-new)
     ("[?]" . ezimage-page)
     ("[ ]" . ezimage-page)
     ("{+}" . ezimage-directory-plus)
