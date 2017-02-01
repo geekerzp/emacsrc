@@ -21,6 +21,9 @@
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.eex\\'" . web-mode))
 
+(setq web-mode-engines-alist
+      '(("django"    . "\\.html?\\'")))
+
 (setq web-mode-markup-indent-offset 2)
 (setq web-mode-css-indent-offset 2)
 (setq web-mode-code-indent-offset 2)
