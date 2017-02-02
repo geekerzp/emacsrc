@@ -10,8 +10,6 @@
 (setq projectile-enable-caching t)
 (setq projectile-completion-system 'helm)
 
-(projectile-rails-global-mode)
-
 (defun kitten/projectile-mode-hook ()
   "Hooks for Projectile."
   (helm-projectile-on))
