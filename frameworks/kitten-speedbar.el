@@ -77,6 +77,7 @@
 (speedbar-add-supported-extension ".rake")
 (speedbar-add-supported-extension ".js")
 (speedbar-add-supported-extension ".clj")
+(speedbar-add-supported-extension ".cljs")
 (speedbar-add-supported-extension ".html")
 (speedbar-add-supported-extension ".erb")
 (speedbar-add-supported-extension ".sql")
