@@ -10,7 +10,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Envy Code R" :height 125 :weight 'Regular)
+                    :family "Hack" :height 122 :weight 'Regular)
 
 ;; line spacing
 (setq line-spacing 1.5)

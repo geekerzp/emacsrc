@@ -26,7 +26,8 @@
   "Hooks for js2-mode."
   (setq mode-name "JS2")
   (js2-imenu-extras-mode 1)
-  (tern-mode 1))
+  (tern-mode 1)
+  (rainbow-delimiters-mode 1))
 
 (add-hook 'js2-mode-hook 'kitten/js2-mode-hook)
 
