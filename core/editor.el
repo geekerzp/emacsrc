@@ -63,9 +63,6 @@
 ;; paren
 (show-paren-mode 1)
 
-;; diminish keeps the modeline tidy
-(require 'diminish)
-
 ;; highlight-symbol
 (require 'highlight-symbol)
 (global-set-key [(control f3)] 'highlight-symbol)

@@ -25,7 +25,6 @@
     dash-functional
     discover-my-major
     diff-hl
-    diminish
     easy-kill
     elisp-slime-nav
     epl
