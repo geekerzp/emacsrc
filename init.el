@@ -97,7 +97,7 @@
  '(livedown-port 1337)
  '(package-selected-packages
    (quote
-    (yasnippet yari yaml-mode web-mode web-beautify volatile-highlights undo-tree typescript-mode smooth-scrolling smartrep smart-mode-line sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe rbenv ranger rainbow-mode rainbow-delimiters pyenv-mode paredit ov operate-on-number nyan-mode neotree move-text magit key-chord json-mode js2-mode irony indent-guide highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl darktooth-theme csv-mode company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu all-the-icons alchemist ag))))
+    (yasnippet yari yaml-mode web-mode web-beautify volatile-highlights undo-tree typescript-mode smooth-scrolling smartrep sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe rbenv ranger rainbow-mode rainbow-delimiters pyenv-mode paredit ov operate-on-number neotree move-text magit key-chord json-mode js2-mode irony indent-guide highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl darktooth-theme csv-mode company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu all-the-icons alchemist ag))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

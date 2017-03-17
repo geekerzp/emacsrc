@@ -44,14 +44,12 @@
     irony
     magit
     move-text
-    nyan-mode
     ov
     operate-on-number
     paredit
     rainbow-mode
     rainbow-delimiters
     smartrep
-    smart-mode-line
     smooth-scrolling
     paren
     undo-tree

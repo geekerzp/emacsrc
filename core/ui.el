@@ -2,6 +2,7 @@
 ;;; Commentary:
 
 ;;; Code:
+(require 'indent-guide)
 
 ;; disable menubar, toolbar, scrollbar
 ;; (menu-bar-mode -1)
@@ -23,21 +24,9 @@
 (column-number-mode t)
 (size-indication-mode t)
 
-;; smart mode line
-(setq sml/no-confirm-load-theme t)
-(setq sml/theme 'respectful)
-;; (setq sml/theme 'light)
-(add-hook 'after-init-hook #'sml/setup)
-
 ;; indent guide line
-(require 'indent-guide)
-
 (setq indent-guide-recursive t)
-
 (indent-guide-global-mode)
-
-;; nyan mode
-(add-hook 'after-init-hook 'nyan-mode)
 
 (provide 'ui)
 ;;; ui.el ends here
