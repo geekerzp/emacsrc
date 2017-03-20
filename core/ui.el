@@ -1,8 +1,7 @@
-;;; UI --- UI configurations
-;;; Commentary:
+;;; UI
 
-;;; Code:
 (require 'indent-guide)
+(require 'nyan-mode)
 
 ;; disable menubar, toolbar, scrollbar
 ;; (menu-bar-mode -1)
@@ -27,6 +26,11 @@
 ;; indent guide line
 (setq indent-guide-recursive t)
 (indent-guide-global-mode)
+
+;; nyan-mode
+(nyan-mode t)
+(customize-set-variable 'nyan-animate-nyancat t)
+(customize-set-variable 'nyan-wavy-trail t)
 
 (provide 'ui)
 ;;; ui.el ends here
