@@ -82,3 +82,30 @@
 (message "Kitten Emacs is ready to do any bidding, Master %s!" current-user)
 (provide 'init)
 ;;; init.el ends here
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(anzu-deactivate-region t)
+ '(anzu-mode-lighter "")
+ '(anzu-replace-to-string-separator " => ")
+ '(anzu-search-threshold 1000)
+ '(custom-safe-themes
+   (quote
+    ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" default)))
+ '(livedown-autostart nil)
+ '(livedown-browser nil)
+ '(livedown-open t)
+ '(livedown-port 1337)
+ '(nyan-animate-nyancat t)
+ '(nyan-wavy-trail t)
+ '(package-selected-packages
+   (quote
+    (smart-mode-line yasnippet yari yaml-mode web-mode web-beautify volatile-highlights undo-tree typescript-mode sr-speedbar smooth-scrolling smartrep sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe rich-minority rbenv ranger rainbow-mode rainbow-delimiters pyenv-mode powerline paredit ov operate-on-number nyan-mode neotree move-text mode-icons magit key-chord json-mode js2-mode irony indent-guide highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl darktooth-theme csv-mode company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu all-the-icons alchemist ag))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

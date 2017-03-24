@@ -2,6 +2,7 @@
 
 (require 'indent-guide)
 (require 'nyan-mode)
+(require 'smart-mode-line)
 
 ;; disable menubar, toolbar, scrollbar
 ;; (menu-bar-mode -1)
@@ -26,6 +27,10 @@
 ;; indent guide line
 (setq indent-guide-recursive t)
 (indent-guide-global-mode)
+
+;; smart-mode-line
+(customize-set-variable 'sml/no-confirm-load-theme t)
+(sml/setup)
 
 ;; nyan-mode
 (nyan-mode t)
