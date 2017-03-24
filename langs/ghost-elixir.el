@@ -1,9 +1,6 @@
-;;; elixir --- setup
+;;; elixir
 
-;;; Commentary:
-
-;;; Code:
-(kitten/require-packages '(elixir-mode alchemist))
+(ghost-require-packages '(elixir-mode alchemist))
 
 (setq alchemist-hooks-compile-on-save t)
 
@@ -23,4 +20,4 @@
 (add-hook 'elixir-mode-hook 'auto-activate-alchemist-mode-for-elixir-mode)
 (add-hook 'elixir-mode-hook 'auto-activate-rainbow-delimiters-mode)
 
-(provide 'kitten-elixir)
+(provide 'ghost-elixir)

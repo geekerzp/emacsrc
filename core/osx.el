@@ -1,9 +1,6 @@
-;;; osx --- configurations for osx
+;;; osx
 
-;;; Commentary:
-
-;;; Code:
-(kitten/require-packages '(exec-path-from-shell))
+(ghost-require-packages '(exec-path-from-shell))
 
 (require 'exec-path-from-shell)
 

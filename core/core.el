@@ -1,7 +1,5 @@
-;;; core --- emacs core configruations
-;;; Commentary:
+;;; core
 
-;;; Code:
 (require 'auto-compile)
 
 (auto-compile-on-load-mode 1)

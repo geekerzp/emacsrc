@@ -1,9 +1,6 @@
-;;; Key-chord --- setup
+;;; Key-chord
 
-;;; Commentary:
-
-;;; Code:
-(kitten/require-packages '(key-chord))
+(ghost-require-packages '(key-chord))
 
 (require 'key-chord)
 
@@ -17,12 +14,11 @@
 (key-chord-define-global "jj" 'avy-goto-word-1)
 (key-chord-define-global "jl" 'avy-goto-line)
 (key-chord-define-global "jk" 'avy-goto-char)
-(key-chord-define-global "JJ" 'kitten/switch-to-previous-buffer)
+(key-chord-define-global "JJ" 'ghost-switch-to-previous-buffer)
 (key-chord-define-global "uu" 'undo-tree-visualize)
 (key-chord-define-global "xx" 'execute-extended-command)
 (key-chord-define-global "yy" 'browse-kill-ring)
 
 (key-chord-mode 1)
 
-(provide 'kitten-key-chord)
-;;; kitten-key-chord.el ends here
+(provide 'ghost-key-chord)

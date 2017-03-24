@@ -1,6 +1,4 @@
-;;; packages.el --- Kitten Emacs: default package selection.
-
-;;; Commentary:
+;;; packages.el
 
 ;;; Code:
 (require 'cl)
@@ -16,7 +14,7 @@
 (setq package-user-dir (expand-file-name "elpa" root-dir))
 (package-initialize)
 
-(defvar kitten/packages
+(defvar ghost-packages
   '(auto-compile
     avy
     anzu
@@ -56,47 +54,47 @@
     distinguished-theme)
   "A list of packages to ensure are installed at launch.")
 
-(defun kitten/packages-installed-p ()
-  "Check if all packages in `kitten/packages' are installed."
-  (every #'package-installed-p kitten/packages))
+(defun ghost-packages-installed-p ()
+  "Check if all packages in `ghost-packages' are installed."
+  (every #'package-installed-p ghost-packages))
 
-(defun kitten/require-package (package)
+(defun ghost-require-package (package)
   "Install PACKAGE unless already installed."
-  (unless (memq package kitten/packages)
-    (add-to-list 'kitten/packages package))
+  (unless (memq package ghost-packages)
+    (add-to-list 'ghost-packages package))
   (unless (package-installed-p package)
     (package-install package)))
-(define-obsolete-function-alias 'kitten/ensure-module-deps 'kitten/require-packages)
+(define-obsolete-function-alias 'ghost-ensure-module-deps 'ghost-require-packages)
 
-(defun kitten/install-packages ()
-  "Install all packages listed in `kitten/packages'."
-  (unless (kitten/packages-installed-p)
+(defun ghost-install-packages ()
+  "Install all packages listed in `ghost-packages'."
+  (unless (ghost-packages-installed-p)
     ;; check for new packages (package versions)
-    (message "%s" "Kitten Emacs is now refreshing its package database...")
+    (message "%s" "Ghost Emacs is now refreshing its package database...")
     (package-refresh-contents)
     (message "%s" " done.")
     ;; install the missing packages.
-    (kitten/require-packages kitten/packages)))
+    (ghost-require-packages ghost-packages)))
 
-(defun kitten/require-packages (packages)
+(defun ghost-require-packages (packages)
   "Ensure PACKAGES are installed.
 Missing packages are installed automatically."
-  (mapc #'kitten/require-package packages))
+  (mapc #'ghost-require-package packages))
 
 ;; run package installation.
-(kitten/install-packages)
+(ghost-install-packages)
 
-(defun kitten/list-foregin-packages ()
+(defun ghost-list-foregin-packages ()
   "Browse third-party packages not bundled with SuperEmacs.
 
 Behaves similarly to `list-packages', but shows only the packages that
-are installed and not in `kitten/packages'.
+are installed and not in `ghost-packages'.
 Useful for removing unwanted packages."
   (interactive)
   (package-show-package-list
-   (set-difference package-activated-list kitten/packages)))
+   (set-difference package-activated-list ghost-packages)))
 
-(defmacro kitten/auto-install (extension package mode)
+(defmacro ghost-auto-install (extension package mode)
   "When file with EXTENSION is opened triggers auto-install of PACKAGE.
 PACKAGE is installed only if not already present. The file is opened in MODE."
   `(add-to-list 'auto-mode-alist
@@ -105,7 +103,7 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
                                    (package-install ',package))
                                  (,mode)))))
 
-(defvar kitten/auto-install-alist
+(defvar ghost-auto-install-alist
   '(("\\.clj\\'" clojure-mode clojure-mode)
     ("\\.coffee\\'" coffee-mode coffee-mode)
     ("\\.css\\'" css-mode css-mode)
@@ -151,8 +149,8 @@ PACKAGE is installed only if not already present. The file is opened in MODE."
          (package (cadr entry))
          (mode (cadr (cdr entry))))
      (unless (package-installed-p package)
-       (kitten/auto-install extension package mode))))
- kitten/auto-install-alist)
+       (ghost-auto-install extension package mode))))
+ ghost-auto-install-alist)
 
 (provide 'packages)
 ;;; packages.el ends here

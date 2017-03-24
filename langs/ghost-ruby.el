@@ -1,9 +1,6 @@
-;;; ruby --- setup
+;;; ruby
 
-;;; Commentary:
-
-;;; Code:
-(kitten/require-packages '(rbenv ruby-tools inf-ruby yari rspec-mode ruby-end))
+(ghost-require-packages '(rbenv ruby-tools inf-ruby yari rspec-mode ruby-end))
 
 (require 'rbenv)
 (require 'rspec-mode)
@@ -33,7 +30,7 @@
 (eval-after-load 'rspec-mode
   '(rspec-install-snippets))
 
-(defun kitten/ruby-mode-hook ()
+(defun ghost-ruby-mode-hook ()
   "Hooks for Ruby programming."
   (global-rbenv-mode)
   (inf-ruby-minor-mode 1)
@@ -42,7 +39,6 @@
   (robe-mode 1)
   (rainbow-delimiters-mode 1))
 
-(add-hook 'ruby-mode-hook 'kitten/ruby-mode-hook)
+(add-hook 'ruby-mode-hook 'ghost-ruby-mode-hook)
 
-(provide 'kitten-ruby)
-;;; kitten-ruby.el ends here
+(provide 'ghost-ruby)

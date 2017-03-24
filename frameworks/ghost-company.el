@@ -1,9 +1,6 @@
-;;; Company --- setup
+;;; Company
 
-;;; Commentary:
-
-;;; Code:
-(kitten/require-packages '(company company-anaconda robe sly-company company-tern))
+(ghost-require-packages '(company company-anaconda robe sly-company company-tern))
 
 (require 'company)
 (require 'company-robe)
@@ -32,5 +29,4 @@
 
 (global-company-mode t)
 
-(provide 'kitten-company)
-;;; kitten-company ends here
+(provide 'ghost-company)

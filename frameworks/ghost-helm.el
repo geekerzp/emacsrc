@@ -1,9 +1,6 @@
-;;; Helm --- setup
+;;; Helm
 
-;;; Commentary:
-
-;;; Code:
-(kitten/require-packages '(helm helm-projectile helm-descbinds helm-ag))
+(ghost-require-packages '(helm helm-projectile helm-descbinds helm-ag))
 
 (require 'helm-config)
 (require 'helm-projectile)
@@ -50,5 +47,4 @@
 (helm-descbinds-mode)
 (helm-mode 1)
 
-(provide 'kitten-helm)
-;;; kitten-helm.el ends here
+(provide 'ghost-helm)

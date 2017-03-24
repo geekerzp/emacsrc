@@ -1,8 +1,5 @@
-;;; Editor.el --- Kitten Emacs: enhanced core editing experience.
+;;; Editor.el
 
-;;; Commentary:
-
-;;; Code:
 (require 'smooth-scrolling)
 
 ;; make indentation commands use space only (never tab character)

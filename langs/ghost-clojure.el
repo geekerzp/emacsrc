@@ -1,9 +1,6 @@
-;;; clojure --- setup
+;;; clojure
 
-;;; Commentary:
-
-;;; Code:
-(kitten/require-packages '(cider))
+(ghost-require-packages '(cider))
 
 (require 'cider)
 
@@ -46,26 +43,25 @@
 ;; Change the result prefix for interactive evaluation (by default it's =>)
 (setq cider-interactive-eval-result-prefix "ƒ => ")
 
-(defun kitten/clojure-mode-hook ()
+(defun ghost-clojure-mode-hook ()
   "Hooks for clojure mode."
   (rainbow-delimiters-mode 1)
   (enable-paredit-mode))
 
-(add-hook 'clojure-mode-hook 'kitten/clojure-mode-hook)
+(add-hook 'clojure-mode-hook 'ghost-clojure-mode-hook)
 
-(defun kitten/cider-mode-hook ()
+(defun ghost-cider-mode-hook ()
   "Hooks for cider mode."
   (rainbow-delimiters-mode 1)
   (enable-paredit-mode))
 
-(add-hook 'cider-mode-hook 'kitten/cider-mode-hook)
+(add-hook 'cider-mode-hook 'ghost-cider-mode-hook)
 
-(defun kitten/cider-repl-mode-hook ()
+(defun ghost-cider-repl-mode-hook ()
   "Hooks for cider repl mode."
   (rainbow-delimiters-mode 1)
   (enable-paredit-mode))
 
-(add-hook 'cider-repl-mode-hook 'kitten/cider-repl-mode-hook)
+(add-hook 'cider-repl-mode-hook 'ghost-cider-repl-mode-hook)
 
-(provide 'kitten-clojure)
-;;; kitten-clojure.el ends here
+(provide 'ghost-clojure)

@@ -1,9 +1,7 @@
-;;; flycheck --- setup
-
-;;; Commentary:
+;;; flycheck
 
 ;;; Code:
-(kitten/require-packages '(flycheck))
+(ghost-require-packages '(flycheck))
 
 (require 'flycheck)
 
@@ -20,5 +18,4 @@
 (when (derived-mode-p 'ruby-mode)
   (flycheck-select-checker 'rubocop))
 
-(provide 'kitten-flycheck)
-;;; kitten-flycheck.el ends here
+(provide 'ghost-flycheck)

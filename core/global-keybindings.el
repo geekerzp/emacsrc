@@ -1,7 +1,4 @@
-;;; gloabl-keybindings --- gloabl keybindings
-;;; Commentary:
-
-;;; Code:
+;;; gloabl-keybindings
 
 (global-set-key (kbd "M-.") 'find-tag)
 (global-set-key (kbd "M-*") 'pop-tag-mark)

@@ -1,9 +1,6 @@
-;;; WebTemplates --- setup
+;;; WebTemplates
 
-;;; Commentary:
-
-;;; Code:
-(kitten/require-packages '(web-mode web-beautify emmet-mode))
+(ghost-require-packages '(web-mode web-beautify emmet-mode))
 
 (require 'web-mode)
 (require 'emmet-mode)
@@ -32,12 +29,11 @@
 (setq web-mode-attr-indent-offset 2)
 (setq web-mode-comment-style 2)
 
-(defun kitten/web-mode-hook ()
+(defun ghost-web-mode-hook ()
   "Hooks for web mode."
   (emmet-mode 1)
   (tern-mode 1))
 
-(add-hook 'web-mode-hook 'kitten/web-mode-hook)
+(add-hook 'web-mode-hook 'ghost-web-mode-hook)
 
-(provide 'kitten-web)
-;;; kitten-web.el ends here
+(provide 'ghost-web)
