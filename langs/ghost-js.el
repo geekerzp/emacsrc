@@ -7,6 +7,7 @@
 
 (setq js2-basic-offset 2)
 (setq js-indent-level 2)
+(setq js2-strict-missing-semi-warning nil)
 
 (add-to-list 'auto-mode-alist '("\\.jsx?\\'"    . js2-jsx-mode))
 (add-to-list 'interpreter-mode-alist '("node" . js2-jsx-mode))
