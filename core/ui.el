@@ -10,8 +10,10 @@
 (tool-bar-mode -1)
 
 ;; font
+;; (set-face-attribute 'default nil
+;;                     :family "Hack" :height 122 :weight 'Regular)
 (set-face-attribute 'default nil
-                    :family "Hack" :height 122 :weight 'Regular)
+                    :family "Hasklig" :height 125 :weight 'Regular)
 
 ;; line spacing
 (setq line-spacing 1.5)
