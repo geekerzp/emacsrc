@@ -1,8 +1,7 @@
 ;;; UI
 
 (require 'indent-guide)
-(require 'nyan-mode)
-(require 'smart-mode-line)
+(require 'spaceline-all-the-icons)
 
 ;; disable menubar, toolbar, scrollbar
 ;; (menu-bar-mode -1)
@@ -25,19 +24,14 @@
 (line-number-mode t)
 (column-number-mode t)
 (size-indication-mode t)
+(spaceline-all-the-icons-theme)
+(spaceline-all-the-icons--setup-neotree)
+(spaceline-all-the-icons--setup-anzu)
+(spaceline-all-the-icons--setup-package-updates)
 
 ;; indent guide line
 (setq indent-guide-recursive t)
 (indent-guide-global-mode)
-
-;; smart-mode-line
-(customize-set-variable 'sml/no-confirm-load-theme t)
-(sml/setup)
-
-;; nyan-mode
-(nyan-mode t)
-(customize-set-variable 'nyan-animate-nyancat t)
-(customize-set-variable 'nyan-wavy-trail t)
 
 (provide 'ui)
 ;;; ui.el ends here

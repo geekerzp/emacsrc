@@ -47,7 +47,6 @@
     rainbow-mode
     rainbow-delimiters
     smartrep
-    smooth-scrolling
     paren
     undo-tree
     volatile-highlights
