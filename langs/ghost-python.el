@@ -9,6 +9,7 @@
   "Hooks for Python mode."
   (pyenv-mode 1)
   (anaconda-mode 1)
+  (anaconda-eldoc-mode 1)
   (rainbow-delimiters-mode 1))
 
 (add-hook 'python-mode-hook 'ghost-python-mode-hook)
