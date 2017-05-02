@@ -21,7 +21,7 @@
 ;; (load-theme 'distinguished t)
 (load-theme 'tao-yang t)
 
-;; mode line
+;; mode line (spaceline all the icons)
 (line-number-mode t)
 (column-number-mode t)
 (size-indication-mode t)
@@ -29,6 +29,7 @@
 (spaceline-all-the-icons--setup-neotree)
 (spaceline-all-the-icons--setup-anzu)
 (spaceline-all-the-icons--setup-package-updates)
+(custom-set-variables '(spaceline-all-the-icons-separator-type 'cup))
 
 ;; indent guide line
 (setq indent-guide-recursive t)

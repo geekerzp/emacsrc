@@ -87,17 +87,14 @@
  '(anzu-mode-lighter "")
  '(anzu-replace-to-string-separator " => ")
  '(anzu-search-threshold 1000)
- '(custom-safe-themes
-   (quote
-    ("086970da368bb95e42fd4ddac3149e84ce5f165e90dfc6ce6baceae30cf581ef" "5dc0ae2d193460de979a463b907b4b2c6d2c9c4657b2e9e66b8898d2592e3de5" default)))
  '(livedown-autostart nil)
  '(livedown-browser nil)
  '(livedown-open t)
  '(livedown-port 1337)
  '(package-selected-packages
    (quote
-    (tao-theme material-theme spaceline-all-the-icons rjsx-mode yari yaml-mode web-mode web-beautify volatile-highlights undo-tree typescript-mode smartrep sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe rbenv rainbow-mode rainbow-delimiters pyenv-mode paredit ov operate-on-number neotree move-text meghanada magit key-chord json-mode js2-mode irony indent-guide highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl csv-mode company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu all-the-icons alchemist ag)))
- '(sml/no-confirm-load-theme t))
+    (yari yaml-mode web-mode web-beautify volatile-highlights undo-tree typescript-mode tao-theme spaceline-all-the-icons smartrep sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe rjsx-mode rbenv rainbow-mode rainbow-delimiters pyenv-mode paredit ov operate-on-number neotree move-text meghanada material-theme magit key-chord json-mode irony indent-guide highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl csv-mode company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu alchemist ag)))
+ '(spaceline-all-the-icons-separator-type (quote cup)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
