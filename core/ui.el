@@ -30,6 +30,7 @@
 (spaceline-all-the-icons--setup-anzu)
 (spaceline-all-the-icons--setup-package-updates)
 (custom-set-variables '(spaceline-all-the-icons-separator-type 'cup))
+(custom-set-variables '(spaceline-all-the-icons-icon-set-modified 'toggle))
 
 ;; indent guide line
 (setq indent-guide-recursive t)
