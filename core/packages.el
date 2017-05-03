@@ -36,6 +36,7 @@
     god-mode
     grizzl
     highlight-symbol
+    highlight-indent-guides
     ido
     irony
     magit

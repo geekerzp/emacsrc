@@ -1,6 +1,7 @@
 ;;; UI
 
 (require 'spaceline-all-the-icons)
+(require 'highlight-indent-guides)
 
 ;; disable menubar, toolbar, scrollbar
 ;; (menu-bar-mode -1)
@@ -30,6 +31,10 @@
 (spaceline-all-the-icons--setup-package-updates)
 (custom-set-variables '(spaceline-all-the-icons-separator-type 'cup))
 (custom-set-variables '(spaceline-all-the-icons-icon-set-modified 'toggle))
+
+;; indent guides
+(setq highlight-indent-guides-method 'character)
+(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 
 (provide 'ui)
 ;;; ui.el ends here
