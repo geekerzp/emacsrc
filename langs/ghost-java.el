@@ -1,5 +1,7 @@
 ;;; Java
 
+(ghost-require-packages '(meghanada))
+
 (require 'meghanada)
 
 (defun ghost-java-mode-hook ()

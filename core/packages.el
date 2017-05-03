@@ -50,7 +50,8 @@
     paren
     undo-tree
     volatile-highlights
-    distinguished-theme)
+    tao-theme
+    spaceline-all-the-icons)
   "A list of packages to ensure are installed at launch.")
 
 (defun ghost-packages-installed-p ()
