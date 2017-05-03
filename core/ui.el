@@ -1,6 +1,5 @@
 ;;; UI
 
-(require 'indent-guide)
 (require 'spaceline-all-the-icons)
 
 ;; disable menubar, toolbar, scrollbar
@@ -31,10 +30,6 @@
 (spaceline-all-the-icons--setup-package-updates)
 (custom-set-variables '(spaceline-all-the-icons-separator-type 'cup))
 (custom-set-variables '(spaceline-all-the-icons-icon-set-modified 'toggle))
-
-;; indent guide line
-(setq indent-guide-recursive t)
-(indent-guide-global-mode)
 
 (provide 'ui)
 ;;; ui.el ends here
