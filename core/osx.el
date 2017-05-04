@@ -25,8 +25,5 @@
 (setq mac-option-modifier 'meta)
 (setq mac-command-modifier 'super)
 
-;; font ligatures
-(add-hook 'prog-mode-hook 'mac-auto-operator-composition-mode)
-
 (provide 'osx)
 ;;; osx.el ends here
