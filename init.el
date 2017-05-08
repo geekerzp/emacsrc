@@ -89,7 +89,7 @@
  '(anzu-search-threshold 1000)
  '(custom-safe-themes
    (quote
-    ("deaf0dad46995bc682dd0acf1f0327cab82f1cf0025755ebb1bab714d0a6e8d3" "a0dc0c1805398db495ecda1994c744ad1a91a9455f2a17b59b716f72d3585dde" "e92092fdc97ce554111946bc0ec7d9ee3e5ac799c3b34a2a5e1483e9de48ac9a" default)))
+    ("086970da368bb95e42fd4ddac3149e84ce5f165e90dfc6ce6baceae30cf581ef" "deaf0dad46995bc682dd0acf1f0327cab82f1cf0025755ebb1bab714d0a6e8d3" "a0dc0c1805398db495ecda1994c744ad1a91a9455f2a17b59b716f72d3585dde" "e92092fdc97ce554111946bc0ec7d9ee3e5ac799c3b34a2a5e1483e9de48ac9a" default)))
  '(livedown-autostart nil)
  '(livedown-browser nil)
  '(livedown-open t)
