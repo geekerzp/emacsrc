@@ -18,8 +18,6 @@
 (setq line-spacing 1.5)
 
 ;; theme
-;; (load-theme 'tao-yang t)
-;; (load-theme 'zenburn t)
 (load-theme 'nord t)
 
 ;; mode line (spaceline all the icons)
