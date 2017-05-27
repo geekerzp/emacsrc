@@ -14,7 +14,7 @@
 (setq company-tooltip-align-annotations 't)
 ;; decrease delay before autocompletion popup shows
 (setq company-idle-delay .3)
-(setq company-minimum-prefix-length 3)
+(setq company-minimum-prefix-length 2)
 (setq company-tooltip-flip-when-above t)
 
 ;; keybindings

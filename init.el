@@ -89,14 +89,14 @@
  '(anzu-search-threshold 1000)
  '(custom-safe-themes
    (quote
-    ("3e8ea6a37f17fd9e0828dee76b7ba709319c4d93b7b21742684fadd918e8aca3" "086970da368bb95e42fd4ddac3149e84ce5f165e90dfc6ce6baceae30cf581ef" "deaf0dad46995bc682dd0acf1f0327cab82f1cf0025755ebb1bab714d0a6e8d3" "a0dc0c1805398db495ecda1994c744ad1a91a9455f2a17b59b716f72d3585dde" "e92092fdc97ce554111946bc0ec7d9ee3e5ac799c3b34a2a5e1483e9de48ac9a" default)))
+    ("c9321e2db48a21fc656a907e97ee85d8cd86967855bf0bed3998bcf9195c758b" "39fe48be738ea23b0295cdf17c99054bb439a7d830248d7e6493c2110bfed6f8" "6c35ffc17f8288be4c7866deb7437e8af33cd09930e195738cdfef911ab77274" "3e8ea6a37f17fd9e0828dee76b7ba709319c4d93b7b21742684fadd918e8aca3" "086970da368bb95e42fd4ddac3149e84ce5f165e90dfc6ce6baceae30cf581ef" "deaf0dad46995bc682dd0acf1f0327cab82f1cf0025755ebb1bab714d0a6e8d3" "a0dc0c1805398db495ecda1994c744ad1a91a9455f2a17b59b716f72d3585dde" "e92092fdc97ce554111946bc0ec7d9ee3e5ac799c3b34a2a5e1483e9de48ac9a" default)))
  '(livedown-autostart nil)
  '(livedown-browser nil)
  '(livedown-open t)
  '(livedown-port 1337)
  '(package-selected-packages
    (quote
-    (eziam-theme ess neotree nord-theme zenburn-theme markdown-mode highlight-indent-guides yari yaml-mode web-mode web-beautify volatile-highlights undo-tree typescript-mode tao-theme spaceline-all-the-icons smartrep sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe rjsx-mode rbenv rainbow-mode rainbow-delimiters pyenv-mode paredit ov operate-on-number move-text meghanada material-theme magit key-chord json-mode irony highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl csv-mode company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu alchemist ag)))
+    (darktooth-theme punpun-theme eziam-theme ess neotree nord-theme zenburn-theme markdown-mode highlight-indent-guides yari yaml-mode web-mode web-beautify volatile-highlights undo-tree typescript-mode tao-theme spaceline-all-the-icons smartrep sly-company slim-mode scss-mode ruby-tools ruby-end rspec-mode robe rjsx-mode rbenv rainbow-mode rainbow-delimiters pyenv-mode paredit ov operate-on-number move-text meghanada material-theme magit key-chord json-mode irony highlight-symbol helm-projectile helm-descbinds helm-ag grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist findr fic-mode expand-region exec-path-from-shell emmet-mode elisp-slime-nav easy-kill distinguished-theme discover-my-major dired+ diminish diff-hl csv-mode company-tern company-anaconda coffee-mode cider browse-kill-ring avy auto-compile anzu alchemist ag)))
  '(spaceline-all-the-icons-icon-set-modified (quote toggle))
  '(spaceline-all-the-icons-separator-type (quote cup)))
 (custom-set-faces
