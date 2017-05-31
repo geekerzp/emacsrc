@@ -51,7 +51,8 @@
     undo-tree
     volatile-highlights
     tao-theme
-    spaceline-all-the-icons)
+    spaceline-all-the-icons
+    use-package)
   "A list of packages to ensure are installed at launch.")
 
 (defun ghost-packages-installed-p ()
