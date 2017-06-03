@@ -18,7 +18,7 @@
 (setq line-spacing 1.5)
 
 ;; theme
-(load-theme 'nord t)
+(load-theme 'zerodark t)
 
 ;; mode line (spaceline all the icons)
 (line-number-mode t)
