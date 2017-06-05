@@ -65,5 +65,9 @@
 (global-set-key [(shift f3)] 'highlight-symbol-prev)
 (global-set-key [(meta f3)] 'highlight-symbol-query-replace)
 
+;; nlinum
+(require 'nlinum)
+(add-hook 'prog-mode-hook (lambda () (nlinum-mode t)))
+
 (provide 'editor)
 ;;; editor.el ends here
