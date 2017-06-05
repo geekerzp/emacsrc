@@ -68,6 +68,7 @@
 ;; nlinum
 (require 'nlinum)
 (add-hook 'prog-mode-hook (lambda () (nlinum-mode t)))
+(add-hook 'prog-mode-hook (lambda () (hl-line-mode t)))
 
 (provide 'editor)
 ;;; editor.el ends here
