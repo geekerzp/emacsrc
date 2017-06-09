@@ -17,8 +17,8 @@
 ;; line spacing
 (setq line-spacing 1.5)
 
-;; theme
-(load-theme 'spacemacs-light t)
+;; themes
+(load-theme 'nord t)
 
 ;; mode line (spaceline all the icons)
 (line-number-mode t)
