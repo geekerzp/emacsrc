@@ -1,9 +1,52 @@
 ;;; ruby
 
-(ghost-require-packages '(rbenv ruby-tools inf-ruby yari rspec-mode ruby-end))
+(use-package rbenv
+  :ensure t
+  :defer t
+  :init
+  (add-hook 'ruby-mode-hook
+            (lambda ()
+              (global-rbenv-mode))))
 
-(require 'rbenv)
-(require 'rspec-mode)
+(use-package robe
+  :ensure t
+  :defer t
+  :init
+  (add-hook 'ruby-mode-hook
+            (lambda ()
+              (robe-mode 1)
+              (subword-mode 1)
+              (rainbow-delimiters-mode 1)))
+  :config
+  (use-package ruby-end
+    :ensure t))
+
+(use-package ruby-tools
+  :ensure t
+  :defer t
+  :init
+  (add-hook 'ruby-mode-hook
+            (lambda ()
+              (ruby-tools-mode 1))))
+
+(use-package inf-ruby
+  :ensure t
+  :defer t
+  :init
+  (add-hook 'ruby-mode-hook
+            (lambda ()
+              (inf-ruby-minor-mode 1))))
+
+(use-package yari
+  :ensure t
+  :defer t
+  :bind ("C-h r" . yari))
+
+(use-package rspec-mode
+  :ensure t
+  :defer t
+  :config
+  (rspec-install-snippets))
 
 ;; Rake files are ruby, too, as are gemspecs, rackup files, and gemfiles.
 (add-to-list 'auto-mode-alist '("\\.rake\\'" . ruby-mode))
@@ -24,21 +67,5 @@
 (add-to-list 'auto-mode-alist '("Puppetfile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Berksfile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Appraisals\\'" . ruby-mode))
-
-(define-key 'help-command (kbd "R") 'yari)
-
-(eval-after-load 'rspec-mode
-  '(rspec-install-snippets))
-
-(defun ghost-ruby-mode-hook ()
-  "Hooks for Ruby programming."
-  (global-rbenv-mode)
-  (inf-ruby-minor-mode 1)
-  (ruby-tools-mode 1)
-  (subword-mode 1)
-  (robe-mode 1)
-  (rainbow-delimiters-mode 1))
-
-(add-hook 'ruby-mode-hook 'ghost-ruby-mode-hook)
 
 (provide 'ghost-ruby)
