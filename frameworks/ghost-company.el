@@ -1,31 +1,42 @@
 ;;; Company
 
-(ghost-require-packages '(company company-anaconda robe sly-company company-tern))
+(use-package company-anaconda
+  :ensure t
+  :defer t)
 
-(require 'company)
-(require 'company-robe)
-(require 'sly-company)
-(require 'company-anaconda)
+(use-package robe
+  :ensure t
+  :defer t)
 
-;; basic
-;; bigger popup window
-(setq company-tooltip-limit 20)
-;; align annotations to the right tooltip border
-(setq company-tooltip-align-annotations 't)
-;; decrease delay before autocompletion popup shows
-(setq company-idle-delay .3)
-(setq company-minimum-prefix-length 2)
-(setq company-tooltip-flip-when-above t)
+(use-package sly-company
+  :ensure t
+  :defer t)
 
-;; keybindings
-(global-set-key (kbd "C-c /") 'company-files)
+(use-package company-tern
+  :ensure t
+  :defer t)
 
-;; company backends
-(push 'company-robe company-backends)
-(add-to-list 'company-backends 'company-anaconda)
-(add-to-list 'company-backends 'company-tern)
+(use-package company
+  :ensure t
+  :defer t
 
-(delete 'company-ropemacs company-backends)
+  :bind
+  ("C-c /" . company-files)
+
+  :init
+  (add-to-list 'company-backends 'company-robe)
+  (add-to-list 'company-backends 'company-anaconda)
+  (add-to-list 'company-backends 'company-tern)
+
+  :config
+  ;; bigger popup window
+  (setq company-tooltip-limit 10)
+  ;; align annotations to the right tooltip border
+  (setq company-tooltip-align-annotations 't)
+  ;; decrease delay before autocompletion popup shows
+  (setq company-idle-delay .3)
+  (setq company-minimum-prefix-length 1)
+  (setq company-tooltip-flip-when-above t))
 
 (global-company-mode t)
 
