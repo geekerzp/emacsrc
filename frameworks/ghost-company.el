@@ -23,12 +23,10 @@
   :bind
   ("C-c /" . company-files)
 
-  :init
+  :config
   (add-to-list 'company-backends 'company-robe)
   (add-to-list 'company-backends 'company-anaconda)
   (add-to-list 'company-backends 'company-tern)
-
-  :config
   ;; bigger popup window
   (setq company-tooltip-limit 10)
   ;; align annotations to the right tooltip border
