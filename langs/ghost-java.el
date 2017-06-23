@@ -1,17 +1,15 @@
 ;;; Java
 
 (use-package autodisass-java-bytecode
-  :ensure t
-  :defer t)
+  :ensure t)
 
 (use-package google-c-style
-  :defer t
   :ensure t
   :commands
   (google-set-c-style))
 
 (use-package meghanada
-  :defer t
+  :ensure t
   :init
   (add-hook 'java-mode-hook
             (lambda ()

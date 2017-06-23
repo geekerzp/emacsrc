@@ -2,7 +2,6 @@
 
 (use-package rbenv
   :ensure t
-  :defer t
   :init
   (add-hook 'ruby-mode-hook
             (lambda ()
@@ -10,7 +9,6 @@
 
 (use-package robe
   :ensure t
-  :defer t
   :init
   (add-hook 'ruby-mode-hook
             (lambda ()
@@ -23,7 +21,6 @@
 
 (use-package ruby-tools
   :ensure t
-  :defer t
   :init
   (add-hook 'ruby-mode-hook
             (lambda ()
@@ -31,7 +28,6 @@
 
 (use-package inf-ruby
   :ensure t
-  :defer t
   :init
   (add-hook 'ruby-mode-hook
             (lambda ()
@@ -39,12 +35,10 @@
 
 (use-package yari
   :ensure t
-  :defer t
   :bind ("C-h r" . yari))
 
 (use-package rspec-mode
   :ensure t
-  :defer t
   :config
   (rspec-install-snippets))
 
