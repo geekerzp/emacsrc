@@ -52,6 +52,7 @@
     volatile-highlights
     tao-theme
     spaceline-all-the-icons
+    nlinum
     use-package)
   "A list of packages to ensure are installed at launch.")
 
