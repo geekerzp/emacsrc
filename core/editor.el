@@ -66,8 +66,11 @@
 (global-set-key [(meta f3)] 'highlight-symbol-query-replace)
 
 ;; nlinum
-(require 'nlinum)
-(add-hook 'prog-mode-hook (lambda () (nlinum-mode t)))
+;; (use-package nlinum
+;;   :init
+;;   (add-hook 'prog-mode-hook (lambda () (nlinum-mode t))))
+
+;; hl-line
 (add-hook 'prog-mode-hook (lambda () (hl-line-mode t)))
 
 (provide 'editor)
