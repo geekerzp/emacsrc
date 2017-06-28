@@ -4,7 +4,6 @@
 (require 'highlight-indent-guides)
 
 ;; disable menubar, toolbar, scrollbar
-;; (menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
 
@@ -16,7 +15,7 @@
 (setq line-spacing 1.5)
 
 ;; themes
-(load-theme 'zenburn t)
+(load-theme 'nord t)
 
 ;; mode line (spaceline all the icons)
 (line-number-mode t)
