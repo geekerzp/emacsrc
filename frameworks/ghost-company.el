@@ -1,24 +1,19 @@
 ;;; Company
 
 (use-package company-anaconda
-  :ensure t
-  :defer t)
+  :ensure t)
 
 (use-package robe
-  :ensure t
-  :defer t)
+  :ensure t)
 
 (use-package sly-company
-  :ensure t
-  :defer t)
+  :ensure t)
 
 (use-package company-tern
-  :ensure t
-  :defer t)
+  :ensure t)
 
 (use-package company
   :ensure t
-  :defer t
 
   :bind
   ("C-c /" . company-files)
