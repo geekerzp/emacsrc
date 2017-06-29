@@ -1,9 +1,12 @@
 ;;; Neotree
 
-(ghost-require-packages '(neotree all-the-icons))
+(use-package all-the-icons
+  :ensure t)
 
-(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
-
-(global-set-key (kbd "s-s") 'neotree-toggle)
+(use-package neotree
+  :ensure t
+  :init
+  (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+  :bind ("s-s" . neotree-toggle))
 
 (provide 'ghost-neotree)
