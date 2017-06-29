@@ -1,9 +1,8 @@
-;;; yasnippet
+;;; YASnippet
 
-(ghost-require-packages '(yasnippet))
-
-(require 'yasnippet)
-
-(yas-global-mode 1)
+(use-package yasnippet
+  :ensure t
+  :init
+  (yas-global-mode))
 
 (provide 'ghost-yasnippet)
