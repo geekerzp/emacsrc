@@ -1,18 +1,17 @@
 ;;; Projectile
 
-(ghost-require-packages '(projectile))
+(use-package projectile
+  :ensure t
 
-(require 'projectile)
+  :init
+  (setq projectile-enable-caching t)
+  (setq projectile-completion-system 'helm)
+  (projectile-global-mode)
 
-(setq projectile-enable-caching t)
-(setq projectile-completion-system 'helm)
-
-(defun ghost-projectile-mode-hook ()
-  "Hooks for Projectile."
-  (helm-projectile-on))
-
-(add-hook 'projectile-mode-hook 'ghost-projectile-mode-hook)
-
-(projectile-global-mode)
+  :config
+  (use-package helm-projectile
+    :ensure t
+    :init
+    (helm-projectile-on)))
 
 (provide 'ghost-projectile)
