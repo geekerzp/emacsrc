@@ -9,7 +9,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Hasklig" :height 118 :weight 'Regular)
+                    :family "Hasklig" :height 120 :weight 'Regular)
 
 ;; line spacing
 (setq line-spacing 1.5)
