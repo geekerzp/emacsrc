@@ -73,5 +73,10 @@
 ;; hl-line
 (add-hook 'prog-mode-hook (lambda () (hl-line-mode t)))
 
+;; dired
+(use-package all-the-icons-dired
+  :init
+  (add-hook 'dired-mode-hook 'all-the-icons-dired-mode))
+
 (provide 'editor)
 ;;; editor.el ends here
