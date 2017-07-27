@@ -78,5 +78,10 @@
   :init
   (add-hook 'dired-mode-hook 'all-the-icons-dired-mode))
 
+;; ag
+(use-package ag
+  :ensure t
+  :bind ("C-c s" . ag))
+
 (provide 'editor)
 ;;; editor.el ends here
