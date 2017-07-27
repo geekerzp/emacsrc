@@ -15,7 +15,7 @@
 (setq line-spacing 1.5)
 
 ;; themes
-(load-theme 'dracula t)
+(load-theme 'spacemacs-light t)
 
 ;; mode line (spaceline all the icons)
 (line-number-mode t)
