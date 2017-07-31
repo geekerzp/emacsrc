@@ -1,6 +1,7 @@
 ;;; ESS
 
 (use-package ess
-  :ensure t)
+  :ensure t
+  :init (require 'ess-site))
 
 (provide 'ghost-ess)
