@@ -14,7 +14,7 @@
 (setq line-spacing 1.5)
 
 ;; themes
-(load-theme 'nord t)
+(load-theme 'dracula t)
 
 ;; mode line (spaceline all the icons)
 (line-number-mode t)
