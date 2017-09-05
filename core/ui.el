@@ -8,7 +8,7 @@
 
 ;; font
 (set-face-attribute 'default nil
-                    :family "Input Mono" :height 114 :weight 'Regular)
+                    :family "Hasklig" :height 118 :weight 'Regular)
 
 ;; line spacing
 (setq line-spacing 1.5)
