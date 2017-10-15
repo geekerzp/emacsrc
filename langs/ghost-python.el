@@ -15,7 +15,5 @@
               (anaconda-eldoc-mode t))))
 
 (setq python-indent-offset 2)
-(setq python-shell-interpreter "ipython"
-      python-shell-interpreter-args "-i")
 
 (provide 'ghost-python)

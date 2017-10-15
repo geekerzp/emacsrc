@@ -113,6 +113,7 @@
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(spaceline-all-the-icons-icon-set-modified (quote toggle))
  '(spaceline-all-the-icons-separator-type (quote cup))
+ '(tramp-syntax (quote default) nil (tramp))
  '(vc-annotate-background "#2B2B2B")
  '(vc-annotate-color-map
    (quote
